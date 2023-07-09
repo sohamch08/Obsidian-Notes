@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "e873916872b384ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "91013eb684557beb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6307f4028920d49e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2afaaf36fe57e1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc7205637969e5ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24d65fef5551d718",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2ea50fc448c9135",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "364f35dff55b5b01",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3f3a6db66ff1678c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c99d77385bf60aa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3f8a4a548c027e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cf9f437b60beef5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e59409546f10b32",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f5b058305182c627",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "24d65fef5551d718",
+  "lastOpenFiles": [
+    "Will_Learn_Later.md",
+    "Templates/math-files.md",
+    "Templates",
+    "Ring Homomorphism.md",
+    "README.md",
+    "My Research Work/Research Papers/Oli15.md",
+    "My Research Work/Research Papers/DSY09.md",
+    "My Research Work/Polynomial Factorization/Reversal Polynomial.md",
+    "My Research Work/Polynomial Factorization/Rational Polynomial.md",
+    "My Research Work/Polynomial Factorization/Partial Homogeneous Parts.md",
+    "My Research Work/Polynomial Factorization/Low Degree Factorization.md",
+    "My Research Work/Polynomial Factorization/Interpolation.md",
+    "My Research Work/Polynomial Factorization/Auxiliary Polynomial.md",
+    "My Research Work/Polynomial Factorization/Approximate Root.md",
+    "My Research Work/Research Papers",
+    "My Research Work/Polynomial Factorization",
+    "My Research Work",
+    "Mathematics/Algebra/Ring Theory/Rings.md",
+    "Mathematics/Algebra/Commutative Algebra/Commutative Ring.md",
+    "Mathematics/Algebra/Ring Theory",
+    "Mathematics/Algebra/Commutative Algebra",
+    "Mathematics/Algebra",
+    "Mathematics",
+    "Lambda Calculus.md",
+    "Complexity Classes/coRP.md",
+    "Complexity Classes/coRL.md",
+    "Complexity Classes/coNP.md",
+    "Complexity Classes/ZPP.md",
+    "Complexity Classes/RP.md",
+    "Complexity Classes/RL.md",
+    "Complexity Classes/P.md",
+    "Complexity Classes/NP.md",
+    "Complexity Classes/NL = coNL.md",
+    "Complexity Classes/L.md",
+    "Complexity Classes",
+    "Complexity-Class.canvas",
+    "My-Academic-Works/Templates",
+    "My-Academic-Works/Complexity-Class.canvas"
+  ]
+}
