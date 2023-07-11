@@ -4,18 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "91013eb684557beb",
+        "id": "d059fccafc5f3b4a",
         "type": "tabs",
         "children": [
           {
-            "id": "6307f4028920d49e",
+            "id": "a588de9772c80671",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "bc58c9177cd44ae4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,13 +94,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -97,8 +111,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -118,15 +133,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,45 +157,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "24d65fef5551d718",
+  "active": "bc58c9177cd44ae4",
   "lastOpenFiles": [
-    "Will_Learn_Later.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over A.md",
+    "Mathematics/Algebra/Ring Theory/Integral Domains.md",
     "Templates/math-files.md",
-    "Templates",
-    "Ring Homomorphism.md",
-    "README.md",
-    "My Research Work/Research Papers/Oli15.md",
-    "My Research Work/Research Papers/DSY09.md",
-    "My Research Work/Polynomial Factorization/Reversal Polynomial.md",
-    "My Research Work/Polynomial Factorization/Rational Polynomial.md",
-    "My Research Work/Polynomial Factorization/Partial Homogeneous Parts.md",
+    "Mathematics/Algebra/Ring Theory/Maximal Ideal.md",
+    "Mathematics/Algebra/Ring Theory/Prime Ideal.md",
+    "Mathematics/Algebra/Ring Theory/Ring Homomorphism.md",
+    "Mathematics/Algebra/Ring Theory/Ring.md",
+    "Templates/cor.md",
+    "Mathematics/Algebra/Field Theory/Field.md",
+    "Mathematics/Algebra/Galois Theory",
+    "Mathematics/Algebra/Group Theory",
+    "Mathematics/Algebra/Field Theory",
+    "Mathematics/Algebra/Ring Theory/Untitled",
+    "Templates/prop.md",
+    "Templates/def.md",
+    "Templates/thm.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Finitely Generated Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/A-algebra.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Faithful Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions",
+    "Commtaive Algebra",
     "My Research Work/Polynomial Factorization/Low Degree Factorization.md",
-    "My Research Work/Polynomial Factorization/Interpolation.md",
-    "My Research Work/Polynomial Factorization/Auxiliary Polynomial.md",
-    "My Research Work/Polynomial Factorization/Approximate Root.md",
-    "My Research Work/Research Papers",
-    "My Research Work/Polynomial Factorization",
-    "My Research Work",
-    "Mathematics/Algebra/Ring Theory/Rings.md",
+    "Untitled 1.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence",
     "Mathematics/Algebra/Commutative Algebra/Commutative Ring.md",
-    "Mathematics/Algebra/Ring Theory",
-    "Mathematics/Algebra/Commutative Algebra",
-    "Mathematics/Algebra",
-    "Mathematics",
-    "Lambda Calculus.md",
-    "Complexity Classes/coRP.md",
-    "Complexity Classes/coRL.md",
-    "Complexity Classes/coNP.md",
-    "Complexity Classes/ZPP.md",
-    "Complexity Classes/RP.md",
-    "Complexity Classes/RL.md",
-    "Complexity Classes/P.md",
-    "Complexity Classes/NP.md",
-    "Complexity Classes/NL = coNL.md",
-    "Complexity Classes/L.md",
-    "Complexity Classes",
+    "Templates",
+    "My Research Work/Research Papers",
     "Complexity-Class.canvas",
-    "My-Academic-Works/Templates",
     "My-Academic-Works/Complexity-Class.canvas"
   ]
 }

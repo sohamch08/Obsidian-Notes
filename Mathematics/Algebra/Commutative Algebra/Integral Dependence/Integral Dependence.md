@@ -1,9 +1,35 @@
-A [[Ring]] which is commutative is Commutative Ring. 
+---
+tag: integral-dependence
+---
+>[!def] Definition (Integral Dependence)
+>Let $B$ be a [[Commutative Ring]]. Let $A$ be a subring of $B$. An element $x$ of $B$ is said to be integral over $A$ if $x$ is a root of a monic polynomial with coefficients in $A$ that is if $x$ satisfies an equation of the form $$x^n+a_1x^{n-1}+\cdots+a_n=0$$where the $a_i$ are elements of $A$
 
-> Normally we think the identity element is in Commutative Ring 
+Clearly every element of $A$ is integral over $A$
+
+>The following thoerem creates a connection with  [[Finitely Generated Module]] and [[Faithful Module]]
+
+> [!thm] 
+> The followings are equivalent
+>1. $x\in B$ is integral over $A$
+>2. $A[x]$ is a finitely generated $A-module$
+>3. $A[x]$ is a containes in a subring $C$ of $B$ such that $C$ is finitely generated $A-module$
+>4. There exists a faithful $A[x]-module$ $M$ which is finitely generated as an $A-module$
+
+>[!cor]
+>Let $x_i$ $(1\leq i\leq n)$ be elements of $B$, each integral over $A$. Then the rings $A[x_1,\dots,x_n]$ is [[Finitely Generated Module]]
 
 
+> Integral dependence also come into play in study of ring homomorphisms leading to [[Integral A-algebra]]
 
+>[!cor] Corollary (Transitivity o Integral Dependence)
+>If $A\subseteq B\subseteq C$ are rings and if $B$ is integral over A$ and $C$ is integral over $B$ then $C$ is integral over $A$
+
+>[!prop]
+>Let $A\subseteq B$ be rings, $B$ integral over $A$ 
+>1. If $\mfb$ is an ideal of $B$ and $\mfa=\mfb^c=A\cap \mfb$ then $B/\mfb$ is integral over $A/\mfa$
+>2. If $S$ is a multiplicatively closed subset of $A$, then $S^{-1}A$ is integral over $S^{-1}B$
+
+**Reference:** [[Ring of Fraction]]
 
 
 

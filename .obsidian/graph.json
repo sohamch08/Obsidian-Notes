@@ -8,58 +8,37 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#prob-log-space",
+      "query": "tag:#integral-dependence",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "tag:#log-space",
+      "query": "tag:#modules",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "tag:#nondet-log-space",
+      "query": "tag:#rings",
       "color": {
         "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:#prob-poly-time",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
-      "query": "tag:#nondet-poly-time",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:\"Complexity Classes/P\"",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
+        "rgb": 11657298
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.19739583333333,
+  "nodeSizeMultiplier": 1.45260416666667,
   "lineSizeMultiplier": 1.784375,
   "collapse-forces": false,
-  "centerStrength": 0.380208333333333,
-  "repelStrength": 12.1875,
-  "linkStrength": 0.927083333333333,
-  "linkDistance": 267,
-  "scale": 0.6300461646981642,
-  "close": true
+  "centerStrength": 0.109375,
+  "repelStrength": 10.625,
+  "linkStrength": 0.936830835117773,
+  "linkDistance": 180,
+  "scale": 0.6017964281355219,
+  "close": false
 }

@@ -1,6 +1,18 @@
-A [[Ring]] which is commutative is Commutative Ring. 
+---
+tag: field
+---
 
-> Normally we think the identity element is in Commutative Ring 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -25,6 +25,31 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "cor": {
+      "type": "cor",
+      "color": "56, 255, 116",
+      "icon": {
+        "name": "edit",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Corollary",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "prop": {
+      "type": "prop",
+      "color": "102, 127, 255",
+      "icon": {
+        "name": "edit",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Proposition",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,

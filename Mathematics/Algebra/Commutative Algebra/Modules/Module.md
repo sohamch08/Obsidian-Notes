@@ -1,6 +1,21 @@
-A [[Ring]] which is commutative is Commutative Ring. 
+---
+tag: modules
+---
+>[!def] Definition (Module)
 
-> Normally we think the identity element is in Commutative Ring 
+[[Commutative Ring]]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
