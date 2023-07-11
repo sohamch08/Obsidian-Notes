@@ -1,22 +1,18 @@
 ---
-tag: insert-tag 
+tag: integral-dependence
 ---
+>[!def] Definition (Integral Closure of Ideal)
+>Let $A\subeq B$ be commutative rings and $\mfa$ be an ideal of $A$. The [[Integral Closure]] of $\mfa$ in $B$ is the set of all elements of $B$ which are [[Integral over Ideal]] $\mfa$ 
 
+>[!lem] 
+>Let $C$ be the [[Integral Closure]] of $A$ in $B$ and let $\mfa^e$ denote the extension of $\mfa$ in $C$. Then the integral closure of $\mfa$ is the [[Radical]] of $\mfa^e$.
 
+Therefore closed under addition and multiplication
 
+>[!prop] 
+>Let $A\subeq B$ be [[Integral Domain]]s, $A$ [[Integrally Closed]] and let $x\in B$ be [[Integral over Ideal]] $\mfa$ of $A$. Then $x$ is [[Algebraic]] over the [[Field of Fractions]] $K$ of $A$ and if its [[Minimal Polynomial]] over $K$ is $t^n+a_1t^{n-1}+\cdots+a_n$ then $a_1,\dots,a_n$ lie in $r(\mfa)$
 
-
-
-
-
-
-
-
-
-
-
-
-
+***Proof:*** Since $x$ is integral over $\mfa$ it is algebraic over $K$. Let $x_1,\dots,x_n$ be the conjugates of $x$ 
 
 
 
@@ -300,6 +296,6 @@ $$%---------------------------------------
 \newcommand{\st}{\strut}
 \newcommand{\dps}[1]{\displaystyle{#1}}
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
-\newcommand{\subeq}{\subseteq}
+
 
 $$

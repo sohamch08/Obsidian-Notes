@@ -50,6 +50,19 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "lem": {
+      "type": "lem",
+      "color": "102, 127, 255",
+      "icon": {
+        "name": "edit",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Lemma",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,

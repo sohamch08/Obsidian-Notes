@@ -22,23 +22,30 @@
       }
     },
     {
-      "query": "tag:#rings",
+      "query": "tag:#frac-ring-mod",
       "color": {
         "a": 1,
         "rgb": 11657298
+      }
+    },
+    {
+      "query": "tag:#rings",
+      "color": {
+        "a": 1,
+        "rgb": 5526240
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -1,
   "nodeSizeMultiplier": 1.45260416666667,
   "lineSizeMultiplier": 1.784375,
   "collapse-forces": false,
-  "centerStrength": 0.109375,
-  "repelStrength": 10.625,
-  "linkStrength": 0.936830835117773,
-  "linkDistance": 180,
-  "scale": 0.6017964281355219,
-  "close": false
+  "centerStrength": 0,
+  "repelStrength": 2.97644539614561,
+  "linkStrength": 0.404978586723769,
+  "linkDistance": 94,
+  "scale": 0.14340384607343992,
+  "close": true
 }
