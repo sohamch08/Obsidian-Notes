@@ -1,10 +1,10 @@
 ---
-tag: insert-tag 
+tag: integral-dependence
 ---
+>[!thm] Theorem (Going Down Theorem)
+>	Let $A\subeq B$ be [[Integral Domain]]s, $A$ is [[Integrally Closed]], $B$ [[Integral Over]] $A$. Let $\mfp_1\supeq \cdots\supeq \mfp_n$ be a chain of [[Prime Ideal]]s of $A$ and let $\mfq_1\supeq\cdots\mfq_m$ $(m<n)$ be a chain of prime ideals of $B$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq m)$. Then the chain $\mfq_1\supeq \cdots \mfq_m$ can be extended to a chain $\mfq_1\supeq \cdots\supeq \mfq_n$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq n)$
 
-
-
-
+***Proof:*** Like [[Going Up Theorem]] we reduce immediately to the case $m=1$, $n=2$. Then we have to show that $\mfp_2$ is the contraction of a prime ideal in the ring $B_{\mfq_1}$ or equivalently
 
 
 
@@ -301,5 +301,5 @@ $$%---------------------------------------
 \newcommand{\dps}[1]{\displaystyle{#1}}
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
 \newcommand{\subeq}{\subseteq}
-
+\newcommand{\supeq}{\supseteq}
 $$

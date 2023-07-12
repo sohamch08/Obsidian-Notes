@@ -1,7 +1,20 @@
 ---
-tag: frac-ring-mod 
+tag: integral-dependence
 ---
-[[Commutative Ring]]
+
+>[!cor] Corollary (Transitivity o Integral Dependence)
+>If $A\subseteq B\subseteq C$ are rings and if $B$ is integral over $A$ and $C$ is integral over $B$ then $C$ is integral over $A$
+
+>[!prop]
+>Let $A\subseteq B$ be rings, $B$ integral over $A$ 
+>1. If $\mfb$ is an ideal of $B$ and $\mfa=\mfb^c=A\cap \mfb$ then $B/\mfb$ is integral over $A/\mfa$
+>2. If $S$ is a multiplicatively closed subset of $A$, then $S^{-1}A$ is integral over $S^{-1}B$
+
+**Reference:** [[Ring of Fraction]]
+
+>[!def] Definition (Integral Over $A$)
+>If the [[Integral Closure]] of $A$ in $B$ is equal to $B$ then $B$ is said to be integral over $A$
+
 
 
 

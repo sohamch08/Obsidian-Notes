@@ -27,8 +27,31 @@ tag: rings
 
 
 
-$$
-%---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$%---------------------------------------
 % BlackBoard Math Fonts :-
 %---------------------------------------
 
@@ -265,16 +288,19 @@ $$
 \newcommand{\ph}{\phi}
 \newcommand{\om}{\omega}
 \newcommand{\Om}{\Omega}
+\newcommand{\Qed}{\begin{flushright}\qed\end{flushright}}
+\newcommand{\del}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\Del}[3]{\frac{\partial^{#1} #2}{\partial^{#1} #3}}
+\newcommand{\deld}[2]{\dfrac{\partial #1}{\partial #2}}
+\newcommand{\Deld}[3]{\dfrac{\partial^{#1} #2}{\partial^{#1} #3}}
+\newcommand{\uin}{\mathbin{\rotatebox[origin=c]{90}{$\in$}}}
+\newcommand{\usubset}{\mathbin{\rotatebox[origin=c]{90}{$\subset$}}}
+\newcommand{\lt}{\left}
+\newcommand{\rt}{\right}
+\newcommand{\exs}{\exists}
+\newcommand{\st}{\strut}
+\newcommand{\dps}[1]{\displaystyle{#1}}
+\newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
+\newcommand{\subeq}{\subseteq}
 
 $$
-```ad-def
-title: Definition (Rings)
-A Ring $R$ is a set with two binary operations $+$, $\times$ (called addition
-and multiplication) satisfying the following axioms:
-1. $(R,+)$ is an abelian group
-2. $\times$ is associative: $$(a\times b)\times c=a\times (b\times c)$$ for all $a,b,c\in R$
-3. The *distributive laws* hold in $R$ for all $a,b,c\in R$ $$(a+b)\times c=(a\times c)+(b\times c)$$
-```
-
- - A ring is Commutative Ring if multiplication is commutative
- - A ring is said to have an identity if there is an element $1\in R$ such that  $1\times a=a\times 1=a$ for all $a\in R$

@@ -303,6 +303,6 @@ $$%---------------------------------------
 \newcommand{\st}{\strut}
 \newcommand{\dps}[1]{\displaystyle{#1}}
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
-
+\newcommand{\subeq}{\subseteq}
 
 $$
