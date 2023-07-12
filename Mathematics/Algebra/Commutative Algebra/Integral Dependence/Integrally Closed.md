@@ -6,11 +6,9 @@ tag: integral-dependence
 
 >An [[Integral Domain]] is said to be [[Integrally Closed]] if it is integrally closed in its [[Field of Fractions]]
 
- >Any [[Unique Factorization Domain]] is integrally Closed
+>Any [[Unique Factorization Domain]] is integrally Closed
 
-
-
-
+>Let [[Integral Closure]] of $A$ is $C$. $B$ being [[Integral Over]] $A$ does not imply that $B$ is contained in $C$ as $A$ being integrally closed need not imply that $A$ is integrally closed in $B$. Since a domain is integrally closed if it is integrally closed in its [[Field of Fractions]]. is  For example let $A=\bbZ$ and $B=\bbZ[\sqrt{2}]$ Then $C=A$ (The [[Integral Closure]] inside the field of fractions, $\bbQ$). But $B$ is not contained in $C$
 
 
 

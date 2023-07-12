@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d51dca1b0b4a0eab",
+        "id": "2f3bfd218c43c400",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9dc68d8f5ce6e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64a5fc6973efca9c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "1d69a9128970334e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "850c858ba68da38d",
+            "id": "d2a45e83879e5370",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +129,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,18 +148,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "850c858ba68da38d",
+  "active": "d2a45e83879e5370",
   "lastOpenFiles": [
-    "Complexity-Class.canvas",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure of Ideal.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral over Ideal.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral over Ideal.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Extended and Contracted Ideals in Ring of Fractions.md",
+    "Lambda Calculus.md",
+    "Complexity-Class.canvas",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
     "Mathematics/Algebra/Field Theory/Minimal Polynomial.md",
     "Mathematics/Algebra/Field Theory/Field.md",
     "Mathematics/Algebra/Field Theory/Algebraic.md",
@@ -204,8 +177,6 @@
     "Mathematics/Algebra/Commutative Algebra/Modules/Faithful Module.md",
     "Mathematics/Algebra/Commutative Algebra/Modules/A-algebra.md",
     "Mathematics/Algebra/Ring Theory/Unique Factorization Domain.md",
-    "Mathematics/Algebra/Ring Theory/Ring Homomorphism.md",
-    "Mathematics/Algebra/Ring Theory/Ring.md",
     "Mathematics/Algebra/Commutative Algebra/Primary Decomposition",
     "Mathematics/Algebra/Galois Theory",
     "Mathematics/Algebra/Group Theory",

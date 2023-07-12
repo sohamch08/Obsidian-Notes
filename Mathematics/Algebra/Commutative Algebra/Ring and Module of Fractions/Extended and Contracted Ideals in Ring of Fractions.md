@@ -1,35 +1,10 @@
 ---
-tag: integral-dependence
+tag: frac-ring-mod
 ---
-The meaning of 'an element $x$ in $B$ integral over $A$' is explained in [[Integral Dependence]]
-
->[!def] Definition (Integral Closure)
->The set of elements of $B$ which are integral over $A$ is called the integral closure
-
-- If $C=A$ then $A$ is called integrally closed in $B$
-- If $C=B$ the ring $B$ is said to be integral over $A$ 
-
->Let integral closure of $A$ is $C$. $B$ being [[Integral Over]] $A$ does not imply that $B$ is contained in $C$ as $A$ being [[Integrally Closed]] need not imply that $A$ is integrally closed in $B$. Since a domain is integrally closed if it is integrally closed in its [[Field of Fractions]]. is  For example let $A=\bbZ$ and $B=\bbZ[\sqrt{2}]$ Then $C=A$ (The integral closure inside the field of fractions, $\bbQ$). But $B$ is not contained in $C$
-
-> [!thm]
-> Integral Closure is a subring of $B$ containing $A$
-
-For the proof it uses the corollary that if $x_1,\dots,x_n$ are integral over $A$ then $A[x_1,\dots,x_n]$ is finitely generated $A-module$ in [[Integral Dependence]] 
-
-> [!cor] 
-> Let $A\subseteq B$ be rings and let $C$ be the integral closure of $A$ in $B$. Then $C$ is [[Integrally Closed]] in $B$
-
->[!prop]
->Let $A\subeq B$ be rings, $C$ be the Integral closure of $A$ in $B$. Let $S$ be a multiplicatively closed subset of $A$ . Then $S^{-1}C$ is the integral closure of $S^{-1}A$
-
->Integral closure is a [[Local Property]]
+[[Ring And Module of Fractions]]
 
 >[!thm] 
->Let $A$ be an [[Integral Domain]]. Then the following are equivalent:
->1. $A$ is [[Integrally Closed]]
->2. $A_{\mfp}$ is integrally closed, for each [[Prime Ideal]] $\mfp$
->3. $A_{\mfm}$ is integrally  closed, for each [[Maximal Ideal]] $\mfm$
-
+>Let $A\to B$ be a ring homomorphism and let $\mathfrak{p}$ be a prime ideal of $A$. Then $\mathfrak{p}$ is the contraction of a prime ideal $B$ if and only if $\mathfrak{p}^{ec}=\mathfrak{p}$
 
 
 

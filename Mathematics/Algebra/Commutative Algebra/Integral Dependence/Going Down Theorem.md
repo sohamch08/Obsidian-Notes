@@ -4,8 +4,8 @@ tag: integral-dependence
 >[!thm] Theorem (Going Down Theorem)
 >	Let $A\subeq B$ be [[Integral Domain]]s, $A$ is [[Integrally Closed]], $B$ [[Integral Over]] $A$. Let $\mfp_1\supeq \cdots\supeq \mfp_n$ be a chain of [[Prime Ideal]]s of $A$ and let $\mfq_1\supeq\cdots\mfq_m$ $(m<n)$ be a chain of prime ideals of $B$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq m)$. Then the chain $\mfq_1\supeq \cdots \mfq_m$ can be extended to a chain $\mfq_1\supeq \cdots\supeq \mfq_n$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq n)$
 
-***Proof:*** Like [[Going Up Theorem]] we reduce immediately to the case $m=1$, $n=2$. Then we have to show that $\mfp_2$ is the contraction of a prime ideal in the ring $B_{\mfq_1}$ or equivalently
-
+***Proof:*** Like [[Going Up Theorem]] we reduce immediately to the case $m=1$, $n=2$. Then we have to show that $\mfp_2$ is the contraction of a prime ideal in the ring $B_{\mfq_1}$ . Since the extension or $\mfp_2$ in $B_{\mfq_1}$ is $B_{\mfq_1}\mfp_2$ and the contraction of $B_{\mfq_1}\mfp_2$ in $A$ is $B_{\mfq_1}\mfp_2\cap A$ we equivalently by the last theorem in [[Extended and Contracted Ideals in Ring of Fractions]] we want to show $B_{\mfq_1}\mfp_2\cap A=\mfp_2$ 
+Now let $x\in B_{\mfq_1}\mfp_2$. $x$ is of the form $\frac{y}{s}$ where $y\in B\mfp_2$ and $s\in B-\mfq_1$. Now extension of $\mfp_2$ in $B$ is $B\mfp_2$. So integral closure of $\mfp_2$ in $B$ is $r(B\mfp_2)=B\mfp_2$ since $B$ is integral over $A$. Now since $y\in B\mfp_2$ $y$ is integral over $\mfp_2$ by the lemma in [[Integral Closure of Ideal]]. 
 
 
 

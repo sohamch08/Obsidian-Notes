@@ -2,7 +2,7 @@
 tag: integral-dependence
 ---
 >[!prop] 
->Let $A\subseteq B$ be [[Integral Domain]]s. $B$ [[Integral Over]]. Then $B$ is a field if and only if $A$ is a [[Field]]
+>Let $A\subseteq B$ be [[Integral Domain]]s. $B$ [[Integral Over]] $A$. Then $B$ is a field if and only if $A$ is a [[Field]]
 
 >[!cor] 
 >Let $A\subseteq B$ be commutative rings. $B$ integral over $A$. Let $\mfq$ be a [[Prime Ideal]] of $B$ and let $\mfp=\mfq^c=\mfq\cap A$. Then $\mfq$ is [[Maximal Ideal]] if and only if $\mfp$ is [[Maximal Ideal]]
