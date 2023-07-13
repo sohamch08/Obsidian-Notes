@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f3bfd218c43c400",
+        "id": "4ebe2a5bac3cb294",
         "type": "tabs",
         "children": [
           {
-            "id": "d2a45e83879e5370",
+            "id": "5f3158a18d1e4591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -148,17 +148,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d2a45e83879e5370",
+  "active": "5f3158a18d1e4591",
   "lastOpenFiles": [
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure of Ideal.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Module Homomorphism.md",
+    "Mathematics/Algebra/Ring Theory/Ring Homomorphism.md",
+    "Mathematics/Algebra/Endomorphism.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure of Ideal.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral over Ideal.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Extended and Contracted Ideals in Ring of Fractions.md",
     "Lambda Calculus.md",
     "Complexity-Class.canvas",
@@ -172,11 +176,7 @@
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring And Module of Fractions.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Local Property.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Field of Fractions.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/Module.md",
     "Mathematics/Algebra/Commutative Algebra/Modules/Finitely Generated Module.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/Faithful Module.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/A-algebra.md",
-    "Mathematics/Algebra/Ring Theory/Unique Factorization Domain.md",
     "Mathematics/Algebra/Commutative Algebra/Primary Decomposition",
     "Mathematics/Algebra/Galois Theory",
     "Mathematics/Algebra/Group Theory",
