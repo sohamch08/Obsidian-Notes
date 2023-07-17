@@ -1,15 +1,15 @@
 ---
 tag: integral-dependence
 ---
->[!def] Definition (Integral Closure of Ideal)
+>[!definition] Definition (Integral Closure of Ideal)
 >Let $A\subeq B$ be commutative rings and $\mfa$ be an ideal of $A$. The [[Integral Closure]] of $\mfa$ in $B$ is the set of all elements of $B$ which are [[Integral over Ideal]] $\mfa$ 
 
->[!lem] 
+>[!lemma] 
 >Let $C$ be the [[Integral Closure]] of $A$ in $B$ and let $\mfa^e$ denote the extension of $\mfa$ in $C$. Then the integral closure of $\mfa$ is the [[Radical]] of $\mfa^e$.
 
 Therefore closed under addition and multiplication
 
->[!prop] 
+>[!proposition] 
 >Let $A\subeq B$ be [[Integral Domain]]s, $A$ [[Integrally Closed]] and let $x\in B$ be [[Integral over Ideal]] $\mfa$ of $A$. Then $x$ is [[Algebraic]] over the [[Field of Fractions]] $K$ of $A$ and if its [[Minimal Polynomial]] over $K$ is $t^n+a_1t^{n-1}+\cdots+a_n$ then $a_1,\dots,a_n$ lie in $r(\mfa)$
 
 ***Proof:*** Since $x$ is integral over $\mfa$ let $f$ be the polynomial whose coefficients are from $\mfa$ and $f(x)=0$. Hence it is algebraic over $K$. Let $x_1,\dots,x_n$ be the conjugates of $x$ which are the roots of the minimal polynomial of $x$. Now each $x_i$ satisfies the polynomial $f$. Therefore all $x_i$'s are integral over $\mfa$. Now the coefficients of the minimal polynomial of $x$ over $K$ are polynomials in the $x_i$'s. Now by the previous Lemma we get that if $C$ is the integral closure of $A$ in $B$ and $\mfa^e$ is the extension of $\mfa$ in $C$ then the integral closure of $\mfa$ in $B$ is $r(\mfa^e)$. Therefore all the $x_i$'s are in $r(\mfa^e)$. Hence any polynomial of the $x_i$'s are in $r(\mfa^e)$. Hence any polynomial of the $x_i$'s  is integral over $\mfa$. So the coefficients of the minimal polynomial are integral over $\mfa$. Now Since $A$ is integrally closed they must lie in $r(\mfa)$.

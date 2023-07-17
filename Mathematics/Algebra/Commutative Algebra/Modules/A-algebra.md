@@ -1,7 +1,7 @@
 ---
 tag: modules
 ---
->[!def] Defintiion (A-algebra)
+>[!definition] Defintiion (A-algebra)
 [[Module]]
 
 

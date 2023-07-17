@@ -3,7 +3,7 @@ tag: frac-ring-mod
 ---
 [[Ring And Module of Fractions]]
 
->[!thm] 
+>[!theorem] 
 >Let $A\to B$ be a ring homomorphism and let $\mathfrak{p}$ be a prime ideal of $A$. Then $\mathfrak{p}$ is the contraction of a prime ideal $B$ if and only if $\mathfrak{p}^{ec}=\mathfrak{p}$
 
 

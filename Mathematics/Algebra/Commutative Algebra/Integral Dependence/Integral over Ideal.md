@@ -1,7 +1,7 @@
 ---
 tag: integral-dependence
 ---
->[!def] Definition (Integral Over Ideal)
+>[!definition] Definition (Integral Over Ideal)
 >Let $A\subeq B$ be rings and $\mfa$ be an ideal of $A$. An element of $B$ is said to be integral over $\mfa$ if it satisfies an equation of [[Integral Dependence]] over $A$ in which all the coefficients lie in $\mfa$ 
 
 

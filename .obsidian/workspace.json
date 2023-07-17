@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4ebe2a5bac3cb294",
+        "id": "d85e21f5e58800d2",
         "type": "tabs",
         "children": [
           {
-            "id": "5f3158a18d1e4591",
+            "id": "218e5027c5c2280c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,35 +140,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f3158a18d1e4591",
+  "active": "218e5027c5c2280c",
   "lastOpenFiles": [
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/Module.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/Module Homomorphism.md",
-    "Mathematics/Algebra/Ring Theory/Ring Homomorphism.md",
-    "Mathematics/Algebra/Endomorphism.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure of Ideal.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral over Ideal.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Extended and Contracted Ideals in Ring of Fractions.md",
-    "Lambda Calculus.md",
-    "Complexity-Class.canvas",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
-    "Mathematics/Algebra/Field Theory/Minimal Polynomial.md",
-    "Mathematics/Algebra/Field Theory/Field.md",
-    "Mathematics/Algebra/Field Theory/Algebraic.md",
-    "Mathematics/Algebra/Galois Theory/Galois Group.md",
-    "Mathematics/Algebra/Group Theory/Group.md",
-    "Mathematics/Algebra/Commutative Algebra/Commutative Ring.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring And Module of Fractions.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Local Property.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Extended and Contracted Ideals in Ring of Fractions.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Field of Fractions.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/Finitely Generated Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring And Module of Fractions.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
+    "Mathematics/Algebra/Commutative Algebra/Commutative Ring.md",
+    "Mathematics/Algebra/Field Theory/Algebraic.md",
+    "Mathematics/Algebra/Field Theory/Field.md",
+    "Mathematics/Algebra/Field Theory/Minimal Polynomial.md",
+    "Mathematics/Algebra/Ring Theory/Integral Domain.md",
+    "Mathematics/Algebra/Ring Theory/Maximal Ideal.md",
+    "Mathematics/Algebra/Ring Theory/Prime Ideal.md",
+    "Mathematics/Algebra/Ring Theory/Radical.md",
+    "Mathematics/Algebra/Ring Theory/Ring.md",
+    "Mathematics/Algebra/Ring Theory/Ring Homomorphism.md",
+    "Mathematics/Algebra/Ring Theory/Unique Factorization Domain.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Valuation Ring.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral over Ideal.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure of Ideal.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
+    "Complexity-Class.canvas",
     "Mathematics/Algebra/Commutative Algebra/Primary Decomposition",
     "Mathematics/Algebra/Galois Theory",
     "Mathematics/Algebra/Group Theory",

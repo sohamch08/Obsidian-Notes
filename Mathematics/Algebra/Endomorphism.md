@@ -1,7 +1,7 @@
 ---
 tag: endomorphism 
 ---
->[!def] Definition (Endomorphism)
+>[!definition] Definition (Endomorphism)
 >An endomorphism is a morphism from a mathematical object  mathematical object to itself.
 
 

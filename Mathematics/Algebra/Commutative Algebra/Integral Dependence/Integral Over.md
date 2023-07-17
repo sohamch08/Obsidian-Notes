@@ -1,7 +1,7 @@
 ---
 tag: integral-dependence
 ---
->[!def] Definition (Integral Over $A$)
+>[!definition] Definition (Integral Over $A$)
 >If the [[Integral Closure]] of $A$ in $B$ is equal to $B$ then $B$ is said to be integral over $A$
 
 >Let integral closure of $A$ is $C$. $B$ being integral over $A$ does not imply that $B$ is contained in $C$ as $A$ being [[Integrally Closed]] need not imply that $A$ is integrally closed in $B$. Since a domain is integrally closed if it is integrally closed in its [[Field of Fractions]]. is  For example let $A=\bbZ$ and $B=\bbZ[\sqrt{2}]$ Then $C=A$ (The [[Integral Closure]] inside the field of fractions, $\bbQ$). But $B$ is not contained in $C$
@@ -9,7 +9,7 @@ tag: integral-dependence
 >[!cor] Corollary (Transitivity o Integral Dependence)
 >If $A\subseteq B\subseteq C$ are rings and if $B$ is integral over $A$ and $C$ is integral over $B$ then $C$ is integral over $A$
 
->[!prop]
+>[!proposition]
 >Let $A\subseteq B$ be rings, $B$ integral over $A$ 
 >1. If $\mfb$ is an ideal of $B$ and $\mfa=\mfb^c=A\cap \mfb$ then $B/\mfb$ is integral over $A/\mfa$
 >2. If $S$ is a multiplicatively closed subset of $A$, then $S^{-1}A$ is integral over $S^{-1}B$

@@ -1,7 +1,7 @@
 ---
 tag: modules
 ---
->[!def] Definition (Module Homomorphism)
+>[!definition] Definition (Module Homomorphism)
 >Let $M,N$ be $A-modules$. A mapping $f:M\to N$ is an $A-$[[Module]] homomorphism (or $A-linear$) if 
 >1. $f(x+y)=f(x)+f(y)$
 >2. $f(ax)=af(x)$

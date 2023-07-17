@@ -1,19 +1,19 @@
 ---
 tag: integral-dependence
 ---
->[!prop] 
+>[!proposition] 
 >Let $A\subseteq B$ be [[Integral Domain]]s. $B$ [[Integral Over]] $A$. Then $B$ is a field if and only if $A$ is a [[Field]]
 
->[!cor] 
+>[!corollary] 
 >Let $A\subseteq B$ be commutative rings. $B$ integral over $A$. Let $\mfq$ be a [[Prime Ideal]] of $B$ and let $\mfp=\mfq^c=\mfq\cap A$. Then $\mfq$ is [[Maximal Ideal]] if and only if $\mfp$ is [[Maximal Ideal]]
 
->[!cor] 
+>[!corollary] 
 >Let $A\subseteq B$ be commutative rings. $B$ integral over $A$; let $\mfq, \mfq'$ be prime ideals of $B$ such that $\mfq\subseteq \mfq'$ and $\mfq^c=\mfq'^c=\mfp$. Then $\mfq=\mfq'$
 
->[!thm] 
+>[!theorem] 
 >Let $A\subset B$ be rings, $B$ integral over $A$ and let $\mfp$ be a prime ideal of $A$. Then there exists a prime ideal $\mfq$ of $B$ such that $\mfq\cap A=\mfp$
 
->[!thm] Theorem (Going Up Theorem)
+>[!theorem] Theorem (Going Up Theorem)
 >Let $A\subseteq B$ be rings commutative rings, $B$ integral over $A$. Let $\mfp_1\subseteq \cdots\subseteq \mfp_n$ be a chain of prime ideals of $A$ and $\mfq_1\subseteq\cdots\subseteq \mfq_m$ $(m<n)$ be a chain of prime ideals of $B$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq m)$ Then the chain $\mfq_1\subseteq \cdots\subseteq \mfq_m$ can be extended to a chain $\mfq_1\subseteq \cdots\subseteq \mfq_n$ such that $\mfq_i\cap A=\mfp_i$ for $1\leq i\leq n$
 
 ***Proof:*** By induction we reduce to the case $m=1$ and $n=2$. Let $\ovA=A/\mfp_1$, $\vB=B/\mfq_1$ 

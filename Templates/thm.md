@@ -1,1 +1,1 @@
->[!thm] 
+>[!theorem] 

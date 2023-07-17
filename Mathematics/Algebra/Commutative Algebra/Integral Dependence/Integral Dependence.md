@@ -1,21 +1,21 @@
 ---
 tag: integral-dependence
 ---
->[!def] Definition (Integral Dependence)
+>[!definition] Definition (Integral Dependence)
 >Let $B$ be a [[Commutative Ring]]. Let $A$ be a subring of $B$. An element $x$ of $B$ is said to be integral over $A$ if $x$ is a root of a monic polynomial with coefficients in $A$ that is if $x$ satisfies an equation of the form $$x^n+a_1x^{n-1}+\cdots+a_n=0$$where the $a_i$ are elements of $A$
 
 Clearly every element of $A$ is integral over $A$
 
 >The following thoerem creates a connection with  [[Finitely Generated Module]] and [[Faithful Module]]
 
-> [!thm] 
+> [!theorem] 
 > The followings are equivalent
 >1. $x\in B$ is integral over $A$
 >2. $A[x]$ is a finitely generated $A-module$
 >3. $A[x]$ is a containes in a subring $C$ of $B$ such that $C$ is finitely generated $A-module$
 >4. There exists a faithful $A[x]-module$ $M$ which is finitely generated as an $A-module$
 
->[!cor]
+>[!corollary] 
 >Let $x_i$ $(1\leq i\leq n)$ be elements of $B$, each integral over $A$. Then the rings $A[x_1,\dots,x_n]$ is [[Finitely Generated Module]]
 
 

@@ -1,7 +1,7 @@
 ---
 tag: rings
 ---
->[!def] Definition (Ring Homomorphism)
+>[!definition] Definition (Ring Homomorphism)
 >A [[Ring]] Homomorphism is a mapping $f$ of a ring $R$ into a ring $B$ such that 
 >1. $\phi(x+y)=\phi(x)+\phi(y)$ for all $x.y\in R$ (is a group homomor­phism on the additive groups)
 >2. $\phi(xy)=\phi(x)\phi(y)$ for all $x,y\in R$ 

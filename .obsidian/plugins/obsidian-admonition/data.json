@@ -1,7 +1,7 @@
 {
   "userAdmonitions": {
-    "def": {
-      "type": "def",
+    "definition": {
+      "type": "definition",
       "color": "255, 97, 97",
       "icon": {
         "name": "edit",
@@ -13,9 +13,9 @@
       "noTitle": false,
       "copy": false
     },
-    "thm": {
-      "type": "thm",
-      "color": "102, 127, 255",
+    "theorem": {
+      "type": "theorem",
+      "color": "67, 94, 229",
       "icon": {
         "name": "edit",
         "type": "font-awesome"
@@ -26,9 +26,9 @@
       "noTitle": false,
       "copy": false
     },
-    "cor": {
-      "type": "cor",
-      "color": "56, 255, 116",
+    "corollary": {
+      "type": "corollary",
+      "color": "0, 219, 66",
       "icon": {
         "name": "edit",
         "type": "font-awesome"
@@ -36,11 +36,12 @@
       "command": false,
       "title": "Corollary",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
-    "prop": {
-      "type": "prop",
-      "color": "102, 127, 255",
+    "proposition": {
+      "type": "proposition",
+      "color": "67, 94, 229",
       "icon": {
         "name": "edit",
         "type": "font-awesome"
@@ -51,9 +52,9 @@
       "noTitle": false,
       "copy": false
     },
-    "lem": {
-      "type": "lem",
-      "color": "102, 127, 255",
+    "lemma": {
+      "type": "lemma",
+      "color": "67, 94, 229",
       "icon": {
         "name": "edit",
         "type": "font-awesome"
@@ -66,7 +67,7 @@
     }
   },
   "syntaxHighlight": false,
-  "copyButton": false,
+  "copyButton": true,
   "version": "9.3.3",
   "autoCollapse": false,
   "defaultCollapseType": "open",
