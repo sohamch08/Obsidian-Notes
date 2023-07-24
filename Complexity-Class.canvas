@@ -9,9 +9,9 @@
 		{"type":"file","file":"Complexity Classes/RP.md","id":"97a02ebe5310248d","x":-508,"y":-340,"width":146,"height":50,"color":"4"},
 		{"type":"file","file":"Complexity Classes/NP.md","id":"7a53ce14635e686c","x":-220,"y":-340,"width":154,"height":50,"color":"5"},
 		{"type":"file","file":"Complexity Classes/BPL.md","id":"fa07eb1ef78f25c9","x":-1118,"y":20,"width":120,"height":50,"color":"2"},
-		{"type":"file","file":"Complexity Classes/coRL.md","id":"a5cfa11206e7765e","x":-1526,"y":-340,"width":140,"height":50,"color":"2"},
 		{"type":"file","file":"Complexity Classes/RL.md","id":"4f2abf39f8839763","x":-1519,"y":160,"width":126,"height":50,"color":"2"},
-		{"type":"file","file":"Complexity Classes/NL = coNL.md","id":"f98f7c412069c0dd","x":-1168,"y":-200,"width":221,"height":50,"color":"#225ce2"}
+		{"type":"file","file":"Complexity Classes/NL = coNL.md","id":"f98f7c412069c0dd","x":-1168,"y":-200,"width":221,"height":50,"color":"#225ce2"},
+		{"type":"file","file":"Complexity Classes/coRL.md","id":"a5cfa11206e7765e","x":-1529,"y":-340,"width":146,"height":50,"color":"2"}
 	],
 	"edges":[
 		{"id":"57fc05de3ae5d96c","fromNode":"725ed1b54037e880","fromSide":"right","toNode":"97a02ebe5310248d","toSide":"left"},

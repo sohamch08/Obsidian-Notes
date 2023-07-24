@@ -54,7 +54,6 @@ Clearly every element of $A$ is integral over $A$
 
 
 
-
 $$%---------------------------------------
 % BlackBoard Math Fonts :-
 %---------------------------------------
