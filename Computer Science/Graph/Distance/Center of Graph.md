@@ -1,7 +1,11 @@
 ---
-tag: field
+tag: distance
 ---
-[[Field]]
+
+>[!definition] Definition (Center of Graph)
+>The center of a graph $G$ is the [[Subgraph]] induced by the vertices of minimum [[Eccentricity]]
+
+>The center is the full graph if and only if the [[Radius]] and [[Diameter]] are equal
 
 
 

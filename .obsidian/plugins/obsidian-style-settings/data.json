@@ -50,8 +50,13 @@
   "anuppuccin-theme-settings@@anp-layout-select": "anp-border-layout",
   "anuppuccin-theme-settings@@anp-simple-rainbow-icon-folder-toggle": false,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
-  "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-royal-velvet",
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-rosepine-dark",
   "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
   "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-sapphire",
-  "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-red"
+  "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-red",
+  "anuppuccin-theme-settings@@anp-toggle-scrollbars": false,
+  "anuppuccin-theme-settings@@anp-toggle-metadata": false,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle": false,
+  "anuppuccin-theme-settings@@anp-rainbow-subfolder-color-toggle": false,
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light"
 }

@@ -1,14 +1,8 @@
 ---
-tag: field
+tag: distance
 ---
-[[Field]]
-
-
-
-
-
-
-
+>[!definition] Definition (Distance)
+>If $G$ is a [[Graph]] and it has a $u,v-$path then the distance from $u$ to $v$ written $d_G(u,v)$ or simply $d(u,v)$ is the least length of a $u,v-$path. >If $G$ has no such path then $d(u,v)=\infty$
 
 
 

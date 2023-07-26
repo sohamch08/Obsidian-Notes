@@ -1,7 +1,20 @@
 ---
-tag: field
+tag: distance
 ---
-[[Field]]
+>[!definition] Definition (Diameter)
+>The **Diameter** (diam $G$) is $\underset{u,v\in V(G)}{max}d(u,v)$ where $d(u,v)$ is the distance from $u$ to $v$. 
+
+Therefore $$\text{diam } G = \underset{u\in V(G)}{\max}\eps(u)$$ where $\eps(u)$ is the [[Eccentricity]] of the vertex $u$.
+
+>In a disconnected graph the diameter and [[Radius]] are infinite.
+
+>[!theorem] 
+>If $G$ is a [[Simple Graph]], then diam $G\geq 3\implies \text{diam }\ovG\leq 3$ 
+
+***Proof:*** When diam $G>2$ there exists nonadjacent vertices $u,v\in V(G)$ with no common neighbor. Hence every $x\in V(G)-\{u,v\}$ has at least one of $\{u,v\}$ as a non-neighbor. This makes $x$ adjacent in $\ovG$ to at least one of $\{u,v\}$ in $\ovG$. Since also $uv\in E(\ovG)$ for every pair $x,y$ there is an $x,y-$path in $\ovG$ of length at most 3 in $\ovG$ though $\{u,v\}$. Hence diam $\ovG\leq 3$.  $\blacksquare$
+
+
+
 
 
 

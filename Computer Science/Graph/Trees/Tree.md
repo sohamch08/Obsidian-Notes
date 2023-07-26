@@ -1,6 +1,6 @@
 
 ---
-tag: trees 
+tag: tree
 ---
 >[!definition] Definition (Trees)
 >A tree is a [[Connected]] [[Acyclic]] [[Graph]]
@@ -17,8 +17,8 @@ tag: trees
 >- Deleting a leaf from an $n-$vertex produces a tree with $n-1$ vertices
 
 ***Proof:*** 
-- A [[Connected]] graph with at least two vertices has an edge. In an [[Acyclic]] graph an endpoint of a maximal nontrivial path has no neighbor other than its neighbor on the path. Hence the endpoints of a such a path are leaves. $\qed$
-- Let $v$ be a leaf of a tree $G$ and let $G'=G-v$. A vertex of degree 1 belongs to no path connecting two other vertices. Therefore for $u,w\in V(G')$ every every path $u,w-$path in $G$ is also in $G'$. Hence $G'$ is connected. Since deleting a vertex cannot create a [[Cycle]], $G'$ is also [[Acyclic]]. Thus $G'$ is a tree with $n-1$ vertices. $\qed$
+- A [[Connected]] graph with at least two vertices has an edge. In an [[Acyclic]] graph an endpoint of a maximal nontrivial path has no neighbor other than its neighbor on the path. Hence the endpoints of a such a path are leaves. $\blacksquare$
+- Let $v$ be a leaf of a tree $G$ and let $G'=G-v$. A vertex of degree 1 belongs to no path connecting two other vertices. Therefore for $u,w\in V(G')$ every every path $u,w-$path in $G$ is also in $G'$. Hence $G'$ is connected. Since deleting a vertex cannot create a [[Cycle]], $G'$ is also [[Acyclic]]. Thus $G'$ is a tree with $n-1$ vertices. $\blacksquare$
 
 >[!theorem] 
 >For an $n-$vertex graph $G$ (with $n\geq1$) the following are equivalent ( and characterize the trees with $n$ vertices)
@@ -32,7 +32,7 @@ tag: trees
 2. $(2)\implies \{(1),(3)\}:$ Delete edges from [[Cycle]]s of $G$ one by one until the resulting graph $G'$ is [[Acyclic]]. Since no edge of a cycle is a [[Cut Edge]] (Last Theorem). $G'$ is [[Connected]]. Now the part (1) implies that $e(G')=n-1$. Since we are given $e(G)=n-1$ no edges were deleted. Thus $G=G'$. and $G$ is acyclic.
 3. $(1)\implies \{(1),(2)\}:$ Let $G_1,\dots,G_k$ be the [[Components]] of $G$. Since $G$ has no [[Cycle]]s each component has no cycles. So $e(G_i)=n(G_i)-1$. So $$e(G)=\sum_{i=1}^k [n(G_i)-1]=n-k$$ We are given $e(G)=n-1$. So $k=1$. Hence $G$ is [[Connected]].
 4. $(1)\implies (4):$ Since $G$ is [[Connected]], each pair of vertices is connected by a path. If some pair is connected by more than one, we choose a shortest pair $P,Q$ of distinct paths with the same endpoints. If $P,Q$ share a common internal vertex, we take the first common vertex suppose $w$ then we have two distinct path joining $u,w$ with the paths have no common internal vertex. So the union of the paths creates a [[Cycle]] which contradicts the hypothesis.
-5. $(4)\implies (1):$ For each $u,v\in V(G)$ there is a $u,v-$path. Hence $G$ is connected. If $G$ has a cycle then $G$ has two $u,v-$paths for $u,v\in V(G)$. Hence $G$ is [[Acyclic]]. $\qed$
+5. $(4)\implies (1):$ For each $u,v\in V(G)$ there is a $u,v-$path. Hence $G$ is [[Connected]]. If $G$ has a cycle then $G$ has two $u,v-$paths for $u,v\in V(G)$. Hence $G$ is [[Acyclic]]. $\blacksquare$
 
 
 >[!corollary] 
@@ -43,7 +43,28 @@ tag: trees
 ***Proof:*** 
 1. A tree has no cycles, so by last theorem of [[Cut Edge]] every edge is a cut edge.
 2. A tree has a unique path linking each pair of vertices. So joining two vertices with an edge creates exactly one cycle
-3. As in the proof of $(2)\implies \{(1),(3)\}$ in previous theorem iteratively deleting edges from cycles in a [[Connected]] graph yields a connected [[Acyclic]] [[Spanning Subgraph]]. $\qed$
+3. As in the proof of $(2)\implies \{(1),(3)\}$ in previous theorem iteratively deleting edges from cycles in a [[Connected]] graph yields a connected [[Acyclic]] [[Spanning Subgraph]]. $\blacksquare$
+
+>[!proposition] 
+>If $T$ is a tree with $k$ edges and $G$ is a simple graph with $\delta(G)\geq k$ then $T$ is a [[Subgraph]] of $G$
+
+***Proof:*** We use induction on $k$. 
+For $k=0$ every simple graph contain $K_1$ ([[Complete]]) which is the only tree with no edges.
+Induction Step: $k>0$ We assume that the claim holds for trees with fewer than $k$ edges.
+Since $k>0$ the first lemma allows us to choose a leaf $v$ in $T$. Let $u$ be its neighbor. Consider the smaller tree $T'=T-v$. By the induction hypothesis $G$ contains $T'$ as a subgraph since $\delta(G)\geq k>k-1$.
+Let $x$ be the vertex in this copy of $T'$ that corresponds to $u$. Because $T'$ has only $k-1$ vertices other than $u$ and $d_G(x)\geq k$, $x$ has a neighbor $y$ in $G$ that is not in this copy $T'$. Adding the edge $xy$ expands this copy of $T'$ into a copy of $T$ in $G$ with $y$ playing the role of $v$ $\blacksquare$
+
+
+## Distance in Trees and Graphs
+
+
+>[!theorem] 
+>The [[Center of Graph]] that is a tree is a vertex or an edge
+
+***Proof:*** We use induction on the number of vertices in a tree
+Basic Step: $n(T)\leq 2$ With at most two vertices the center is the entire tree.
+Induction Step: $n(T)>2$ Form $T'$  by deleting every leaf of $T$. 
+
 
 
 

@@ -1,1 +1,1 @@
- $\qed$
+ $\blacksquare$
