@@ -4,15 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "17c30a8c55d81100",
+        "id": "b351fd2feb1e89ec",
         "type": "tabs",
         "children": [
           {
-            "id": "4d653d82b56d0622",
+            "id": "8f8d08c4da28ccd8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dd72aaa148f2f547",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dc96a1f71eb3637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Graph/Trees/Tree.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Science/Graph/Trees/Spanning Tree.md"
+              }
             }
           }
         ]
@@ -140,44 +166,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "24d65fef5551d718",
+  "active": "8f8d08c4da28ccd8",
   "lastOpenFiles": [
+    "Templates/qed.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Computer Science/Graph/Trees/Tree.md",
+    "Mathematics/Algebra/Ring Theory/Unique Factorization Domain.md",
+    "Templates/pf.md",
+    "Templates/cor.md",
+    "Templates/thm.md",
+    "Templates/prop.md",
+    "Templates/math-files.md",
+    "Templates/lem.md",
+    "Templates/def.md",
+    "Computer Science/Graph/Cut Edge.md",
+    "Computer Science/Graph/Acyclic.md",
+    "[Connected.md",
+    "Mathematics/Algebra/Galois Theory/Galois Group.md",
+    "Computer Science/Graph/Graph.md",
+    "Computer Science/Graph/Trees/Forest.md",
+    "Computer Science/Graph/Spanning Subgraph.md",
+    "Computer Science/Graph/Connected.md",
+    "Computer Science/Graph/Subgraph.md",
+    "My Research Work/Polynomial Factorization/Partial Homogeneous Parts.md",
+    "Untitled 1.md",
+    "Spanning Subgraph",
+    "Untitled.md",
+    "Computer Science/Graph/Trees",
+    "Computer Science/Graph",
+    "Computer Science",
     "Complexity-Class.canvas",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
-    "Templates/cor.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure of Ideal.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Extended and Contracted Ideals in Ring of Fractions.md",
-    "My Research Work/Polynomial Factorization/Approximate Root.md",
-    "My Research Work/Polynomial Factorization/Rational Polynomial.md",
-    "My Research Work/Polynomial Factorization/Partial Homogeneous Parts.md",
-    "My Research Work/Polynomial Factorization/Low Degree Factorization.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Over.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral over Ideal.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Local Property.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Field of Fractions.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring And Module of Fractions.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
-    "Mathematics/Algebra/Commutative Algebra/Commutative Ring.md",
-    "Mathematics/Algebra/Field Theory/Algebraic.md",
-    "Mathematics/Algebra/Field Theory/Field.md",
-    "Mathematics/Algebra/Field Theory/Minimal Polynomial.md",
-    "Mathematics/Algebra/Ring Theory/Integral Domain.md",
-    "Mathematics/Algebra/Ring Theory/Maximal Ideal.md",
-    "Mathematics/Algebra/Ring Theory/Prime Ideal.md",
     "Mathematics/Algebra/Commutative Algebra/Primary Decomposition",
     "Mathematics/Algebra/Galois Theory",
     "Mathematics/Algebra/Group Theory",
     "Mathematics/Algebra/Field Theory",
     "Mathematics/Algebra/Ring Theory/Untitled",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions",
-    "Commtaive Algebra",
-    "Mathematics/Algebra/Commutative Algebra/Modules",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence",
-    "Templates",
     "My-Academic-Works/Complexity-Class.canvas"
   ]
 }

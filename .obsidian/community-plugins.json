@@ -8,5 +8,9 @@
   "obsidian-mind-map",
   "obsidian-pandoc",
   "obsidian-admonition",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "hotkeysplus-obsidian",
+  "obsidian-editor-shortcuts",
+  "callout-manager",
+  "callout-integrator"
 ]

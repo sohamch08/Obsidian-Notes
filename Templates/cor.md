@@ -1,1 +1,1 @@
->[!cor] 
+>[!corollary] 

@@ -1,1 +1,1 @@
->[!prop] 
+>[!proposition] 
