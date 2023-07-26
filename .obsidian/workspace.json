@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
+                "file": "Computer Science/Graph/Trees/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
+                "file": "Computer Science/Graph/Trees/Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md"
+                "file": "Computer Science/Graph/Trees/Tree.md"
               }
             }
           }
@@ -166,14 +166,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8f8d08c4da28ccd8",
+  "active": "1dc96a1f71eb3637",
   "lastOpenFiles": [
-    "Templates/qed.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Templates/cor.md",
     "Computer Science/Graph/Trees/Tree.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Templates/qed.md",
     "Mathematics/Algebra/Ring Theory/Unique Factorization Domain.md",
     "Templates/pf.md",
-    "Templates/cor.md",
     "Templates/thm.md",
     "Templates/prop.md",
     "Templates/math-files.md",
