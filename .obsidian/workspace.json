@@ -4,45 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "5482be996f772aa8",
+        "id": "57d9847977b09311",
         "type": "tabs",
         "children": [
           {
-            "id": "75d3918f4d432611",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "0669574a7be92bff",
+            "id": "9a752eb5d250bc45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "f329c8f797ffe2b8",
+        "type": "tabs",
+        "children": [
           {
-            "id": "5f11afb3d6e2e165",
+            "id": "fe125a65abe4e158",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
-                "mode": "preview",
+                "file": "Computer Science/Graph/Trees/Tree.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +126,49 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md"
+                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md"
               }
             }
+          },
+          {
+            "id": "f2eeb79c00be1a99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7d194ba188aae03",
+            "type": "leaf",
+            "state": {
+              "type": "ObsiDOOM Side Panel",
+              "state": {}
+            }
+          },
+          {
+            "id": "013078925ce3dcaf",
+            "type": "leaf",
+            "state": {
+              "type": "mentor-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 259.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -150,40 +179,42 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "ai-mentor:Mentor": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5f11afb3d6e2e165",
+  "active": "9a752eb5d250bc45",
   "lastOpenFiles": [
-    "Pasted image 20230727135916.png",
+    "Computer Science/Graph/Trees/Enumeration of Trees.md",
+    "Prufer Code.md",
+    "Computer Science/Graph/Connected.md",
+    "Templates/qed.md",
+    "Computer Science/Graph/Trees/Tree.md",
+    "Computer Science/Graph/Graph.md",
+    "Templates/algo.md",
+    "Mathematics/Algebra/Galois Theory/Galois Group.md",
+    "Mathematics/Algebra/Endomorphism.md",
+    "Computer Science/Graph/Distance/Wiener Index.md",
+    "Templates/math-files.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+    "Computer Science/Graph/Distance/Diameter.md",
+    "Computer Science/Graph/Distance/Center.md",
+    "Pasted image 20230727135916.png",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
-    "Computer Science/Graph/Trees/Enumeration of Trees.md",
     "Computer Science/Graph/Trees/Forest.md",
     "Computer Science/Graph/Adjacency Matrix.md",
     "Computer Science/Graph/Trees/Distance in Trees.md",
-    "Computer Science/Graph/Trees/Tree.md",
     "Computer Science/Graph/Trees/Star.md",
     "Computer Science/Graph/Trees/Spanning Tree.md",
-    "Computer Science/Graph/Distance/Wiener Index.md",
     "Computer Science/Graph/Distance/Distance.md",
     "Computer Science/Graph/Subgraph.md",
-    "Computer Science/Graph/Connected.md",
     "2023-07-27.md",
     "Computer Science/Graph/Distance/Radius.md",
     "Computer Science/Graph/Simple Graph.md",
-    "Computer Science/Graph/Bicilique.md",
-    "Computer Science/Graph/Distance/Center.md",
-    "Computer Science/Graph/Distance/Eccentricity.md",
-    "Computer Science/Graph/Distance/Diameter.md",
     "Computer Science/Graph/Distance",
     "Graph",
-    "Computer Science/Graph/Components.md",
-    "Computer Science/Graph/Complete.md",
-    "Computer Science/Graph/Cycle.md",
-    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
     "Spanning Subgraph",
     "Computer Science/Graph/Trees",
     "Computer Science/Graph",

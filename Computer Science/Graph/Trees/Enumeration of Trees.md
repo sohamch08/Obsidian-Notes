@@ -7,12 +7,26 @@ tag: tree
 - With vertex set \[4\] there are four stars and 12 paths yielding 16 trees.
 - With vertex set \[5\] a careful study yields 125 trees
 
+>**Cayley's Formula:** With vertex set \[n\] there are $n^{n-2}$ trees.
 
 
+![[Prufer Code]]
 
+>[!algorithm]
+>(Prufer Code) Production of $f(T)=(a_1,\dots,a_{n-2})$
+>**Input:** A tree $T$ with vertex set $S\subseteq\bbN$ 
+>**Iteration:** At $i$th step delete the least remaining leaf and let $a_i$ be the neighbor of this leaf
 
+If we know the vertex set $S$ then we can retrieve the tree from the code $a$. The idea is to retrieve all the edges. We start with the set $S$ of isolated vertices. At each step we create one edge and mark one vertex. When we are ready to consider $a_i$ there remain $n-i+1$  unmarked vertices and $n-i-1$ entries of $a$. Thus at least two of the unmarked vertices do not appear among the remaining entries of $a$. Let $x$ be the least of these add $xa_i$ to the list of edges and mark $x$. After repeating this $n-2$ times, two unmarked vertices remain; we join them to form the final edge.
 
+***Proof:*** Through out the process each component of the graph we have grown has one unmarked vertex. This is true initially and thus adding an edge with two unmarked endpoints combines two components. After marking one vertex of the new edge again each component has one unmarked vertex (Since we are not marking the vertices appearing in the remaining entries of $a$. So the other endpoint of the edge which is appearing in remaining entries of $a$ is unmarked). After $n-2$ steps we have two unmarked vertices and therefore two components. Adding the last edge yields a [[Connected]] graph. Thus we have built a connected graph with $n$ vertices and $n-1$ edges.  By the part (2) second theorem of [[Tree]] it is a tree. $\blacksquare$
 
+>But we have not yet proved that its Prufer Code is $a$
+
+>[!theorem] Theorem (Cayley's Formula)
+>For a set $S\subseteq\bbN$ of size $n$ there are $n^{n-2}$ trees with vertex set $S$.
+
+***Proof \[Prufer\]:*** This holds for $n=1$, so we assume $n\geq 2$. We prove that the Algorithm defines a bijection $f$ from the set of trees with vertex set $S$ to the set $S^{n-2}$. 
 
 
 

@@ -64,6 +64,18 @@
       "injectColor": true,
       "noTitle": false,
       "copy": false
+    },
+    "algorithm": {
+      "type": "algorithm",
+      "color": "230, 161, 81",
+      "icon": {
+        "type": "obsidian",
+        "name": "lucide-code-2"
+      },
+      "command": false,
+      "title": "Algorithm",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,

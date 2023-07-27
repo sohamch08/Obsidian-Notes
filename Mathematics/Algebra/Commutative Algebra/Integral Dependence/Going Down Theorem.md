@@ -2,7 +2,7 @@
 tag: integral-dependence
 ---
 >[!theorem] Theorem (Going Down Theorem)
->	Let $A\subeq B$ be [[Integral Domain]]s, $A$ is [[Integrally Closed]], $B$ [[Integral Over]] $A$. Let $\mfp_1\supeq \cdots\supeq \mfp_n$ be a chain of [[Prime Ideal]]s of $A$ and let $\mfq_1\supeq\cdots \mfq_m$ $(m<n)$ be a chain of prime ideals of $B$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq m)$. Then the chain $\mfq_1\supeq \cdots \mfq_m$ can be extended to a chain $\mfq_1\supeq \cdots\supeq \mfq_n$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq n)$
+>	Let $A\subeq B$ be [[Integral Domain]]s, $A$ is [[Integrally Closed]], $B$ [[Integral Over]] $A$. Let $\mfp_1\supseteq \cdots\supseteq \mfp_n$ be a chain of [[Prime Ideal]]s of $A$ and let $\mfq_1\supseteq\cdots \mfq_m$ $(m<n)$ be a chain of prime ideals of $B$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq m)$. Then the chain $\mfq_1\supseteq \cdots \mfq_m$ can be extended to a chain $\mfq_1\supseteq \cdots\supseteq \mfq_n$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq n)$
 
 ***Proof:*** Like [[Going Up Theorem]] we reduce immediately to the case $m=1$, $n=2$. Then we have to show that $\mfp_2$ is the contraction of a prime ideal in the ring $B_{\mfq_1}$ . Since the extension or $\mfp_2$ in $B_{\mfq_1}$ is $B_{\mfq_1}\mfp_2$ and the contraction of $B_{\mfq_1}\mfp_2$ in $A$ is $B_{\mfq_1}\mfp_2\cap A$ we equivalently by the last theorem in [[Extended and Contracted Ideals in Ring of Fractions]] we want to show $B_{\mfq_1}\mfp_2\cap A=\mfp_2$ 
 Now let $x\in B_{\mfq_1}\mfp_2$. $x$ is of the form $\dfrac{y}{s}$ where $y\in B\mfp_2$ and $s\in B-\mfq_1$. Now extension of $\mfp_2$ in $B$ is $B\mfp_2$. So integral closure of $\mfp_2$ in $B$ is $r(B\mfp_2)=B\mfp_2$ since $B$ is integral over $A$. Now since $y\in B\mfp_2$ $y$ is integral over $\mfp_2$ by the lemma in [[Integral Closure of Ideal]]. Since $y$ is integral over $\mfp_2$ by the last theorem in [[Integral Closure of Ideal]] we have $y$ is algebraic over the field of fractions $K$ of $A$ and the [[Minimal Polynomial]] of $y$ over $K$ is of the form $$y^r+u_1y^{r-1}+\cdots+u_r=0\quad (\text{in }B\mfp_2)$$ with $u_1,\dots, u_r\in \mfp_2$. 
@@ -307,5 +307,4 @@ $$
 \newcommand{\dps}[1]{\displaystyle{#1}}
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
 \newcommand{\subeq}{\subseteq}
-\newcommand{\supeq}{\supseteq}
 $$
