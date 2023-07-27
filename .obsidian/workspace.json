@@ -18,23 +18,13 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "f329c8f797ffe2b8",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "fe125a65abe4e158",
+            "id": "bd09dbc82d3ee1cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Trees/Tree.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -154,14 +144,6 @@
               "type": "ObsiDOOM Side Panel",
               "state": {}
             }
-          },
-          {
-            "id": "013078925ce3dcaf",
-            "type": "leaf",
-            "state": {
-              "type": "mentor-chat-view",
-              "state": {}
-            }
           }
         ],
         "currentTab": 4
@@ -179,7 +161,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "ai-mentor:Mentor": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
@@ -187,9 +168,10 @@
   "active": "9a752eb5d250bc45",
   "lastOpenFiles": [
     "Computer Science/Graph/Trees/Tree.md",
+    "Computer Science/Graph/Acyclic.md",
+    "Computer Science/Graph/Connected.md",
     "Computer Science/Graph/Trees/Enumeration of Trees.md",
     "Prufer Code.md",
-    "Computer Science/Graph/Connected.md",
     "Templates/qed.md",
     "Computer Science/Graph/Graph.md",
     "Templates/algo.md",
@@ -212,7 +194,6 @@
     "Computer Science/Graph/Subgraph.md",
     "2023-07-27.md",
     "Computer Science/Graph/Distance/Radius.md",
-    "Computer Science/Graph/Simple Graph.md",
     "Computer Science/Graph/Distance",
     "Graph",
     "Spanning Subgraph",

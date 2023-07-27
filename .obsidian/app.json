@@ -7,5 +7,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showLineNumber": false
+  "showLineNumber": false,
+  "trashOption": "none",
+  "tabSize": 4
 }
