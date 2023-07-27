@@ -1,26 +1,24 @@
 ---
-tag: integral-dependence
+tag: tree
 ---
->[!theorem] Theorem (Going Down Theorem)
->	Let $A\subeq B$ be [[Integral Domain]]s, $A$ is [[Integrally Closed]], $B$ [[Integral Over]] $A$. Let $\mfp_1\supeq \cdots\supeq \mfp_n$ be a chain of [[Prime Ideal]]s of $A$ and let $\mfq_1\supeq\cdots \mfq_m$ $(m<n)$ be a chain of prime ideals of $B$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq m)$. Then the chain $\mfq_1\supeq \cdots \mfq_m$ can be extended to a chain $\mfq_1\supeq \cdots\supeq \mfq_n$ such that $\mfq_i\cap A=\mfp_i$ $(1\leq i\leq n)$
 
-***Proof:*** Like [[Going Up Theorem]] we reduce immediately to the case $m=1$, $n=2$. Then we have to show that $\mfp_2$ is the contraction of a prime ideal in the ring $B_{\mfq_1}$ . Since the extension or $\mfp_2$ in $B_{\mfq_1}$ is $B_{\mfq_1}\mfp_2$ and the contraction of $B_{\mfq_1}\mfp_2$ in $A$ is $B_{\mfq_1}\mfp_2\cap A$ we equivalently by the last theorem in [[Extended and Contracted Ideals in Ring of Fractions]] we want to show $B_{\mfq_1}\mfp_2\cap A=\mfp_2$ 
-Now let $x\in B_{\mfq_1}\mfp_2$. $x$ is of the form $\dfrac{y}{s}$ where $y\in B\mfp_2$ and $s\in B-\mfq_1$. Now extension of $\mfp_2$ in $B$ is $B\mfp_2$. So integral closure of $\mfp_2$ in $B$ is $r(B\mfp_2)=B\mfp_2$ since $B$ is integral over $A$. Now since $y\in B\mfp_2$ $y$ is integral over $\mfp_2$ by the lemma in [[Integral Closure of Ideal]]. Since $y$ is integral over $\mfp_2$ by the last theorem in [[Integral Closure of Ideal]] we have $y$ is algebraic over the field of fractions $K$ of $A$ and the [[Minimal Polynomial]] of $y$ over $K$ is of the form $$y^r+u_1y^{r-1}+\cdots+u_r=0\quad (\text{in }B\mfp_2)$$ with $u_1,\dots, u_r\in \mfp_2$. 
-Let  $x\in B_{\mfq_1}\mfp_2\cap A$. Then $s=yx^{-1}$ with $x^{-1}\in K$  so that the minimal equation for $s$ over $K$ is obtained by dividing  it by $x^r$. is therefore say $$s^r+v_1s^{r-1}+\cdots+v_r=0\quad (\text{in }B\mfp_2)$$ where $v_i=\dfrac{u_i}{x^{i}}$ Consequently  $x^i v_i=u_i$ for $1\leq i\leq r$. Now $s\in B-\mfq_1$, $B$ is integral over $A$. Hence $s$ is integral over $A$. In the last theorem in [[Integral Closure of Ideal]] if we take the ideal $\mfa=(1)$ then $s$ is integral over $\mfa$ and therefore each $v_i\in r(\mfa)$ in $A$ which is $A$ itself since $\mfa=A$  
+>[!theorem] 
+>The [[Center]] of a [[Tree]] is a vertex or an edge
 
-Let $x\notin \mfp_2$. Then by $x^i v_i=u_i\in \mfp_2$ we have each $v_i\in\mfp_2$. Hence by the minimal polynomial of $s$ it shows that $s^r\in B\mfp_2 \subeq B\mfp_1\subeq \mfq_1$ and hence $s\in \mfq_1$. Contradiction. Therefore $x\in \mfp_2$. Therefore $B_{\mfq_1}\mfp_2\cap A=\mfp_2$ as required. $\blacksquare$
+***Proof:*** We use induction on the number of vertices in a [[Tree]]
+Basic Step: $n(T)\leq 2$ With at most two vertices the center is the entire tree.
+Induction Step: $n(T)>2$ Form $T'$  by deleting every leaf of $T$. By the first lemma $T'$ is a tree. Since the internal vertices on paths between leaves of $T$ remain, $T'$ has at least one vertex. Every vertex at maximum distance in $T$ from a vertex $u\in V(T)$ is a leaf. Since all the leaves have been removed and no path between two other vertices uses a leaf $\eps_{T'}(u)=\eps_T(u)-1$ for every $u\in V(T')$. Also the [[Eccentricity]] of a leaf in $T$ is greater than the eccentricity of its neighbor in $T$. Hence the vertices minimizing $\eps_T(u)$ are the same as the vertices minimizing $\eps_{T'}(u)$
+So we have shown that $T$ and $T'$ have the same center. By the induction hypothesis the [[Center]] of $T'$ is a vertex or an edge. $\blacksquare$
 
+>[!theorem] 
+>Among trees with $n$ vertices the [[Wiener Index]] $D(T)=\sum\limits_{u,v}d(u,v)$ is minimized by [[Star]]s and maximized by paths both uniquely
 
-
-
-
-
-
-
-
-
-
-
+***Proof:*** **Minimization:** Since a tree has $n-1$ edges it has $n-1$ pairs of vertices at distance 1. And all other pairs have [[Distance]] at least 2. The star achieves this and hence minimizes $D(T)$.
+To show no other tree achieves this, consider a leaf $x$ in $T$, and let $v$ be its neighbor. If all other vertices have distance 2 from $x$ then they must be neighbors of $v$ and $T$ is the [[Star]]. The value is $$D(K_{1,n-1})=(n-1)+2{{n-1}\choose{2}}=(n-1)^2$$
+**Maximization:** Consider first $D(P_n)$. This equals the sum of distances from an endpoint $u$ to the other vertices plus $D(P_{n-1})$. We have $$\sum\limits_{v\in V(P_n)}d(u,v)=\sum\limits_{i=1}^{n-1}i={{n}\choose{2}}$$Thus $D(P_n)=D(P_{n-1})+{{n}\choose{2}}$ With Pascals Formula $${{n}\choose{k}}+{{n}\choose{k-1}}={{n+1}\choose{k}}$$induction yields $D(P_n)={{n+1}\choose{3}}$. We prove by induction on $n$ that among $n-$vertex trees $P_n$ is the only tree that maximizes $D(T)$. 
+Basic Step: $n=1$ The only tree with one vertex is $P_1$.
+Inductive Step: $n>1$ Let $u$ be a leaf of an $n-$vertex tree $T$. Now $$D(T)=D(T-u)+\sum\limits_{v\in V(T)}d(u,v)$$By induction hypothesis $D(T-u)\leq D(P_{n-1})$ with equality if and only if $T-u$ is a path. Thus it suffices to show that $\sum\limits_{v\in V(T)}d(u,v)$ is maximized only when $T$ is a path and $u$ is an endpoint of $T$. 
+Consider the list of distances from $u$. In $P_n$ this list is $1,2,\dots,n-1$ all distinct. A shortest path from $u$ to a vertex farthest from $u$ contains vertices at all distances from $u$. So in any tree the set of distances from $u$ to other vertices has no gaps. Thus any repetition makes $\sum\limits_{v\in V(T)}d(u,v)$ smaller than when $u$ is a leaf of a path (Since you can add the extra path from the vertex it branches out after the furthest vertex so you have a path with longest distance more). When $T$ is not a path such repetition occurs $\blacksquare$
 
 
 
@@ -55,8 +53,18 @@ Let $x\notin \mfp_2$. Then by $x^i v_i=u_i\in \mfp_2$ we have each $v_i\in\mfp_2
 
 
 
-$$
-%---------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+$$%---------------------------------------
 % BlackBoard Math Fonts :-
 %---------------------------------------
 
@@ -307,5 +315,5 @@ $$
 \newcommand{\dps}[1]{\displaystyle{#1}}
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
 \newcommand{\subeq}{\subseteq}
-\newcommand{\supeq}{\supseteq}
+
 $$

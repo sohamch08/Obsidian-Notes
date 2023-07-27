@@ -170,5 +170,15 @@
       ],
       "key": "G"
     }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "obsidian-editor-shortcuts:insertLineBelow": [],
+  "hotkeysplus-obsidian:insert-line-below": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
   ]
 }

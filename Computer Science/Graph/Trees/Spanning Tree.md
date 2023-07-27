@@ -23,7 +23,9 @@ We use the last corollary of [[Tree]] to prove two results about pairs of [[Span
 
 ***Proof:*** By the part (2) of the last corollary of [[Tree]] the graph $T'+e$ obtains an unique [[Cycle]] $C$. Since $T$ is [[Acyclic]], there is an edge $e'\in E(C)-E(T)$. Deleting $e'$ breaks the only cycle in $T'+e$. Now $T'+e-e'$ is connected and acyclic and is a [[Spanning Tree]] of $G$ $\blacksquare$
 
+## Disjoint Spanning Trees
 
+The game bridge the player 2 has no winning strategy. West page 74
 
 
 

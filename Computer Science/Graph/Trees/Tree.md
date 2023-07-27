@@ -1,4 +1,3 @@
-
 ---
 tag: tree
 ---
@@ -8,7 +7,6 @@ tag: tree
 
 
 - Paths are trees. A tree is a path $\iff$ its maximum degree is 2
-- A **Star** is a tree consisting of one vertex adjacent to all the others. An $n-$vetex star is the [[Bicilique]] $K_{1,n-1}$
 
 ## Basic Properties
 
@@ -52,24 +50,7 @@ tag: tree
 For $k=0$ every simple graph contain $K_1$ ([[Complete]]) which is the only tree with no edges.
 Induction Step: $k>0$ We assume that the claim holds for trees with fewer than $k$ edges.
 Since $k>0$ the first lemma allows us to choose a leaf $v$ in $T$. Let $u$ be its neighbor. Consider the smaller tree $T'=T-v$. By the induction hypothesis $G$ contains $T'$ as a subgraph since $\delta(G)\geq k>k-1$.
-Let $x$ be the vertex in this copy of $T'$ that corresponds to $u$. Because $T'$ has only $k-1$ vertices other than $u$ and $d_G(x)\geq k$, $x$ has a neighbor $y$ in $G$ that is not in this copy $T'$. Adding the edge $xy$ expands this copy of $T'$ into a copy of $T$ in $G$ with $y$ playing the role of $v$ $\blacksquare$
-
-
-## Distance in Trees and Graphs
-
-
->[!theorem] 
->The [[Center of Graph]] that is a tree is a vertex or an edge
-
-***Proof:*** We use induction on the number of vertices in a tree
-Basic Step: $n(T)\leq 2$ With at most two vertices the center is the entire tree.
-Induction Step: $n(T)>2$ Form $T'$  by deleting every leaf of $T$. 
-
-
-
-
-
-
+Let $x$ be the vertex in this copy of $T'$ that corresponds to $u$. Because $T'$ has only $k-1$ vertices other than $u$ and $d_G(x)\geq k$, $x$ has a neighbor $y$ in $G$ that is not in this copy $T'$. Adding the edge $xy$ expands this copy of $T'$ into a copy of $T$ in $G$ with $y$ playing the role of $v$. $\blacksquare$
 
 
 

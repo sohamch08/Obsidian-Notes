@@ -6,7 +6,7 @@ tag: integral-dependence
 
 Clearly every element of $A$ is integral over $A$
 
->The following thoerem creates a connection with  [[Finitely Generated Module]] and [[Faithful Module]]
+>The following theorem creates a connection with  [[Finitely Generated Module]] and [[Faithful Module]]
 
 > [!theorem] 
 > The followings are equivalent

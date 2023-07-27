@@ -5,8 +5,10 @@ tag: distance
 >If $G$ is a [[Graph]] and it has a $u,v-$path then the distance from $u$ to $v$ written $d_G(u,v)$ or simply $d(u,v)$ is the least length of a $u,v-$path. >If $G$ has no such path then $d(u,v)=\infty$
 
 
+>[!lemma] 
+>If $H$ is a [[Subgraph]] of $G$ then $d_G(u,v)\leq d_H(u,v)$
 
-
+***Proof:*** Every $u,v-$path in $H$ appears also in $G$ so the shortest $u,v-$path in $G$ is no longer than the shortest $u,v-$path in $H$ $\blacksquare$
 
 
 

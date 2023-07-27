@@ -4,15 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "e29973353e5b60ef",
+        "id": "5482be996f772aa8",
         "type": "tabs",
         "children": [
           {
-            "id": "b8923e6b2f57347e",
+            "id": "75d3918f4d432611",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "0669574a7be92bff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f11afb3d6e2e165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -76,22 +102,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c3f8a4a548c027e8",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "7cf9f437b60beef5",
             "type": "leaf",
             "state": {
@@ -140,36 +150,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b8923e6b2f57347e",
+  "active": "75d3918f4d432611",
   "lastOpenFiles": [
-    "Computer Science/Graph/Distance/Center of Graph.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
+    "Computer Science/Graph/Trees/Enumeration of Trees.md",
+    "Computer Science/Graph/Trees/Forest.md",
+    "Adjacency Matrix.md",
+    "Computer Science/Graph/Trees/Distance in Trees.md",
     "Computer Science/Graph/Trees/Tree.md",
-    "Computer Science/Graph/Distance/Radius.md",
-    "Computer Science/Graph/Distance/Eccentricity.md",
+    "Computer Science/Graph/Trees/Star.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Pasted image 20230727135916.png",
+    "Computer Science/Graph/Distance/Wiener Index.md",
     "Computer Science/Graph/Distance/Distance.md",
+    "Computer Science/Graph/Subgraph.md",
+    "Computer Science/Graph/Connected.md",
+    "2023-07-27.md",
+    "Computer Science/Graph/Distance/Radius.md",
+    "Computer Science/Graph/Simple Graph.md",
+    "Computer Science/Graph/Bicilique.md",
+    "Computer Science/Graph/Distance/Center.md",
+    "Computer Science/Graph/Distance/Eccentricity.md",
     "Computer Science/Graph/Distance/Diameter.md",
     "Computer Science/Graph/Distance",
     "Graph",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
     "Computer Science/Graph/Components.md",
     "Computer Science/Graph/Complete.md",
     "Computer Science/Graph/Cycle.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
     "Mathematics/Algebra/Field Theory/Minimal Polynomial.md",
-    "Mathematics/Algebra/Field Theory/Algebraic.md",
-    "Templates/qed.md",
-    "Templates/cor.md",
-    "Mathematics/Algebra/Ring Theory/Unique Factorization Domain.md",
-    "Templates/pf.md",
-    "Templates/thm.md",
-    "Templates/prop.md",
-    "Templates/math-files.md",
-    "Templates/lem.md",
-    "Templates/def.md",
-    "Computer Science/Graph/Cut Edge.md",
-    "Computer Science/Graph/Acyclic.md",
-    "[Connected.md",
-    "Mathematics/Algebra/Galois Theory/Galois Group.md",
     "Spanning Subgraph",
     "Computer Science/Graph/Trees",
     "Computer Science/Graph",
