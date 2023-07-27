@@ -26,7 +26,7 @@ If we know the vertex set $S$ then we can retrieve the tree from the code $a$. T
 >[!theorem] Theorem (Cayley's Formula)
 >For a set $S\subseteq\bbN$ of size $n$ there are $n^{n-2}$ trees with vertex set $S$.
 
-***Proof \[Prufer\]:*** This holds for $n=1$, so we assume $n\geq 2$. We prove that the Algorithm defines a bijection $f$ from the set of trees with vertex set $S$ to the set $S^{n-2}$. 
+***Proof \[Prufer\]:*** This holds for $n=1$, so we assume $n\geq 2$. We prove that the Algorithm defines a bijection $f$ from the set of trees with vertex set $S$ to the set $S^{n-2}$ of lists of length $n-2$ from $S$. We must show for each $a=(a_1,\dots,a_n)\in S^{n-2}$ that exactly one tree $T$ with vertex set $S$ satisfies $f(T)=a$. We prove this by induction on $n$.
 
 
 
