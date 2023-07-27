@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md"
+              }
             }
           }
         ]
@@ -150,19 +154,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75d3918f4d432611",
+  "active": "5f11afb3d6e2e165",
   "lastOpenFiles": [
+    "Pasted image 20230727135916.png",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
     "Computer Science/Graph/Trees/Enumeration of Trees.md",
     "Computer Science/Graph/Trees/Forest.md",
-    "Adjacency Matrix.md",
+    "Computer Science/Graph/Adjacency Matrix.md",
     "Computer Science/Graph/Trees/Distance in Trees.md",
     "Computer Science/Graph/Trees/Tree.md",
     "Computer Science/Graph/Trees/Star.md",
     "Computer Science/Graph/Trees/Spanning Tree.md",
-    "Pasted image 20230727135916.png",
     "Computer Science/Graph/Distance/Wiener Index.md",
     "Computer Science/Graph/Distance/Distance.md",
     "Computer Science/Graph/Subgraph.md",
@@ -180,7 +184,6 @@
     "Computer Science/Graph/Complete.md",
     "Computer Science/Graph/Cycle.md",
     "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Ring of Fraction.md",
-    "Mathematics/Algebra/Field Theory/Minimal Polynomial.md",
     "Spanning Subgraph",
     "Computer Science/Graph/Trees",
     "Computer Science/Graph",
