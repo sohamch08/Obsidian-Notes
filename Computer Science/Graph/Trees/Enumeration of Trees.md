@@ -28,6 +28,14 @@ If we know the vertex set $S$ then we can retrieve the tree from the code $a$. T
 
 ***Proof \[Prufer\]:*** This holds for $n=1$, so we assume $n\geq 2$. We prove that the Algorithm defines a bijection $f$ from the set of trees with vertex set $S$ to the set $S^{n-2}$ of lists of length $n-2$ from $S$. We must show for each $a=(a_1,\dots,a_n)\in S^{n-2}$ that exactly one tree $T$ with vertex set $S$ satisfies $f(T)=a$. We prove this by induction on $n$.
 Basic step: $n=2$ There is one tree with two vertices. The [[Prufer Code]] is a list of length 0 and it is the only such list.
+Inductive step: $n>2$ Computing $f(T)$ reduces each vertex to degree 1 and possibly deletes it. Thus every non leaf vertex in $T$ appears in $f(T)$. No leaf appears, because recording a leaf as a neighbor of a leaf would require reducing the tree to one vertex. Hence the leaves of $T$ are the elements of $S$ not in $f(T)$. If $f(T)=a$ then the first leaf deleted is the least element of $S$ not in $a$ (call it $x$) and the neighbor of $x$ is $a_1$.
+We are given $a\in S^{n-2}$ and seek all solutions to $f(T)=a$. We have shown that every such tree has $x$ as its least leaf and has the edge $xa_1$. Deleting $x$ leaves a tree with vertex set $S'=S-\{x\}$. Its [[Prufer Code]] is $a'=(a_2,\dots,a_{n-2})$ an $n-3$ tuple formed from $S'$. By induction hypothesis there exists exactly one tree $T'$ having vertex set $S'$ and Prufer Code $a'$. Since every tree with Prufer code $a$ is formed by adding the edge $xa_1$ to such a tree there is at most one solution to $f(T)=a$. Furthermore adding $xa_1$ to $T'$ does create a tree with vertex set and [[Prufer Code]] $a$, so there is at least one solution $\blacksquare$
+
+>[!corollary] 
+>Given positive integers $d_1,\dots, d_n$ summing to $2n-2$ there are exactly $\frac{(n-2)!}{\prod(d_i-1)!}$ trees with vertex set $[n]$ such that vertex $i$ has degree $d_i$ for each $i$
+
+***Proof:*** 
+ 
 
 
 
