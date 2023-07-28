@@ -1,1 +1,1 @@
-[[Low Degree Factorization]] - [[Oli15]]
+[[Low Degree Factorization]] - [[@oliveiraFactorsLowIndividual2016]]

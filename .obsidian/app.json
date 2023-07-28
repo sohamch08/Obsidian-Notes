@@ -9,5 +9,6 @@
   },
   "showLineNumber": false,
   "trashOption": "none",
-  "tabSize": 4
+  "tabSize": 4,
+  "vimMode": false
 }

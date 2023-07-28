@@ -7,6 +7,7 @@ tag: tree
 
 >A graph that is a [[Tree]] has exactly one spanning tree; the full graph itself
 
+>A [[Disconnected]] graph has no spanning trees.
 
 We use the last corollary of [[Tree]] to prove two results about pairs of [[Spanning Tree]]s.
 
@@ -27,11 +28,18 @@ We use the last corollary of [[Tree]] to prove two results about pairs of [[Span
 
 The game bridge the player 2 has no winning strategy. West page 74
 
+>[!proposition] 
+>Let $\tau(G)$ denote the number of spanning trees of a graph $G$. If $e\in E(G)$ is not a loop then $$\tau(G)=\tau(G-e)+\tau(G\cdot e)$$
 
+***Proof:*** The spanning [[Tree]]s of $G$ that omit $e$ are precisely the spanning trees of $G-e$. To show that $G$ has $\tau(G\cdot e)$ spanning trees containing $e$ we show that [[Contraction]] of $e$ defines a bijection from the set of spanning trees of $G$ containing $e$ to the set of spanning trees of $G\cdot e$.
+When we contract $e$ in a spanning tree that contains we obtain a spanning tree of $G\cdot e$ because the resulting [[Subgraph]] of $G\cdot e$ is spanning and [[Connected]] and has the right number if edges. The other edges maintain their identity under [[Contraction]] so no two [[Tree]]s are mapped to the same spanning tree of $G\cdot e$ by this operation. Also each spanning tree of $G$. Since each spanning tree $G\cdot e$ arises exactly once the function is a bijection. $\blacksquare$
 
+>We cannot apply this proposition when $e$ is a loop.
 
+>If $G$ is a [[Connected]] loopless graph with no [[Cycle]] of length at least 3 then $\tau(G)$ is the product of the edge multiplicities.
 
-
+>[!theorem] Theorem (Matrix Tree Theorem)
+>Given a loopless graph $G$ with vertex set $v_1,\dots,v_n$, let $a_{ij}$ be the number of edges with endpoints $v_i$ and $v_j$. Let $Q$ be the matrix in which entry $(i,j)$ is $-a_{ij}$ when $i\neq j$ and is $d(v_i)$ when $i=j$. If $Q^*$ is a matrix obtained by deleting a row $s$ and column $t$ of $Q$, then $$\tau(G)=(-1)^{s+t}\det(Q)$$
 
 
 

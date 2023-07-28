@@ -103,4 +103,4 @@ $f(\ovx,y)=\sum\limits_{i=0}^kf_i(\ovx)y^i$ and $P(\ovx,y)=\sum\limits_{i=0}^rP_
 - Computes an [[Auxiliary Polynomial]] $Q(z_0,\dots,z_r)$ for $g$ such that $$H_{\leq t}^{\ovx}[Q_t(\tdC_0(\ovx),\dots,\tdC_r(\ovx))]\equiv g_t(\ovx)$$ where $\tdC_i(\ovx)=C_i(\ovx)-C_i(\overline{0})$ 
 - We approximate the root $g$ by increasing the degree $t$ with the relation $$Q_t(\ovz)\equiv H_{\leq t}^{\ovx} \left[Q_{t-1}(\ovz)-\frac{1}{\epsilon}\sum\limits_{i=0}^r(z_i+C_i(\overline{0}))Q_{t-1}^i(\ovz)\right]$$
 - This polynomial has a formula $\varphi_t$ by computing all possible monomials so have the size $O\left(2tr^2{{t+r+1}\choose{r+1}}\right)$. So the polynomial $Q_t(\tdC_0(\ovx),\dots,\tdC_r(\ovx))$ has formula size $O\left(200(tr)^2{{t+r+1}\choose{r+1}}|\Gamma|\right)$ 
-It uses the [Approximation Lemma](./Approximate%20Root.md) in [[Oli15]]
+It uses the [Approximation Lemma](./Approximate%20Root.md) in [[@oliveiraFactorsLowIndividual2016]]
