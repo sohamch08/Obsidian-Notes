@@ -21,11 +21,13 @@ We use the last corollary of [[Tree]] to prove two results about pairs of [[Span
 >[!proposition] 
 >If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T'+e-e'$ is a spanning tree of $G$
 
-***Proof:*** By the part (2) of the last corollary of [[Tree]] the graph $T'+e$ obtains an unique [[Cycle]] $C$. Since $T$ is [[Acyclic]], there is an edge $e'\in E(C)-E(T)$. Deleting $e'$ breaks the only cycle in $T'+e$. Now $T'+e-e'$ is connected and acyclic and is a [[Spanning Tree]] of $G$ $\blacksquare$
+***Proof:*** By the part (2) of the last corollary of [[Tree]] the graph $T'+e$ obtains an unique [[Cycle]] $C$. Since $T$ is [[Acyclic]], there is an edge $e'\in E(C)-E(T)$. Deleting $e'$ breaks the only cycle in $T'+e$. Now $T'+e-e'$ is connected and acyclic and is a [[Spanning Tree]] of $G$. $\blacksquare$
 
 ## Disjoint Spanning Trees
 
 The game bridge the player 2 has no winning strategy. West page 74
+
+
 
 
 

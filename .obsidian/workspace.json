@@ -4,27 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "57d9847977b09311",
+        "id": "91529139b64e7a38",
         "type": "tabs",
         "children": [
           {
-            "id": "9a752eb5d250bc45",
+            "id": "05353065311bca6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md",
+                "file": "References/@burgisserCompletenessReductionAlgebraic2000.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "bd09dbc82d3ee1cd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -93,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md",
+                "file": "References/@burgisserCompletenessReductionAlgebraic2000.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md"
+                "file": "References/@burgisserCompletenessReductionAlgebraic2000.md"
               }
             }
           },
@@ -126,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Trees/Enumeration of Trees.md",
+                "file": "References/@burgisserCompletenessReductionAlgebraic2000.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,15 +157,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a752eb5d250bc45",
+  "active": "24d65fef5551d718",
   "lastOpenFiles": [
-    "Complexity-Class.canvas",
+    "References/@burgisserAlgebraicComplexityTheory1997.md",
+    "References/@burgisserCompletenessReductionAlgebraic2000.md",
     "Computer Science/Graph/Trees/Enumeration of Trees.md",
+    "My Research Work/Research Papers/DSY09.md",
+    "References",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
     "Computer Science/Graph/Trees/Tree.md",
+    "Templates/qed.md",
+    "Algebra/Craraara",
+    "Algebra",
+    "Complexity-Class.canvas",
     "Computer Science/Graph/Acyclic.md",
     "Computer Science/Graph/Connected.md",
     "Computer Science/Graph/Prufer Code.md",
-    "Templates/qed.md",
     "Computer Science/Graph/Graph.md",
     "Templates/algo.md",
     "Mathematics/Algebra/Galois Theory/Galois Group.md",
@@ -190,10 +189,7 @@
     "Computer Science/Graph/Adjacency Matrix.md",
     "Computer Science/Graph/Trees/Distance in Trees.md",
     "Computer Science/Graph/Trees/Star.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
     "Computer Science/Graph/Distance/Distance.md",
-    "Computer Science/Graph/Subgraph.md",
-    "2023-07-27.md",
     "Computer Science/Graph/Distance",
     "Graph",
     "Spanning Subgraph",
@@ -201,9 +197,6 @@
     "Computer Science/Graph",
     "Computer Science",
     "Mathematics/Algebra/Commutative Algebra/Primary Decomposition",
-    "Mathematics/Algebra/Galois Theory",
-    "Mathematics/Algebra/Group Theory",
-    "Mathematics/Algebra/Field Theory",
     "My-Academic-Works/Complexity-Class.canvas"
   ]
 }

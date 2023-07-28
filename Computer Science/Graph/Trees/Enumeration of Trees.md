@@ -34,7 +34,9 @@ We are given $a\in S^{n-2}$ and seek all solutions to $f(T)=a$. We have shown th
 >[!corollary] 
 >Given positive integers $d_1,\dots, d_n$ summing to $2n-2$ there are exactly $\frac{(n-2)!}{\prod(d_i-1)!}$ trees with vertex set $[n]$ such that vertex $i$ has degree $d_i$ for each $i$
 
-***Proof:*** 
+***Proof:*** While constructing the [[Prufer Code]] of a tree $T$, we record $x$ each time we delete a neighbor of $x$ until we delete $x$ itself or leave $x$ among the last two vertices. Thus each vertex $x$ appears $d_T(x)-1$ times in the Prufer code.
+Therefore we count trees with these vertex degrees by counting lists of length $n-2$ that for each $i$ have $d_i-1$ copies of $i$. If we assign subscripts to the copies of each $i$ to distinguish them, then we are permuting $n-2$ distinct objects and there are $(n-2)!$ lists. Since the copies of $i$ are not distinguishable, we have counted each desired arrangement $\prod(d_i-1)!$ times. $\blacksquare$
+
  
 
 
