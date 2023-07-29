@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "dbe914ca69b635cc",
+            "id": "3bc29303365df28a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
-                "mode": "source",
+                "file": "Computer Science/Graph/Orientaion.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matrix Tree Theorem.md",
+                "file": "Computer Science/Graph/Orientaion.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matrix Tree Theorem.md"
+                "file": "Computer Science/Graph/Orientaion.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matrix Tree Theorem.md",
+                "file": "Computer Science/Graph/Orientaion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,10 +169,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9de1d8757654efb",
+  "active": "3bc29303365df28a",
   "lastOpenFiles": [
-    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Computer Science/Graph/Trees/Counting Spanning Tree.md",
     "Matrix Tree Theorem.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Computer Science/Graph/Orientaion.md",
     "Computer Science/Graph/Incidence Matrix.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
     "Contraction.md",
@@ -198,8 +201,6 @@
     "Computer Science/Graph/Connected.md",
     "Computer Science/Graph/Trees/Prufer Code.md",
     "Computer Science/Graph/Graph.md",
-    "Templates/algo.md",
-    "Mathematics/Algebra/Galois Theory/Galois Group.md",
     "Pasted image 20230727135916.png",
     "Computer Science/Graph/Distance",
     "Graph",

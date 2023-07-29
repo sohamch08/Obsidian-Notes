@@ -1,32 +1,31 @@
 ---
-tag: tree 
+tag: tree
 ---
-
->[!definition] Definition (Spanning Tree)
->A spanning [[Tree]] is a [[Spanning Subgraph]] that is a [[Tree]]
-
->A graph that is a [[Tree]] has exactly one spanning tree; the full graph itself
-
->A [[Disconnected]] graph has no spanning trees.
-
-We use the last corollary of [[Tree]] to prove two results about pairs of [[Spanning Tree]]s.
-
->Subtraction: Deletion of edges
->Addition: Inclusion of edges
-
 >[!proposition] 
->If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T-e+e'$ is a spanning tree of $G$
+>Let $\tau(G)$ denote the number of [[Spanning Tree]]s of a graph $G$. If $e\in E(G)$ is not a loop then $$\tau(G)=\tau(G-e)+\tau(G\cdot e)$$
 
-***Proof:*** By the part (1) of the last corollary of [[Tree]], every edge of $T$ is a [[Cut Edge]] of $T$. Let $U$ and $U'$ be the two [[Components]] of $T-e$. Since $T'$ is connected $T'$ has an edge $e'$ with the endpoints in $U$ and $U'$. Now $T-e+e'$ is [[Connected]], has $n(G)-1$ edges and is a spanning tree of $G$. $\blacksquare$
+***Proof:*** The spanning [[Tree]]s of $G$ that omit $e$ are precisely the [[Spanning Tree]]s of $G-e$. To show that $G$ has $\tau(G\cdot e)$ [[Spanning Tree]]s containing $e$ we show that [[Contraction]] of $e$ defines a bijection from the set of [[Spanning Tree]]s of $G$ containing $e$ to the set of spanning trees of $G\cdot e$.
+When we contract $e$ in a [[Spanning Tree]] that contains we obtain a spanning tree of $G\cdot e$ because the resulting [[Subgraph]] of $G\cdot e$ is spanning and [[Connected]] and has the right number if edges. The other edges maintain their identity under [[Contraction]] so no two [[Tree]]s are mapped to the same spanning tree of $G\cdot e$ by this operation. Also each spanning tree of $G$. Since each [[Spanning Tree]] $G\cdot e$ arises exactly once the function is a bijection. $\blacksquare$
 
->[!proposition] 
->If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T'+e-e'$ is a spanning tree of $G$
+>We cannot apply this proposition when $e$ is a loop.
 
-***Proof:*** By the part (2) of the last corollary of [[Tree]] the graph $T'+e$ obtains an unique [[Cycle]] $C$. Since $T$ is [[Acyclic]], there is an edge $e'\in E(C)-E(T)$. Deleting $e'$ breaks the only cycle in $T'+e$. Now $T'+e-e'$ is connected and acyclic and is a [[Spanning Tree]] of $G$. $\blacksquare$
+>If $G$ is a [[Connected]] loopless graph with no [[Cycle]] of length at least 3 then $\tau(G)$ is the product of the edge multiplicities.
 
-## Disjoint Spanning Trees
+![[Matrix Tree Theorem]]
 
-The game bridge the player 2 has no winning strategy. West page 74
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

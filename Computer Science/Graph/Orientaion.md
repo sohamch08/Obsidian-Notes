@@ -1,32 +1,20 @@
 ---
-tag: tree 
+tag: graph
 ---
 
->[!definition] Definition (Spanning Tree)
->A spanning [[Tree]] is a [[Spanning Subgraph]] that is a [[Tree]]
 
->A graph that is a [[Tree]] has exactly one spanning tree; the full graph itself
 
->A [[Disconnected]] graph has no spanning trees.
 
-We use the last corollary of [[Tree]] to prove two results about pairs of [[Spanning Tree]]s.
 
->Subtraction: Deletion of edges
->Addition: Inclusion of edges
 
->[!proposition] 
->If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T-e+e'$ is a spanning tree of $G$
 
-***Proof:*** By the part (1) of the last corollary of [[Tree]], every edge of $T$ is a [[Cut Edge]] of $T$. Let $U$ and $U'$ be the two [[Components]] of $T-e$. Since $T'$ is connected $T'$ has an edge $e'$ with the endpoints in $U$ and $U'$. Now $T-e+e'$ is [[Connected]], has $n(G)-1$ edges and is a spanning tree of $G$. $\blacksquare$
 
->[!proposition] 
->If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T'+e-e'$ is a spanning tree of $G$
 
-***Proof:*** By the part (2) of the last corollary of [[Tree]] the graph $T'+e$ obtains an unique [[Cycle]] $C$. Since $T$ is [[Acyclic]], there is an edge $e'\in E(C)-E(T)$. Deleting $e'$ breaks the only cycle in $T'+e$. Now $T'+e-e'$ is connected and acyclic and is a [[Spanning Tree]] of $G$. $\blacksquare$
 
-## Disjoint Spanning Trees
 
-The game bridge the player 2 has no winning strategy. West page 74
+
+
+
 
 
 
