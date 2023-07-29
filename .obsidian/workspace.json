@@ -11,8 +11,24 @@
             "id": "f100eea6a8f75ba4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "111293d06feed618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Graph/Binet-Cauchy Formula.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3f3a6db66ff1678c",
@@ -81,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -102,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md"
+              }
             }
           },
           {
@@ -111,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,8 +171,11 @@
   },
   "active": "f100eea6a8f75ba4",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Computer Science/Graph/Binet-Cauchy Formula.md",
     "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Computer Science/Graph/Incidence Matrix.md",
+    "Untitled.md",
     "Computer Science/Graph/Subgraph.md",
     "Computer Science/Graph/Trees/Tree.md",
     "Computer Science/Graph/Orientation.md",
@@ -159,7 +183,6 @@
     "Computer Science/Graph/Components.md",
     "Computer Science/Graph/Spanning Subgraph.md",
     "Computer Science/Graph/Simple Graph.md",
-    "Computer Science/Graph/Incidence Matrix.md",
     "Computer Science/Graph/Graph.md",
     "Computer Science/Graph/Cycle.md",
     "Computer Science/Graph/Cut Edge.md",
@@ -171,11 +194,9 @@
     "Computer Science/Graph/Acyclic.md",
     "Computer Science/Graph/Trees/Enumeration of Trees.md",
     "Computer Science/Graph/Trees/Counting Spanning Tree.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
     "References/@burgisserAlgebraicComplexityTheory1997.md",
-    "My Research Work/Polynomial Factorization/Approximate Root.md",
     "References",
     "Algebra/Craraara",
     "Algebra",
