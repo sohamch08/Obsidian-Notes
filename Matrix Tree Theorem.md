@@ -1,44 +1,34 @@
 ---
-tag: tree 
+tag: tree
 ---
+>[!theorem] Theorem (Matrix Tree Theorem)
+>Given a loopless graph $G$ with vertex set $v_1,\dots,v_n$, let $a_{ij}$ be the number of edges with endpoints $v_i$ and $v_j$. Let $Q$ be the matrix in which entry $(i,j)$ is $-a_{ij}$ when $i\neq j$ and is $d(v_i)$ when $i=j$. If $Q^*$ is a matrix obtained by deleting a row $s$ and column $t$ of $Q$, then $$\tau(G)=(-1)^{s+t}\det(Q)$$
 
->[!definition] Definition (Spanning Tree)
->A spanning [[Tree]] is a [[Spanning Subgraph]] that is a [[Tree]]
+>We prove this only when $s=t$ the general statement follows from a result in linear algebra (when the columns of a matrix to the vertex 0, the cofactors are constant in each row)
 
->A graph that is a [[Tree]] has exactly one spanning tree; the full graph itself
+***Proof:*** 
+**Step 1:** 
+>If $D$ is an orientation of $G$ and $M$ is the [[Incidence Matrix]] of $D$ then $Q=MM^T$.
 
->A [[Disconnected]] graph has no spanning trees.
+Entry $i,j$ in $MM^T$ is the dot product of rows $i$ and $j$ of $M$. When $i\neq j$ the product counts $-1$ for every edge of $G$ joining the two vertices; when $i=j$ it counts 1 for every incident edge and yields the degree. $\blacksquare$
 
-We use the last corollary of [[Tree]] to prove two results about pairs of [[Spanning Tree]]s.
+**Step 2:** 
+>If $B$ is an $(n-1)\times (n-1)$ submatrix of $M$ then $\det B=\pm 1$ if the corresponding $n-1$ edges form a spanning tree of $G$ and otherwise $\det B=0$.
 
->Subtraction: Deletion of edges
->Addition: Inclusion of edges
+In the first case we use induction on $n$ to prove that $\det B=\pm 1$. For $n=1$ by convention a $0\times 0$ matrix has determinant 1. For $n>1$, let $T$ be the spanning tree whose edges are the columns of $B$. Since $T$ has at least two leaves and only one row is deleted, $B$ has a row corresponding to a leaf $x$ of $T$. This row has only one nonzero entry. When computing the determinant by expanding along this row the only submatrix $B'$ with weight in the expansion corresponds to the spanning subtree of $G-x$ obtained by deleting $x$ and its incident edge from $T$. Since $B'$ is an $(n-2)\times (n-2)$ submatrix of the [[Incidence Matrix]] for an [[Orientaion]] of $G-x$ the induction hypothesis yields $\det B'= \pm 1$. Since the nonzero entry in row $x$ is $\pm1$, obtain the same result for $B$.
 
->[!proposition] 
->If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T-e+e'$ is a spanning tree of $G$
 
-***Proof:*** By the part (1) of the last corollary of [[Tree]], every edge of $T$ is a [[Cut Edge]] of $T$. Let $U$ and $U'$ be the two [[Components]] of $T-e$. Since $T'$ is connected $T'$ has an edge $e'$ with the endpoints in $U$ and $U'$. Now $T-e+e'$ is [[Connected]], has $n(G)-1$ edges and is a spanning tree of $G$. $\blacksquare$
 
->[!proposition] 
->If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T'+e-e'$ is a spanning tree of $G$
 
-***Proof:*** By the part (2) of the last corollary of [[Tree]] the graph $T'+e$ obtains an unique [[Cycle]] $C$. Since $T$ is [[Acyclic]], there is an edge $e'\in E(C)-E(T)$. Deleting $e'$ breaks the only cycle in $T'+e$. Now $T'+e-e'$ is connected and acyclic and is a [[Spanning Tree]] of $G$. $\blacksquare$
 
-## Disjoint Spanning Trees
 
-The game bridge the player 2 has no winning strategy. West page 74
 
->[!proposition] 
->Let $\tau(G)$ denote the number of spanning trees of a graph $G$. If $e\in E(G)$ is not a loop then $$\tau(G)=\tau(G-e)+\tau(G\cdot e)$$
 
-***Proof:*** The spanning [[Tree]]s of $G$ that omit $e$ are precisely the spanning trees of $G-e$. To show that $G$ has $\tau(G\cdot e)$ spanning trees containing $e$ we show that [[Contraction]] of $e$ defines a bijection from the set of spanning trees of $G$ containing $e$ to the set of spanning trees of $G\cdot e$.
-When we contract $e$ in a spanning tree that contains we obtain a spanning tree of $G\cdot e$ because the resulting [[Subgraph]] of $G\cdot e$ is spanning and [[Connected]] and has the right number if edges. The other edges maintain their identity under [[Contraction]] so no two [[Tree]]s are mapped to the same spanning tree of $G\cdot e$ by this operation. Also each spanning tree of $G$. Since each spanning tree $G\cdot e$ arises exactly once the function is a bijection. $\blacksquare$
 
->We cannot apply this proposition when $e$ is a loop.
 
->If $G$ is a [[Connected]] loopless graph with no [[Cycle]] of length at least 3 then $\tau(G)$ is the product of the edge multiplicities.
 
-![[Matrix Tree Theorem]]
+
+
 
 
 

@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Matrix Tree Theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbe914ca69b635cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Computer Science/Graph/Trees/Spanning Tree.md",
                 "mode": "source",
                 "source": false
@@ -85,7 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
+                "file": "Matrix Tree Theorem.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -108,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md"
+                "file": "Matrix Tree Theorem.md"
               }
             }
           },
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Trees/Spanning Tree.md",
+                "file": "Matrix Tree Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,8 +168,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7cf9f437b60beef5",
+  "active": "d9de1d8757654efb",
   "lastOpenFiles": [
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Matrix Tree Theorem.md",
+    "Computer Science/Graph/Incidence Matrix.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
     "Contraction.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
@@ -174,7 +189,6 @@
     "References/@burgisserCompletenessReductionAlgebraic2000.md",
     "Computer Science/Graph/Trees/Enumeration of Trees.md",
     "References",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
     "Computer Science/Graph/Trees/Tree.md",
     "Templates/qed.md",
     "Algebra/Craraara",
@@ -186,8 +200,6 @@
     "Computer Science/Graph/Graph.md",
     "Templates/algo.md",
     "Mathematics/Algebra/Galois Theory/Galois Group.md",
-    "Mathematics/Algebra/Endomorphism.md",
-    "Computer Science/Graph/Distance/Wiener Index.md",
     "Pasted image 20230727135916.png",
     "Computer Science/Graph/Distance",
     "Graph",
