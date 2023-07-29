@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bd1f2a4c0de84ae5",
+        "id": "026cf3a0b2ef37b5",
         "type": "tabs",
         "children": [
           {
-            "id": "d9de1d8757654efb",
+            "id": "f100eea6a8f75ba4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bc29303365df28a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Subgraph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53fada1a3295ad7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Trees/Tree.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Trees/Tree.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -132,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computer Science/Graph/Trees/Tree.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Trees/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,14 +148,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "53fada1a3295ad7a",
+  "active": "f100eea6a8f75ba4",
   "lastOpenFiles": [
+    "Untitled.md",
     "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+    "Computer Science/Graph/Subgraph.md",
     "Computer Science/Graph/Trees/Tree.md",
     "Computer Science/Graph/Orientation.md",
     "Computer Science/Graph/Orientaion.md",
     "Computer Science/Graph/Components.md",
-    "Computer Science/Graph/Subgraph.md",
     "Computer Science/Graph/Spanning Subgraph.md",
     "Computer Science/Graph/Simple Graph.md",
     "Computer Science/Graph/Incidence Matrix.md",
@@ -208,7 +176,6 @@
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
     "References/@burgisserAlgebraicComplexityTheory1997.md",
     "My Research Work/Polynomial Factorization/Approximate Root.md",
-    "References/@dvirHardnessrandomnessTradeoffsBounded2008.md",
     "References",
     "Algebra/Craraara",
     "Algebra",
