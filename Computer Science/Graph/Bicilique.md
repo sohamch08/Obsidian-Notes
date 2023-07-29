@@ -2,7 +2,7 @@
 tag: graph
 ---
 
-
+[[Graph]]
 
 
 

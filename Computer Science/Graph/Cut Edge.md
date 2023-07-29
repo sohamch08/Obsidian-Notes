@@ -2,7 +2,7 @@
 tag: graph
 ---
 >[!theorem] 
->An edge is a cut edge if and only if it belongs to no [[Cycle]]
+>An edge in a [[Graph]] is a cut edge if and only if it belongs to no [[Cycle]]
 
 
 

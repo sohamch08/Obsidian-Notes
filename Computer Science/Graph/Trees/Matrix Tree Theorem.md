@@ -15,7 +15,11 @@ Entry $i,j$ in $MM^T$ is the dot product of rows $i$ and $j$ of $M$. When $i\neq
 **Step 2:** 
 >If $B$ is an $(n-1)\times (n-1)$ submatrix of $M$ then $\det B=\pm 1$ if the corresponding $n-1$ edges form a spanning tree of $G$ and otherwise $\det B=0$.
 
-In the first case we use induction on $n$ to prove that $\det B=\pm 1$. For $n=1$ by convention a $0\times 0$ matrix has determinant 1. For $n>1$, let $T$ be the spanning tree whose edges are the columns of $B$. Since $T$ has at least two leaves and only one row is deleted, $B$ has a row corresponding to a leaf $x$ of $T$. This row has only one nonzero entry. When computing the determinant by expanding along this row the only submatrix $B'$ with weight in the expansion corresponds to the spanning subtree of $G-x$ obtained by deleting $x$ and its incident edge from $T$. Since $B'$ is an $(n-2)\times (n-2)$ submatrix of the [[Incidence Matrix]] for an [[Orientaion]] of $G-x$ the induction hypothesis yields $\det B'= \pm 1$. Since the nonzero entry in row $x$ is $\pm1$, obtain the same result for $B$.
+In the first case we use induction on $n$ to prove that $\det B=\pm 1$. For $n=1$ by convention a $0\times 0$ matrix has determinant 1. For $n>1$, let $T$ be the spanning tree whose edges are the columns of $B$. Since $T$ has at least two leaves and only one row is deleted, $B$ has a row corresponding to a leaf $x$ of $T$. This row has only one nonzero entry. When computing the determinant by expanding along this row the only submatrix $B'$ with weight in the expansion corresponds to the spanning subtree of $G-x$ obtained by deleting $x$ and its incident edge from $T$. Since $B'$ is an $(n-2)\times (n-2)$ submatrix of the [[Incidence Matrix]] for an [[Orientation]]  of $G-x$ the induction hypothesis yields $\det B'= \pm 1$. Since the nonzero entry in row $x$ is $\pm1$, obtain the same result for $B$.
+If the $n-1$ edges corresponding to columns of $B$ do not form a [[Spanning Tree]], then by part (3) of second theorem of [[Tree]] they contain a cycle $C$. We form a linear combination of the columns with coefficient 0 if the corresponding edge is not in $C$, $+1$ if it is followed forward by $C$ and $-1$ if it is followed backward by $C$. The result is total weight 0 at each vertex so the columns are linearly dependent which yields $\det B=0$. $\blacksquare$
+
+**Step 3:** 
+
 
 
 

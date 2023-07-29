@@ -2,7 +2,7 @@
 tag: graph
 ---
 >[!definition] Spanning Subgraph
->A spanning subgraph of $G$ is a [[Subgraph]] with vertex set $V(G)$
+>A spanning sub[[Graph]] of $G$ is a [[Subgraph]] with vertex set $V(G)$
 
 >A spanning [[Subgraph]] of $G$ need not be [[Connected]] and a connected subgraph of $G$ need not be spanning subgraph. Eg:
 >- If $n(G)>1$ then the empty subgraph with vertex set $V(G)$ and edge set $\phi$ is spanning but not connected
