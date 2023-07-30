@@ -17,7 +17,9 @@ Haggkvist conjectured that if $G$ is a $2m-$[[Regular]] graph and $T$ is a tree 
 - 2, if one class is between them 
 - and so on up to difference $m$.
 
-We group the edges of [$K_{2m+1}$](../Complete.md) by the difference between the endpoints. For $1\leq j\leq m$ there are $2m+1$ edges with difference $j$.cdacd
+We group the edges of [$K_{2m+1}$](../Complete.md) by the difference between the endpoints. For $1\leq j\leq m$ there are $2m+1$ edges with difference $j$. 
+From a [[Graceful Labeling]] of $T$ we define copies of $T$ in [$K_{2m+1}$](../Complete.md) the copies are $T_0,\dots, T_{2m}$. The vertices of $T_k$ are $k,\dots,k+m \pmod{2m+1}$ with $k+i$ adjacent to $k+j$ if and only if $i$ is adjacent to $j$ in the [[Graceful Labeling]] of $T$. The copy $T_0$ looks just like the [[Graceful Labeling]] and has one edge with each difference. Moving to the next copy shifts each edge to another having the same difference by adding one to the name of each endpoint. Each difference class of edges has one edge in each $T_k$ and thus $T_0,\dots,T_{2m}$ decompose [$K_{2m+1}$](../Complete.md). $\blacksquare$
+
 
 
 

@@ -1,8 +1,8 @@
 ---
-tag: tree
+tag: tree 
 ---
->[!definition] Definition (Forest)
->A forest is an [[Acyclic]] [[Graph]]
+>[!definition] Definition (In-tree)
+>An in-tree is an [[Out-tree]] with edges reversed.
 
 
 

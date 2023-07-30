@@ -1,8 +1,11 @@
 ---
-tag: tree
+tag: graph 
 ---
->[!definition] Definition (Forest)
->A forest is an [[Acyclic]] [[Graph]]
+>[!definition] Definition (Digraph)
+>A directed [[Graph]] or digraph $G$ is a triple consisting of a vertex set $V(G)$, an edge set $E(G)$, and a function assigning each edge an ordered pair of vertices. The first vertex of the ordered pair is the tail of the edge, and the second is the head; together, they are the endpoints. We say that an edge is an edge from its tail to its head.
+
+
+
 
 
 

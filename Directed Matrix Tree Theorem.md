@@ -1,16 +1,10 @@
 ---
 tag: tree
 ---
->[!definition] Definition (Forest)
->A forest is an [[Acyclic]] [[Graph]]
+Tutte extended the [[Matrix Tree Theorem]] to [[Digraph]]s
 
-
-
-
-
-
-
-
+>[!theorem] Theorem (Directed Matrix Tree Theorem) - Tutte (1948)
+>Given a loopless [[Digraph]] $G$, let $Q^-=D^--A'$ and $Q^+=D^+-A-$ where $D^-$ and $D^+$ are the diagonal matrices of indegrees and outdegrees in $G$ and the $i,j$th entry of $A'$ is the number of edges from $v_j$ to $v_i$. The number of [spanning](Spanning%20Tree.md) [[Out-tree]]s ([[In-tree]]s) of $G$ rooted at $v_i$ is the calue of each cofactor in the $i$th row of $Q^-$ ($i$th column of $Q^+$)
 
 
 

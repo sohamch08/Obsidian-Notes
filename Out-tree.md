@@ -1,8 +1,11 @@
 ---
 tag: tree
 ---
->[!definition] Definition (Forest)
->A forest is an [[Acyclic]] [[Graph]]
+>[!definition] Definition (Branching)
+>A [[Branching]] or Out-tree is an orientation of a [[Tree]] having a root of indegree 0 and all other vertices of indegree 1.
+
+
+
 
 
 

@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "caa5d87482b8199d",
+        "id": "d9c5d5e4f46a00ec",
         "type": "tabs",
         "children": [
           {
-            "id": "ff21cb54b15bbae7",
+            "id": "49f84b06379d7e6d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "dd8f628e1c2288d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
+                "file": "Computer Science/Graph/Trees/Branching.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "3655a6a5baa782d5"
-          }
-        ]
-      },
-      {
-        "id": "354364eca6e3c004",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c848f25fae496382",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "3655a6a5baa782d5"
+            }
           }
         ]
       }
@@ -105,7 +93,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -127,9 +114,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,16 +161,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff21cb54b15bbae7",
+  "active": "49f84b06379d7e6d",
   "lastOpenFiles": [
-    "Computer Science/Graph/Graceful Graph/Graceful Labeling.md",
+    "Computer Science/Graph/Trees/Branching.md",
+    "Computer Science/Graph/Trees/Forest.md",
+    "Computer Science/Graph/Trees/Tree.md",
+    "Digraph.md",
+    "Directed Matrix Tree Theorem.md",
+    "Computer Science/Graph/Trees/In-tree.md",
+    "Out-tree.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Caterpillar.md",
+    "Computer Science/Graph/Vertex Degree.md",
+    "images/Pasted image 20230730165735.png",
+    "Excalidraw/Drawing 2023-07-30 16.51.03.excalidraw.md",
+    "images/Pasted image 20230730165608.png",
+    "images",
+    "Excalidraw",
     "Computer Science/Graph/Trees/Decomposition Into Trees.md",
+    "Computer Science/Graph/Complete.md",
+    "Computer Science/Graph/Graceful Graph/Graceful Labeling.md",
     "Computer Science/Graph/Graph.md",
     "Computer Science/Graph/Trees/Ringel's Conjecture.md",
     "Computer Science/Graph/Graceful Graph/Graceful Tree Conjecture.md",
-    "Computer Science/Graph/Complete.md",
     "Computer Science/Graph/Regular.md",
-    "Computer Science/Graph/Vertex Degree.md",
     "Computer Science/Graph/Bipartite Graph/Partite Set.md",
     "Computer Science/Graph/Bipartite Graph/Biclique.md",
     "Computer Science/Graph/Bipartite Graph/Bipartite.md",
@@ -196,16 +194,7 @@
     "Computer Science/Graph/Graceful Graph",
     "Templates/open.md",
     "Templates/con.md",
-    "Computer Science/Graph/Trees/Tree.md",
     "Computer Science/Graph/Subgraph.md",
-    "Computer Science/Graph/Trees/Star.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
-    "Computer Science/Graph/Trees/Prufer Code.md",
-    "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
-    "Computer Science/Graph/Trees/Forest.md",
-    "Computer Science/Graph/Trees/Enumeration of Trees.md",
-    "Computer Science/Graph/Trees/Distance in Trees.md",
-    "Computer Science/Graph/Trees/Counting Spanning Tree.md",
     "References",
     "Algebra/Craraara",
     "Algebra",
@@ -214,8 +203,6 @@
     "Computer Science/Graph/Distance",
     "Graph",
     "Spanning Subgraph",
-    "Computer Science/Graph/Trees",
-    "Computer Science/Graph",
     "My-Academic-Works/Complexity-Class.canvas"
   ]
 }
