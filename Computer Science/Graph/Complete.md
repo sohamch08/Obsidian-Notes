@@ -1,9 +1,8 @@
 ---
 tag: graph
 ---
-
-[[Graph]]
-
+>[!definition] Definition (Complete Graph)
+>A complete [[Graph]] is a [[Simple Graph]] whose vertices are pairwise adjacent; the(unlabeled) complete graph with n vertices is denoted $K_n$.
 
 
 

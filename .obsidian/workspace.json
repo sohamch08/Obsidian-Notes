@@ -4,32 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "026cf3a0b2ef37b5",
+        "id": "caa5d87482b8199d",
         "type": "tabs",
         "children": [
           {
-            "id": "f100eea6a8f75ba4",
+            "id": "ff21cb54b15bbae7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
+            },
+            "group": "3655a6a5baa782d5"
+          }
+        ]
+      },
+      {
+        "id": "354364eca6e3c004",
+        "type": "tabs",
+        "children": [
           {
-            "id": "111293d06feed618",
+            "id": "c848f25fae496382",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Binet-Cauchy Formula.md",
+                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
                 "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "3655a6a5baa782d5"
           }
         ]
       }
@@ -81,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3f3a6db66ff1678c",
@@ -98,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md"
+                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md"
               }
             }
           },
@@ -131,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+                "file": "Computer Science/Graph/Trees/Decomposition Into Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +157,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,34 +177,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f100eea6a8f75ba4",
+  "active": "ff21cb54b15bbae7",
   "lastOpenFiles": [
-    "Computer Science/Graph/Binet-Cauchy Formula.md",
-    "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
-    "Computer Science/Graph/Incidence Matrix.md",
-    "Untitled.md",
-    "Computer Science/Graph/Subgraph.md",
-    "Computer Science/Graph/Trees/Tree.md",
-    "Computer Science/Graph/Orientation.md",
-    "Computer Science/Graph/Orientaion.md",
-    "Computer Science/Graph/Components.md",
-    "Computer Science/Graph/Spanning Subgraph.md",
-    "Computer Science/Graph/Simple Graph.md",
+    "Computer Science/Graph/Graceful Graph/Graceful Labeling.md",
+    "Computer Science/Graph/Trees/Decomposition Into Trees.md",
     "Computer Science/Graph/Graph.md",
-    "Computer Science/Graph/Cycle.md",
-    "Computer Science/Graph/Cut Edge.md",
-    "Computer Science/Graph/Contraction.md",
-    "Computer Science/Graph/Connected.md",
+    "Computer Science/Graph/Trees/Ringel's Conjecture.md",
+    "Computer Science/Graph/Graceful Graph/Graceful Tree Conjecture.md",
     "Computer Science/Graph/Complete.md",
-    "Computer Science/Graph/Bicilique.md",
-    "Computer Science/Graph/Adjacency Matrix.md",
-    "Computer Science/Graph/Acyclic.md",
+    "Computer Science/Graph/Regular.md",
+    "Computer Science/Graph/Vertex Degree.md",
+    "Computer Science/Graph/Bipartite Graph/Partite Set.md",
+    "Computer Science/Graph/Bipartite Graph/Biclique.md",
+    "Computer Science/Graph/Bipartite Graph/Bipartite.md",
+    "Computer Science/Graph/Bipartite Graph",
+    "README.md",
+    "Computer Science/Graph/Graceful Graph/Graceful Graph.md",
+    "Computer Science/Graph/Graceful Graph",
+    "Templates/open.md",
+    "Templates/con.md",
+    "Computer Science/Graph/Trees/Tree.md",
+    "Computer Science/Graph/Subgraph.md",
+    "Computer Science/Graph/Trees/Star.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Computer Science/Graph/Trees/Prufer Code.md",
+    "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+    "Computer Science/Graph/Trees/Forest.md",
     "Computer Science/Graph/Trees/Enumeration of Trees.md",
+    "Computer Science/Graph/Trees/Distance in Trees.md",
     "Computer Science/Graph/Trees/Counting Spanning Tree.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Down Theorem.md",
-    "References/@burgisserAlgebraicComplexityTheory1997.md",
     "References",
     "Algebra/Craraara",
     "Algebra",
@@ -207,8 +216,6 @@
     "Spanning Subgraph",
     "Computer Science/Graph/Trees",
     "Computer Science/Graph",
-    "Computer Science",
-    "Mathematics/Algebra/Commutative Algebra/Primary Decomposition",
     "My-Academic-Works/Complexity-Class.canvas"
   ]
 }

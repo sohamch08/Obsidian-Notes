@@ -1,43 +1,16 @@
 ---
-tag: tree
+tag: graph
 ---
+>[!definition] Definition (Regular Graph)
+>A [[Graph]] is regular if [$\Delta(G)=\delta(G)$](Vertex%20Degree.md)
 
-- With one or two vertices only one [[Tree]] can be formed. 
-- With 3 vertices there is still only one isomorphism class but the [[Adjacency Matrix]] is determined by which vertex is the center. Thus there are three trees with vertex set \[3\]. 
-- With vertex set \[4\] there are four stars and 12 paths yielding 16 trees.
-- With vertex set \[5\] a careful study yields 125 trees
-
->**Cayley's Formula:** With vertex set \[n\] there are $n^{n-2}$ trees.
+>A graph is $k-$regular if the common degree is $k$
 
 
-![[Prufer Code]]
 
->[!algorithm]
->(Prufer Code) Production of $f(T)=(a_1,\dots,a_{n-2})$
->**Input:** A tree $T$ with vertex set $S\subseteq\bbN$ 
->**Iteration:** At $i$th step delete the least remaining leaf and let $a_i$ be the neighbor of this leaf
 
-If we know the vertex set $S$ then we can retrieve the tree from the code $a$. The idea is to retrieve all the edges. We start with the set $S$ of isolated vertices. At each step we create one edge and mark one vertex. When we are ready to consider $a_i$ there remain $n-i+1$  unmarked vertices and $n-i-1$ entries of $a$. Thus at least two of the unmarked vertices do not appear among the remaining entries of $a$. Let $x$ be the least of these add $xa_i$ to the list of edges and mark $x$. After repeating this $n-2$ times, two unmarked vertices remain; we join them to form the final edge.
 
-***Proof:*** Through out the process each component of the graph we have grown has one unmarked vertex. This is true initially and thus adding an edge with two unmarked endpoints combines two components. After marking one vertex of the new edge again each component has one unmarked vertex (Since we are not marking the vertices appearing in the remaining entries of $a$. So the other endpoint of the edge which is appearing in remaining entries of $a$ is unmarked). After $n-2$ steps we have two unmarked vertices and therefore two components. Adding the last edge yields a [[Connected]] graph. Thus we have built a connected graph with $n$ vertices and $n-1$ edges.  By the part (2) second theorem of [[Tree]] it is a tree. $\blacksquare$
 
->But we have not yet proved that its Prufer Code is $a$
-
->[!theorem] Theorem (Cayley's Formula)
->For a set $S\subseteq\bbN$ of size $n$ there are $n^{n-2}$ trees with vertex set $S$.
-
-***Proof \[Prufer\]:*** This holds for $n=1$, so we assume $n\geq 2$. We prove that the Algorithm defines a bijection $f$ from the set of trees with vertex set $S$ to the set $S^{n-2}$ of lists of length $n-2$ from $S$. We must show for each $a=(a_1,\dots,a_n)\in S^{n-2}$ that exactly one tree $T$ with vertex set $S$ satisfies $f(T)=a$. We prove this by induction on $n$.
-Basic step: $n=2$ There is one tree with two vertices. The [[Prufer Code]] is a list of length 0 and it is the only such list.
-Inductive step: $n>2$ Computing $f(T)$ reduces each vertex to degree 1 and possibly deletes it. Thus every non leaf vertex in $T$ appears in $f(T)$. No leaf appears, because recording a leaf as a neighbor of a leaf would require reducing the tree to one vertex. Hence the leaves of $T$ are the elements of $S$ not in $f(T)$. If $f(T)=a$ then the first leaf deleted is the least element of $S$ not in $a$ (call it $x$) and the neighbor of $x$ is $a_1$.
-We are given $a\in S^{n-2}$ and seek all solutions to $f(T)=a$. We have shown that every such tree has $x$ as its least leaf and has the edge $xa_1$. Deleting $x$ leaves a tree with vertex set $S'=S-\{x\}$. Its [[Prufer Code]] is $a'=(a_2,\dots,a_{n-2})$ an $n-3$ tuple formed from $S'$. By induction hypothesis there exists exactly one tree $T'$ having vertex set $S'$ and Prufer Code $a'$. Since every tree with Prufer code $a$ is formed by adding the edge $xa_1$ to such a tree there is at most one solution to $f(T)=a$. Furthermore adding $xa_1$ to $T'$ does create a tree with vertex set and [[Prufer Code]] $a$, so there is at least one solution $\blacksquare$
-
->[!corollary] 
->Given positive integers $d_1,\dots, d_n$ summing to $2n-2$ there are exactly $\dfrac{(n-2)!}{\prod(d_i-1)!}$ trees with vertex set $[n]$ such that vertex $i$ has degree $d_i$ for each $i$
-
-***Proof:*** While constructing the [[Prufer Code]] of a tree $T$, we record $x$ each time we delete a neighbor of $x$ until we delete $x$ itself or leave $x$ among the last two vertices. Thus each vertex $x$ appears $d_T(x)-1$ times in the Prufer code.
-Therefore we count trees with these vertex degrees by counting lists of length $n-2$ that for each $i$ have $d_i-1$ copies of $i$. If we assign subscripts to the copies of each $i$ to distinguish them, then we are permuting $n-2$ distinct objects and there are $(n-2)!$ lists. Since the copies of $i$ are not distinguishable, we have counted each desired arrangement $\prod(d_i-1)!$ times. $\blacksquare$
-
- 
 
 
 

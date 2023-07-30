@@ -19,5 +19,9 @@
   "obsidian-export-to-tex",
   "obsidian-nomnoml-diagram",
   "obsidian-citation-plugin",
-  "settings-search"
+  "settings-search",
+  "better-reading-mode",
+  "dataview",
+  "obsidian-auto-split",
+  "obsidian-tikzjax"
 ]

@@ -11,7 +11,7 @@
       "title": "Definition",
       "injectColor": true,
       "noTitle": false,
-      "copy": false
+      "copy": true
     },
     "theorem": {
       "type": "theorem",
@@ -24,7 +24,7 @@
       "title": "Theorem",
       "injectColor": true,
       "noTitle": false,
-      "copy": false
+      "copy": true
     },
     "corollary": {
       "type": "corollary",
@@ -37,7 +37,7 @@
       "title": "Corollary",
       "injectColor": true,
       "noTitle": false,
-      "copy": false
+      "copy": true
     },
     "proposition": {
       "type": "proposition",
@@ -50,7 +50,7 @@
       "title": "Proposition",
       "injectColor": true,
       "noTitle": false,
-      "copy": false
+      "copy": true
     },
     "lemma": {
       "type": "lemma",
@@ -63,7 +63,7 @@
       "title": "Lemma",
       "injectColor": true,
       "noTitle": false,
-      "copy": false
+      "copy": true
     },
     "algorithm": {
       "type": "algorithm",
@@ -75,7 +75,34 @@
       "command": false,
       "title": "Algorithm",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": true
+    },
+    "conjecture": {
+      "type": "conjecture",
+      "color": "81, 220, 230",
+      "icon": {
+        "name": "puzzle-piece",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Conjecture",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
+    },
+    "open": {
+      "type": "open",
+      "color": "81, 220, 230",
+      "icon": {
+        "name": "question-circle",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Open",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": true
     }
   },
   "syntaxHighlight": false,

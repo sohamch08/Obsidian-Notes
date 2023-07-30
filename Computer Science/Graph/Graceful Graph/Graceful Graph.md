@@ -1,8 +1,10 @@
 ---
-tag: graph
+tag: graceful-graph 
 ---
+>[!definition] Definition (Graceful Graph)
+>A [[Graph]] is graceful if it has a [[Graceful Labeling]]
 
-[[Graph]]
+
 
 
 

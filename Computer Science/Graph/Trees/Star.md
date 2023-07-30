@@ -2,7 +2,7 @@
 tag: tree
 ---
 >[!definition] Definition (Star)
->A Star is a [[Tree]] consisting of one vertex adjacent to all the others. An $n-$vertex star is the [[Bicilique]] $K_{1,n-1}$
+>A Star is a [[Tree]] consisting of one vertex adjacent to all the others. An $n-$vertex star is the [[Biclique]] $K_{1,n-1}$
 
 
 

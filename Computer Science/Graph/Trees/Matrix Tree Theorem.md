@@ -70,8 +70,6 @@ If $m<n-1$ then the determinant is 0 and there are no [spanning subtrees](./Span
 
 
 
-
-
 $$%---------------------------------------
 % BlackBoard Math Fonts :-
 %---------------------------------------

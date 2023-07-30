@@ -44,12 +44,12 @@ tag: tree
 3. As in the proof of $(2)\implies \{(1),(3)\}$ in previous theorem iteratively deleting edges from cycles in a [[Connected]] graph yields a connected [[Acyclic]] [[Spanning Subgraph]]. $\blacksquare$
 
 >[!proposition] 
->If $T$ is a tree with $k$ edges and $G$ is a simple graph with $\delta(G)\geq k$ then $T$ is a [[Subgraph]] of $G$
+>If $T$ is a tree with $k$ edges and $G$ is a simple graph with [$\delta(G)\geq k$](../Vertex%20Degree.md#$\delta(G)$) then $T$ is a [[Subgraph]] of $G$
 
 ***Proof:*** We use induction on $k$. 
 For $k=0$ every simple graph contain $K_1$ ([[Complete]]) which is the only tree with no edges.
 Induction Step: $k>0$ We assume that the claim holds for trees with fewer than $k$ edges.
-Since $k>0$ the first lemma allows us to choose a leaf $v$ in $T$. Let $u$ be its neighbor. Consider the smaller tree $T'=T-v$. By the induction hypothesis $G$ contains $T'$ as a subgraph since $\delta(G)\geq k>k-1$.
+Since $k>0$ the first lemma allows us to choose a leaf $v$ in $T$. Let $u$ be its neighbor. Consider the smaller tree $T'=T-v$. By the induction hypothesis $G$ contains $T'$ as a subgraph since [$\delta(G)\geq k>k-1$](../Vertex%20Degree.md#$\delta(G)$).
 Let $x$ be the vertex in this copy of $T'$ that corresponds to $u$. Because $T'$ has only $k-1$ vertices other than $u$ and $d_G(x)\geq k$, $x$ has a neighbor $y$ in $G$ that is not in this copy $T'$. Adding the edge $xy$ expands this copy of $T'$ into a copy of $T$ in $G$ with $y$ playing the role of $v$. $\blacksquare$
 
 

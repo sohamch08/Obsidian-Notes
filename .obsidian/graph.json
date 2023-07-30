@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#integral-dependence",
@@ -60,14 +60,21 @@
       "query": "tag:#tree",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 13697087
+      }
+    },
+    {
+      "query": "tag:#graceful-graph",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
       }
     },
     {
       "query": "tag:#distance",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14725458
       }
     }
   ],
@@ -81,6 +88,6 @@
   "repelStrength": 13.125,
   "linkStrength": 0.791666666666667,
   "linkDistance": 108,
-  "scale": 0.06936023401902294,
+  "scale": 0.08448472005831341,
   "close": true
 }
