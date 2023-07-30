@@ -11,8 +11,12 @@
             "id": "49f84b06379d7e6d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Graph/Trees/Out-tree.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -93,6 +97,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Graph/Trees/Out-tree.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -114,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Science/Graph/Trees/Out-tree.md"
+              }
             }
           },
           {
@@ -123,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Graph/Trees/Out-tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,16 +171,18 @@
   },
   "active": "49f84b06379d7e6d",
   "lastOpenFiles": [
-    "Computer Science/Graph/Trees/Branching.md",
-    "Computer Science/Graph/Trees/Forest.md",
-    "Computer Science/Graph/Trees/Tree.md",
-    "Digraph.md",
-    "Directed Matrix Tree Theorem.md",
-    "Computer Science/Graph/Trees/In-tree.md",
-    "Out-tree.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
-    "Caterpillar.md",
+    "Computer Science/Graph/Trees/Directed Matrix Tree Theorem.md",
+    "Computer Science/Graph/Trees/Caterpillar.md",
+    "Computer Science/Graph/Digraph.md",
     "Computer Science/Graph/Vertex Degree.md",
+    "Computer Science/Graph/Trees/In-tree.md",
+    "Computer Science/Graph/Connected.md",
+    "Computer Science/Graph/Trees/Tree.md",
+    "Computer Science/Graph/Trees/Branching.md",
+    "Computer Science/Graph/Distance/Center.md",
+    "Computer Science/Graph/Trees/Forest.md",
+    "Computer Science/Graph/Trees/Out-tree.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
     "images/Pasted image 20230730165735.png",
     "Excalidraw/Drawing 2023-07-30 16.51.03.excalidraw.md",
     "images/Pasted image 20230730165608.png",
@@ -193,8 +203,6 @@
     "Computer Science/Graph/Graceful Graph/Graceful Graph.md",
     "Computer Science/Graph/Graceful Graph",
     "Templates/open.md",
-    "Templates/con.md",
-    "Computer Science/Graph/Subgraph.md",
     "References",
     "Algebra/Craraara",
     "Algebra",
