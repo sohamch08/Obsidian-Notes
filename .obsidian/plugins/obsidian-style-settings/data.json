@@ -68,7 +68,6 @@
   "ITS@@ITS-Sizes": "sizing-mini",
   "ITS@@radius-s": 5,
   "ITS@@scrollbar-width": 12,
-  "ITS@@file-line-width": 1400,
   "ITS@@tab-outline-width": 2,
   "ITS@@nav-item-size": 13,
   "ITS@@sidebar-tab-icon-size": 18,
@@ -104,7 +103,7 @@
   "ITS@@vault-name-font-size": 20,
   "ITS@@vault-name-font-weight": 900,
   "ITS@@slrvb-b": true,
-  "ITS@@slrvb-g": false,
+  "ITS@@slrvb-g": true,
   "ITS@@s-d": false,
   "ITS@@select": "wotc-beyond",
   "ITS@@t-d": true,
@@ -116,5 +115,13 @@
   "ITS@@default-statblock": false,
   "ITS@@breadcrumbs-block": false,
   "ITS@@callout-original": false,
-  "ITS@@callout-block": false
+  "ITS@@callout-block": false,
+  "ITS@@graph-lines@@dark": "#373232",
+  "ITS@@file-line-width": 700,
+  "ITS@@background-image": false,
+  "ITS@@embed-clean": false,
+  "ITS@@bold-color@@light": "#48A0F2",
+  "ITS@@bold-color@@dark": "#48A0F2",
+  "ITS@@italic-color@@dark": "#26C047",
+  "ITS@@italic-color@@light": "#26C047"
 }

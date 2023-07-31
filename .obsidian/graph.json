@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-path:Templates -file:README",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#integral-dependence",
@@ -78,16 +78,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -1.2,
-  "nodeSizeMultiplier": 1.45260416666667,
-  "lineSizeMultiplier": 1.80989583333333,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.00629438347321,
+  "lineSizeMultiplier": 1.58834732085216,
   "collapse-forces": false,
-  "centerStrength": 0.239583333333333,
-  "repelStrength": 13.125,
-  "linkStrength": 0.791666666666667,
-  "linkDistance": 108,
-  "scale": 0.29693415407436463,
+  "centerStrength": 0.598127824402841,
+  "repelStrength": 12.2724338282763,
+  "linkStrength": 1,
+  "linkDistance": 98,
+  "scale": 0.301034921096572,
   "close": true
 }

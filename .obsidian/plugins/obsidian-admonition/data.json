@@ -80,7 +80,7 @@
     },
     "conjecture": {
       "type": "conjecture",
-      "color": "81, 220, 230",
+      "color": "52, 150, 157",
       "icon": {
         "name": "puzzle-piece",
         "type": "font-awesome"
@@ -93,7 +93,7 @@
     },
     "open": {
       "type": "open",
-      "color": "81, 220, 230",
+      "color": "52, 150, 157",
       "icon": {
         "name": "question-circle",
         "type": "font-awesome"

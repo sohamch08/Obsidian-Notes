@@ -1,8 +1,12 @@
 ---
-tag: graph
+tag: matching 
 ---
->[!definition] Definition (Simple Graph)
->A simple graph is a [[Graph]] having no [[Loop]]s or multiple [[Edge]]s. We specify a simple graph by its vertex set and edge set, treating the edge set as a set of unordered pairs of [Vertices](./Vertex.md) and writing $e=uv$ (or $e=vu$) for an edge e with endpoints $u$ and $v$
+>[!definition] Definition (Matching)
+>A matching in a [[Graph]] is a set of non-loop edges with no shared endpoints. 
+>- The vertices incident to the edges of a matching $M$ are **Saturated** by $M$ (We say $M$-saturated)
+>- The others are **Unsaturated** (We say $M$-unsaturated)
+
+
 
 
 
