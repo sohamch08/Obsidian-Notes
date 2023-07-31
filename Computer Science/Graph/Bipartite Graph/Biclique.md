@@ -1,8 +1,10 @@
 ---
 tag: graph
 ---
+# Biclique
 >[!definition] Definition (Complete Bipartite Graph or Biclique)
 >A [[Complete]] [[Bipartite]] [[Graph]] or biclique is a [simple](Simple%20Graph.md) [[Bipartite]] graph such that two vertices are adjacent if and only if they are in different [[Partite Set]]s. When the sets have sizes $r$ and $s$, the (unlabeled) biclique is denoted $K_{r,s}$ .
+
 
 
 

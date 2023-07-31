@@ -1,0 +1,15 @@
+.is-hidden-frameless:not(.is-fullscreen)
+  .workspace-tabs.mod-top-right-space
+  .workspace-tab-header-container {
+  padding-right: 0;
+}
+
+body > div.titlebar > div > div.titlebar-button-container.mod-right {
+  display: none !important;
+}
+
+
+.workspace-tabs.mod-top-right-space
+.workspace-tab-header-container:after {
+  display: none !important;
+}

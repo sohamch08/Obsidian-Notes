@@ -16,5 +16,10 @@
   "dataview",
   "obsidian-auto-split",
   "obsidian-tikzjax",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "graph-analysis",
+  "callout-manager",
+  "obsidian42-brat",
+  "obsidian-hider",
+  "nlp"
 ]

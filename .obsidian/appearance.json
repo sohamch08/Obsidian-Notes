@@ -3,6 +3,10 @@
   "cssTheme": "ITS Theme",
   "enabledCssSnippets": [
     "extended-colorschemes",
-    "custom-admonitions.42f97d"
-  ]
+    "custom-admonitions.42f97d",
+    "custom-rainbow-colors",
+    "window-button-hider"
+  ],
+  "interfaceFontFamily": "",
+  "nativeMenus": false
 }

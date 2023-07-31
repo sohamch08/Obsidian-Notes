@@ -1,0 +1,78 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "corollary": [
+        {
+          "changes": {
+            "icon": "lucide-edit"
+          }
+        }
+      ],
+      "definition": [
+        {
+          "changes": {
+            "icon": "lucide-flame"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "255, 97, 97"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "255, 97, 97"
+          }
+        }
+      ],
+      "conjecture": [
+        {
+          "changes": {
+            "icon": "question-mark-glyph"
+          }
+        }
+      ],
+      "open": [
+        {
+          "changes": {
+            "icon": "lucide-alert-triangle"
+          }
+        }
+      ],
+      "theorem": [
+        {
+          "changes": {
+            "icon": "lucide-edit"
+          }
+        }
+      ],
+      "proposition": [
+        {
+          "changes": {
+            "icon": "lucide-edit"
+          }
+        }
+      ],
+      "lemma": [
+        {
+          "changes": {
+            "icon": "lucide-edit"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
