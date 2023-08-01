@@ -126,12 +126,6 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "L"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
       "key": "K"
     }
   ],
@@ -148,12 +142,6 @@
         "Ctrl"
       ],
       "key": "PageUp"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
     },
     {
       "modifiers": [
@@ -213,5 +201,6 @@
     }
   ],
   "obsidian-excalidraw-plugin:insert-link-to-element": [],
-  "obsidian-excalidraw-plugin:insert-link": []
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "editor:insert-link": []
 }

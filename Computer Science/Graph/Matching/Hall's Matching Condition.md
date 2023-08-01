@@ -8,8 +8,8 @@ tag: matching
 
 ***Proof:*** 
 **Necessity:** The $|S|$ vertices matched to $S$ must lie in [$N(S)$](Neighbor.md) for all $S\subseteq X$.
-**Sufficiency:** To prove that Hall's Condition is sufficient we prove the contrapositive. If $M$ is a maximum matching in $G$ and $M$ does not [saturate](./Matching.md) $X$, then we obtain a set $S\subseteq X$ such that $N(S)\leq |S|$. 
-Let $u\in X$ be a vertex [unsaturated](./Matching.md) by $M$. Among all the vertices reachable from $u$ by $M$-[[Alternating Path]]s in $G$ let $S$ consists of those in $X$ and let $T$ consists of those in $Y$. 
+**Sufficiency:** To prove that Hall's Condition is sufficient we prove the contrapositive. If $M$ is a [[Maximum Matching]] in $G$ and $M$ does not [saturate](./Matching.md) $X$, then we obtain a set $S\subseteq X$ such that $N(S)\leq |S|$. 
+Let $u\in X$ be a vertex [unsaturated](./Matching.md) by $M$. Among all the vertices reachable from $u$ by $M$-[[Alternating Path]]s in $G$ let $S$ consists of those in $X$ and let $T$ consists of those in $Y$. Note that $u\in S$. 
 ```tikz
 \begin{document}
 	\begin{tikzpicture}[scale=2.5, font=\LARGE]
@@ -40,12 +40,18 @@ Let $u\in X$ be a vertex [unsaturated](./Matching.md) by $M$. Among all the vert
 \end{document}
 ```
 
-Note that $u\in S$. We claim that $M$ matches $T$ with $S-\{u\}$. The $M$-[[Alternating Path]]s from $u$ reach $Y$ along edges not in $M$ and return to $X$ along edges in $M$. Hence every vertex of $S-\{u\}$ is reached by an edge in $M$ from a vertex in $T$. Since there is no $M$-[[Augmenting Path]], every vertex of $T$ is [saturated](./Matching.md); thus an $M$-[[Alternating Path]] reaching $y\in T$ extends via $M$ to a vertex of $S$. Hence these edges of $M$ yield a bijection from $T$ to $S-\{u\}$ and we have $|T|=|S-\{u\}|$.
-The [[Matching]] between $T$ and $S-\{u\}$ yields $T\subseteq N(S)$. In fact, $T=N(S)$. Suppose that $y\in Y-T$ has a [[Neighbor]] $v\in S$. The edge $vy$ cannot be in $M$ since $u$ is [unsaturated](./Matching.md) and the rest of $S$ is matched to $T$ by $M$. Thus adding $vy$ to an $M$-[[Alternating Path]] reaching $v$ yields an $M$-[[Alternating Path]] to $y$. This contradicts $y\notin T$ and hence $vy$ cannot exists.
+We claim that $M$ matches $T$ with $S-\{u\}$. The $M$-[[Alternating Path]]s from $u$ reach $Y$ along edges not in $M$ and return to $X$ along edges in $M$. Hence every vertex of $S-\{u\}$ is reached by an edge in $M$ from a vertex in $T$. Since there is no $M$-[[Augmenting Path]] in $G$ since $M$ is a [[Maximum Matching]] by the theorem in [[Augmenting Path]], every vertex of $T$ is [saturated](./Matching.md); thus an $M$-[[Alternating Path]] reaching $y\in T$ extends via $M$ to a vertex of $S$. Hence these edges of $M$ yield a bijection from $T$ to $S-\{u\}$ and we have $|T|=|S-\{u\}|$.
+The [[Matching]] between $T$ and $S-\{u\}$ yields $T\subseteq N(S)$. In fact, $T=N(S)$. Suppose that $y\in Y-T$ has a [[Neighbor]] $v\in S$. The edge $vy$ cannot be in $M$ since $u$ is [unsaturated](./Matching.md) and the rest of $S$ is matched to $T$ by $M$ (Since $S-\{u\}$ is matched to $T$ by $M$ if the edge $vy$ is in $M$ then the vertex $v$ will be [[Incident]] on two edges in $M$ which is not possible). Thus adding $vy$ to an $M$-[[Alternating Path]] reaching $v$ yields an $M$-[[Alternating Path]] to $y$. This contradicts $y\notin T$ and hence $vy$ cannot exists.
 With $T=N(S)$ we have proved that $|N(S)|=|T|=|S|-1<|S|$ for this choice of $S$. This completes the proof of the contrapositive. $\blacksquare$
 
+>Note also that the statement and proof permit multiple edges.
 
+>[!corollary] 
+>For $k>0$ every $k$-[[Regular]] [[Bipartite]] [[Graph]] has a [[Perfect Matching]]
 
+***Proof:*** Let $G$ be a $k$-[[Regular]] $X,Y$-[[Bigraph]]. Counting the edges by endpoints in $X$ and by endpoints in $Y$ shows that $k|X|=k|Y|$ so $|X|=|Y|$. Hence it suffices to verify Hall's Condition; a [[Matching]] that [saturates](./Matching.md) $X$ will also [saturate](./Matching.md) $Y$ and be a [[Perfect Matching]].
+Consider $S\subseteq X$. Let $m$ be the number of edges from $S$ to $N(S)$. Since $G$ is $k$-[[Regular]] $m=k|S|$. These $m$ edges are [[Incident]] to $N(S)$, so $m\leq k|N(S)|$. Hence $k|S|\leq k|N(S)|$ which yields $|N(S)|\geq |S|$ when $k>0$. Having chosen $S\subseteq X$ arbitrarily we have established Hall's condition. $\blacksquare$
+>One can also use contradiction here. Assuming that $G$ has no [[Perfect Matching]] yields a set $S\subseteq X$ such that $|N(S)|<|S|$. The argument obtaining contradiction amounts to a rewording of the direct proof given above
 
 
 

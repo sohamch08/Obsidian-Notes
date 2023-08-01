@@ -1,0 +1,22 @@
+{
+  "wrapperTags": [
+    {
+      "id": "w1690909205742",
+      "name": "latex-math",
+      "startTag": "$",
+      "endTag": "$"
+    },
+    {
+      "id": "w1690909236122",
+      "name": "latex-math-center",
+      "startTag": "$$",
+      "endTag": "$$"
+    },
+    {
+      "id": "underline",
+      "name": "Underline",
+      "startTag": "<u>",
+      "endTag": "</u>"
+    }
+  ]
+}

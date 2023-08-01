@@ -1,20 +1,53 @@
 ---
-tag: matching 
+tag: matching
 ---
-# $M$-Augmenting Path
->[!definition] Definition ($M$-Augmenting Path)
->An $M$-[[Alternating Path]] whose endpoints are [unsaturated](./Matching.md) by $M$ is an $M$-augmenting path.
+# Konig-Egervary Theorem
+>[!theorem] Theorem - Konig (1931), Egervary (1931)
+>If $G$ is a [[Bipartite]] graph then the maximum size of a [[Matching]] in $G$ equals the minimum size of a [[Vertex Cover]] of $G$.
 
-Given an $M$-augmenting path $P$ we can replace the edges of $M$ in $P$ with other edges of $P$ to obtain a new matching $M'$ with one more edge. Thus when $M$ is a [[Maximum Matching]] there is no $M$-augmenting path.
+***Proof:*** Let $G$ be an $X,Y$-[[Bigraph]]. Since distinct vertices must be used to cover the edges of a matching, $|Q|>|M|$ whenever $Q$ is a [[Vertex Cover]] and $M$ is a [[Matching]] in $G$. Given a smallest [[Vertex Cover]] $Q$ of $G$, we construct a [[Matching]] of size $|Q|$ to prove that equality can always be achieved.
+Partition $Q$ by letting $R=Q\cap X$ and $T=Q\cap Y$. Let $H$ and $H'$ be the [[Subgraph]]s of $G$ induced by $R\cup (Y-T)$ and $T\cup (X-R)$ respectively. 
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale=2.5, font=\LARGE]
+	\foreach \i in {1,2,3,4,5,6,7,8,9,10}{
+		\filldraw[black] (\i,1) circle (2pt);
+	}
+	\foreach \i in {1,2,3,4,5,6,7,8}{
+		\filldraw[black] (\i+3,-1) circle (2pt);
+	}
+	\foreach \i in {1,2,3,4,5,6,7}{
+		\draw (\i+3,-1) -- (\i+3,1);
+	}
+	\draw (0,1) node [xshift=-1cm]{$X$};
+	\draw (0,-1) node [xshift=-1cm]{$Y$};
+	\draw (4,-1) -- (1,1);
+	\draw (4,-1) -- (2,1);
+	\draw (4,-1) -- (5,1);
+	\draw (5,-1) -- (3,1);
+	\draw (5,-1) -- (6,1);
+	\draw (5,-1) -- (8,1);
+	\draw (5,-1) -- (9,1);
+	\draw (6,-1) -- (5,1);
+	\draw (8,1) -- (10,-1);
+	\draw (8,1) -- (11,-1);
+	\draw (9,1) -- (10,-1);
+	\draw (7,1.3) -- (10,1.3) node [near start, above]{$R$};
+	\draw (9,1.4) -- (10,1.4) node [midway, above]{$S$};
+	\draw (9,-1.3) -- (10,-1.3) node [midway, below]{$N_H(S)$};
+	\draw (4,-1.3) -- (6,-1.3) node [midway, below]{$T$};
+	\draw[red, thick] (6.8,1.15) -- (6.8,-1.15) -- (11.2,-1.15) -- (11.2,1.15) node [midway, right]{$H$} --cycle;
+	\draw[red, thick] (6.2,1.15) -- (6.2,-1.15) -- (0.8,-1.15) -- (0.8,1.15) node [midway, left]{$H'$} --cycle;
+\end{tikzpicture}
+\end{document}
+```
+
+We use [[Hall's Matching Condition]] to show that $H$ has a [[Matching]] that [saturates](Matching.md) $R$ into $Y-T$ and $H'$ has a [[Matching]] that [saturates](Matching.md) $T$. Since $H$ and $H'$ are disjoint the two matching together form a matching of size $|Q|$ in $G$.
+Since $Q=R\cup T$ is a [[Vertex Cover]], $G$ has no edge from $Y-T$ to $X-R$. For each $S\subseteq R$ we consider $N_H(S)$, which is contained in $Y-T$. If $|N_H(S)|<|S|$ then we can substitute $N_H(S)$ for $S$ in $Q$ to obtain a smaller [[Vertex Cover]] since $N_H(S)$ covers all edges incident to $S$ that are not covered by $T$. But that contradicts the minimality of $Q$.
+The minimality of $Q$ thus yields [[Hall's Matching Condition]] in $H$ and hence $H$ has a [[Matching]] that [saturates](Matching.md) $R$. Similarly we have $H'$ has a matching that [saturates](Matching.md) $T$. $\blacksquare$
 
 
-
-
->[!theorem] Theorem - Berge (1957)
->A [[Matching]] $M$ in a [[Graph]] $G$ is a [[Maximum Matching]] in $G$ if and only if $G$ has no $M$-augmenting Path
-
-***Proof:*** We prove the contrapositive of each direction; $G$ has a [[Matching]] larger than $M$ if and only if $G$ has an $M$-augmenting path. We have observed that an $M$-augmenting path can be used to produce a matching larger than $M$.
-For the converse let $M'$ be a [[Matching]] in $G$ larger than $M$; we construct an $M$-augmenting path. Let [$F=M\Delta M'$](../Symmetric%20Difference.md). By the first lemma in [[Matching]] $F$ consists of [[Path]]s and even [[Cycle]]s; the cycles have the same number of edges from $M$ and $M'$. Since $|M'| >|M|$, $F$ must have a [[Component]] with more edges of $M'$ than $M$ (Because if $M'$ has an edge [[Incident]] on a vertex then $M$ also has an edge [[Incident]] on that vertex. So all components which have edges of $M'$ also have edges of $M$. Since $M'$ is larger than $M$ there must be a component which has edges from both $M'$ and $M$ but has more edges of $M'$ than edges of $M$). Such that a  [[Component]] can only be a [[Path]] that starts and ends with an edge of $M'$; thus it is an $M$-augmenting path in $G$. $\blacksquare$
 
 
 

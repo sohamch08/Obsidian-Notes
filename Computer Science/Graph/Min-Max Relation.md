@@ -1,20 +1,15 @@
 ---
-tag: matching 
+tag: graph
 ---
-# $M$-Augmenting Path
->[!definition] Definition ($M$-Augmenting Path)
->An $M$-[[Alternating Path]] whose endpoints are [unsaturated](./Matching.md) by $M$ is an $M$-augmenting path.
+# Min-Max Relation
+>[!theorem] Theorem (Min-Max Relation)
+>A min-max relation is a theorem stating equality between the answers to a minimization problem and a maximization problem over a class of instances.
 
-Given an $M$-augmenting path $P$ we can replace the edges of $M$ in $P$ with other edges of $P$ to obtain a new matching $M'$ with one more edge. Thus when $M$ is a [[Maximum Matching]] there is no $M$-augmenting path.
+We think of a pair of **Dual Optimization Problems** as a maximization problem $\mcM$ and a minimization problem $\mcN$, defined on the same instances (such as [[Graph]]s) such that for every candidate solution $M$ to $\mcM$ and every candidate solution $N$ to $\mcN$ (on the same instance), the value $M$ is less than or equal to the value of $N$. Often the "value" is cardinality, as when $\mcM$ is [[Maximum Matching]] and $\mcN$ is minimum [[Vertex Cover]]. 
+When $\mcM$ and $\mcN$ are dual problems obtaining candidate solutions $M$ and $N$ that have the same value *proves* that $M$ and $N$ are optimal solutions for that instance. 
 
 
 
-
->[!theorem] Theorem - Berge (1957)
->A [[Matching]] $M$ in a [[Graph]] $G$ is a [[Maximum Matching]] in $G$ if and only if $G$ has no $M$-augmenting Path
-
-***Proof:*** We prove the contrapositive of each direction; $G$ has a [[Matching]] larger than $M$ if and only if $G$ has an $M$-augmenting path. We have observed that an $M$-augmenting path can be used to produce a matching larger than $M$.
-For the converse let $M'$ be a [[Matching]] in $G$ larger than $M$; we construct an $M$-augmenting path. Let [$F=M\Delta M'$](../Symmetric%20Difference.md). By the first lemma in [[Matching]] $F$ consists of [[Path]]s and even [[Cycle]]s; the cycles have the same number of edges from $M$ and $M'$. Since $|M'| >|M|$, $F$ must have a [[Component]] with more edges of $M'$ than $M$ (Because if $M'$ has an edge [[Incident]] on a vertex then $M$ also has an edge [[Incident]] on that vertex. So all components which have edges of $M'$ also have edges of $M$. Since $M'$ is larger than $M$ there must be a component which has edges from both $M'$ and $M$ but has more edges of $M'$ than edges of $M$). Such that a  [[Component]] can only be a [[Path]] that starts and ends with an edge of $M'$; thus it is an $M$-augmenting path in $G$. $\blacksquare$
 
 
 
