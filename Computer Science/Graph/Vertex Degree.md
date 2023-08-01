@@ -3,7 +3,7 @@ tag: graph
 ---
 
 >[!definition] Definition (Degree of Vertex)
->The degree of vertex $v$ in a graph $G$, written  $d_G(v)$ or $d(v)$ is the number of edges incident to $v$, except that each loop at $v$ counts twice.
+>The degree of vertex $v$ in a graph $G$, written  $d_G(v)$ or $d(v)$ is the number of edges [[Incident]] to $v$, except that each loop at $v$ counts twice.
 
 ## $\Delta (G)$
 

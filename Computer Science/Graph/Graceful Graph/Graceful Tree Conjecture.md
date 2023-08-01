@@ -1,6 +1,7 @@
 ---
 tag: graceful-graph 
 ---
+# Graceful Tree Conjecture
 >[!conjecture] Graceful Tree Conjecture - Kotzig, Ringel (1964)
 >Every [[Tree]] has a [[Graceful Labeling]]
 >

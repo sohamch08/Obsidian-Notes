@@ -1,6 +1,7 @@
 ---
 tag: tree 
 ---
+# Spanning Tree
 
 >[!definition] Definition (Spanning Tree)
 >A spanning [[Tree]] is a [[Spanning Subgraph]] that is a [[Tree]]
@@ -17,7 +18,7 @@ We use the last corollary of [[Tree]] to prove two results about pairs of [[Span
 >[!proposition] 
 >If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T-e+e'$ is a spanning tree of $G$
 
-***Proof:*** By the part (1) of the last corollary of [[Tree]], every edge of $T$ is a [[Cut Edge]] of $T$. Let $U$ and $U'$ be the two [[Components]] of $T-e$. Since $T'$ is connected $T'$ has an edge $e'$ with the endpoints in $U$ and $U'$. Now $T-e+e'$ is [[Connected]], has $n(G)-1$ edges and is a spanning tree of $G$. $\blacksquare$
+***Proof:*** By the part (1) of the last corollary of [[Tree]], every edge of $T$ is a [[Cut Edge]] of $T$. Let $U$ and $U'$ be the two [[Component]] of $T-e$. Since $T'$ is connected $T'$ has an edge $e'$ with the endpoints in $U$ and $U'$. Now $T-e+e'$ is [[Connected]], has $n(G)-1$ edges and is a spanning tree of $G$. $\blacksquare$
 
 >[!proposition] 
 >If $T,T'$ are spanning trees of a connected graph $G$ and $e\in E(T)-E(T')$ then there is an edge $e'\in E(T')-E(T)$ such that $T'+e-e'$ is a spanning tree of $G$

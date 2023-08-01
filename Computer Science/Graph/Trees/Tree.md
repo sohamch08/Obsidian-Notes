@@ -1,7 +1,8 @@
 ---
 tag: tree
 ---
->[!definition] Definition (Trees)
+# Tree
+>[!definition] Definition (Tree)
 >A tree is a [[Connected]] [[Acyclic]] [[Graph]]
 >- A **Leaf** is a vertex of degree 1
 
@@ -26,9 +27,9 @@ tag: tree
 >4. $G$ has no loops and has for each $u,v\in V(G)$ exactly one $u,v$ path
 
 ***Proof:*** We first demonstrate the equivalence of (1), (2) and (3) by proving that any two of ([[Connected]], [[Acyclic]], $n-1$ edges) together imply the third
-1. $(1)\implies \{(2),(3)\}:$ We use induction on $n$.  For $n=1$ an acyclic $1-$vertex graph has no edge. For $n>1$ er suppose that the implication holds for graphs with fewer than $n$ vertices. Given an [[Acyclic]] [[Connected]] graph $G$. By the previous lemma we have a leaf $v$ and states that $G'=G-v$ also is acyclic and connected. Applying the induction hypothesis to $G'$ yields $r(G')=n-2$. Since only one edge is incident to $v$, we have $e(G)=n-1$.
+1. $(1)\implies \{(2),(3)\}:$ We use induction on $n$.  For $n=1$ an acyclic $1-$vertex graph has no edge. For $n>1$ er suppose that the implication holds for graphs with fewer than $n$ vertices. Given an [[Acyclic]] [[Connected]] graph $G$. By the previous lemma we have a leaf $v$ and states that $G'=G-v$ also is acyclic and connected. Applying the induction hypothesis to $G'$ yields $r(G')=n-2$. Since only one edge is [[Incident]] to $v$, we have $e(G)=n-1$.
 2. $(2)\implies \{(1),(3)\}:$ Delete edges from [[Cycle]]s of $G$ one by one until the resulting graph $G'$ is [[Acyclic]]. Since no edge of a cycle is a [[Cut Edge]] (Last Theorem). $G'$ is [[Connected]]. Now the part (1) implies that $e(G')=n-1$. Since we are given $e(G)=n-1$ no edges were deleted. Thus $G=G'$. and $G$ is acyclic.
-3. $(1)\implies \{(1),(2)\}:$ Let $G_1,\dots,G_k$ be the [[Components]] of $G$. Since $G$ has no [[Cycle]]s each component has no cycles. So $e(G_i)=n(G_i)-1$. So $$e(G)=\sum_{i=1}^k [n(G_i)-1]=n-k$$ We are given $e(G)=n-1$. So $k=1$. Hence $G$ is [[Connected]].
+3. $(1)\implies \{(1),(2)\}:$ Let $G_1,\dots,G_k$ be the [[Component]] of $G$. Since $G$ has no [[Cycle]]s each component has no cycles. So $e(G_i)=n(G_i)-1$. So $$e(G)=\sum_{i=1}^k [n(G_i)-1]=n-k$$ We are given $e(G)=n-1$. So $k=1$. Hence $G$ is [[Connected]].
 4. $(1)\implies (4):$ Since $G$ is [[Connected]], each pair of vertices is connected by a path. If some pair is connected by more than one, we choose a shortest pair $P,Q$ of distinct paths with the same endpoints. If $P,Q$ share a common internal vertex, we take the first common vertex suppose $w$ then we have two distinct path joining $u,w$ with the paths have no common internal vertex. So the union of the paths creates a [[Cycle]] which contradicts the hypothesis.
 5. $(4)\implies (1):$ For each $u,v\in V(G)$ there is a $u,v-$path. Hence $G$ is [[Connected]]. If $G$ has a cycle then $G$ has two $u,v-$paths for $u,v\in V(G)$. Hence $G$ is [[Acyclic]]. $\blacksquare$
 
@@ -39,8 +40,8 @@ tag: tree
 >3. Every [[Connected]] graph contains a [[Spanning Tree]]
 
 ***Proof:*** 
-1. A tree has no cycles, so by last theorem of [[Cut Edge]] every edge is a cut edge.
-2. A tree has a unique path linking each pair of vertices. So joining two vertices with an edge creates exactly one cycle
+1. A tree has no cycles, so by last theorem of [[Cut Edge]] every edge is a cut edge. $\blacksquare$
+2. A tree has a unique path linking each pair of vertices. So joining two vertices with an edge creates exactly one cycle $\blacksquare$
 3. As in the proof of $(2)\implies \{(1),(3)\}$ in previous theorem iteratively deleting edges from cycles in a [[Connected]] graph yields a connected [[Acyclic]] [[Spanning Subgraph]]. $\blacksquare$
 
 >[!proposition] 

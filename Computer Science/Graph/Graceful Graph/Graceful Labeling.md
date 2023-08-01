@@ -1,6 +1,7 @@
 ---
 tag: graceful-graph
 ---
+# Graceful Labeling
 >[!definition] Definition (Graceful Labeling)
 >A graceful labeling of a [[Graph]] $G$ with $m$ edges is a function $f:V(G)\to \{0,\dots,m\}$ such that distinct vertices receive distinct numbers and $$\{|f(u)-f(v)|\colon uv\in E(G)\}=\{1,\dots, m\}$$
 

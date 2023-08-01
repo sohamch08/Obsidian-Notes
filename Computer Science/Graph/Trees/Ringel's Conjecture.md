@@ -1,6 +1,7 @@
 ---
 tag: tree 
 ---
+# Ringel's Conjecture
 >[!conjecture] Ringel [1964]
 >If $T$ is fixed [[Tree]] with $m$ edges then [$K_{2m+1}$](../Complete.md) decomposes into $2m+1$ copies of $T$.
 

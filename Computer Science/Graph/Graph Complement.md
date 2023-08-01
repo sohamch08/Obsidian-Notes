@@ -1,10 +1,9 @@
 ---
 tag: graph
 ---
-# Prufer Code
->[!definition] Definition (Prufer Code)
->Given a set $S$ of $n$ numbers there are exactly $n^{n-2}$ ways to form a list of length $n-2$ with entries in $S$. The set of lists is denoted by $S^{n-2}$. We use $S^{n-2}$ to encode the trees with vertex set $S$. The list that results from a tree is its Prufer Code.
-
+# Graph Complement
+>[!definition] Definition (Graph Complement)
+>The complement $\ovG$ of a [[Simple Graph]] $G$ is the [[Simple Graph]] with vertex set $V(G)$ defined by the $uv\in E(\ovG)$ if and only if $uv\notin E(G)$.
 
 
 

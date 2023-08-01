@@ -1,8 +1,9 @@
 ---
 tag: graph
 ---
->[!definition] Definition (Partite Graph)
->The independent sets in [[Bipartite]] [[Graph]] is called Partite Sets.
+# Partite Set
+>[!definition] Definition (Partite Set)
+>The [[Independent Set]] in [[Bipartite]] [[Graph]] is called Partite Sets.
 
 
 

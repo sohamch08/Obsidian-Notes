@@ -1,6 +1,7 @@
 ---
 tag: graph
 ---
+# Incidence Matrix
 >[!definition] Definition (Incidence Matrix)
 >The incidence matrix $M(G)$ of a [[Graph]] $G$ is the $n\times m$ matrix in which entry $m_{i,j}$ is 1 if $v_i$ is an endpoint of $e_j$ and otherwise 0.
 >> The incidence matrix $M(G)$ of a loopless digraph $G$, we set $m_{i,j} = +1$ if $v_i$ is the tail of $e_j$ and $m_{i,j} = -1$ if $v_i$ is the head of $e_j$ and 0 otherwise.

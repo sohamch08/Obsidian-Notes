@@ -1,8 +1,9 @@
 ---
 tag: graph 
 ---
+# Bipartite Graph
 >[!definition] Definition (Bipartite Graph)
->A [[Graph]] $G$ is bipartite if $V(G)$ is the union of two disjoint (possibly empty) independent sets called [[Partite Set]]
+>A [[Graph]] $G$ is bipartite if $V(G)$ is the union of two disjoint (possibly empty) [[Independent Set]] called [[Partite Set]]
 
 
 

@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "-path:Templates -file:README",
+  "search": "-path:Templates -path:Excalidraw -file:README",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -95,6 +95,6 @@
   "repelStrength": 11.859264041317,
   "linkStrength": 1,
   "linkDistance": 100,
-  "scale": 0.2587450062941691,
+  "scale": 0.6684158722041337,
   "close": true
 }

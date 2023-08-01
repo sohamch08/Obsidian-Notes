@@ -1,8 +1,10 @@
 ---
-tag: graph
+tag: graph 
 ---
+# Cycle
+>[!definition] Definition (Cycle)
+>A cycle is a [[Graph]] with an equal number of vertices and edges whose vertices can be placed around a circle so that two vertices are adjacent if and only if they appear consecutively along the circle.
 
-[[Graph]]
 
 
 

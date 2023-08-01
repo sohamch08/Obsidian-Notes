@@ -1,0 +1,33 @@
+body {
+    --hr-line-offset: 25%;
+    --hr-color: lightsalmon;
+    --hr-text-color: lightblue;
+    --hr-text-offset: 2ch;
+    --hr-thickness: 4px;
+}
+
+:root hr {
+    --hr-line-color: var(--hr-color);
+    display: grid;
+    place-items: center;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        to right,
+        transparent,
+        var(--hr-line-color) calc(50% - var(--hr-line-offset)),
+        var(--hr-line-color) calc(50% - var(--hr-text-offset)),
+        transparent calc(50% - var(--hr-text-offset)),
+        transparent calc(50% + var(--hr-text-offset)),
+        var(--hr-line-color) calc(50% + var(--hr-text-offset)),
+        var(--hr-line-color) calc(50% + var(--hr-line-offset)),
+        transparent
+    );
+}
+
+:root hr::after {
+    content: "★";
+    font-weight: bold;
+    color: var(--hr-text-color);
+        position: absolute;
+        translate: 0 calc(var(--hr-thickness) / -2);
+}

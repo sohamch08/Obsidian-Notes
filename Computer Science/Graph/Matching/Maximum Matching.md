@@ -1,10 +1,11 @@
 ---
 tag: matching 
 ---
+# Maximum Matching
 >[!definition] Definition (Maximum Matching)
 >A maximum matching is a [[Matching]] of maximum size among all matching in the graph.
 
-- A matching $M$ is [[Maximal Matching]] if every edge not in $M$ is incident to an edge already in $M$. 
+- A matching $M$ is [[Maximal Matching]] if every edge not in $M$ is [[Incident]] to an edge already in $M$. 
 - Every maximum matching is a [[Maximum Matching]] but the converse need not hold.
 
 

@@ -1,6 +1,7 @@
 ---
 tag: tree
 ---
+# Directed Matrix Theorem
 Tutte extended the [[Matrix Tree Theorem]] to [[Digraph]]s
 
 >[!theorem] Theorem (Directed Matrix Tree Theorem) - Tutte (1948)

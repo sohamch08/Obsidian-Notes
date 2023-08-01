@@ -5,7 +5,8 @@
     "extended-colorschemes",
     "custom-admonitions.42f97d",
     "custom-rainbow-colors",
-    "window-button-hider"
+    "window-button-hider",
+    "custom-horizontal-rule"
   ],
   "interfaceFontFamily": "",
   "nativeMenus": false

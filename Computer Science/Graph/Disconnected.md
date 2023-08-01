@@ -1,26 +1,9 @@
 ---
-tag: tree
+tag: graph
 ---
-To decompose $G$ into trees $T$ larger than single edge requires $e(T)$ divides $e(G)$ and [$\Delta(G)\geq \Delta(T)$](../Vertex%20Degree.md#$\delta(G)$) . But that is not sufficient. 
-
->Even when $G$ is is $e(T)$ regular this may fail for example the [[Peterson Graph]] does not decompose into claws.
-
-Haggkvist conjectured that if $G$ is a $2m-$[[Regular]] graph and $T$ is a tree with $m$ edges then $E(G)$ decomposes into $n(G)$ copies of $T$.
-
-![[Ringel's Conjecture]]
-
->[!theorem] Rosa (1967)
->If a [[Tree]] with $m$ edges has a [[Graceful Labeling]] then [$K_{2m+1}$](../Complete.md) has a decomposition into ${2m+1}$ copies of $T$
-
-***Proof:*** View the vertices of $K_{2m+1}$ as the congruence classes modulo $2m+1$ arranged circularly. The difference between two congruence classes is
-- 1, if they are consecutive
-- 2, if one class is between them 
-- and so on up to difference $m$.
-
-We group the edges of [$K_{2m+1}$](../Complete.md) by the difference between the endpoints. For $1\leq j\leq m$ there are $2m+1$ edges with difference $j$. 
-From a [[Graceful Labeling]] of $T$ we define copies of $T$ in [$K_{2m+1}$](../Complete.md) the copies are $T_0,\dots, T_{2m}$. The vertices of $T_k$ are $k,\dots,k+m \pmod{2m+1}$ with $k+i$ adjacent to $k+j$ if and only if $i$ is adjacent to $j$ in the [[Graceful Labeling]] of $T$. The copy $T_0$ looks just like the [[Graceful Labeling]] and has one edge with each difference. Moving to the next copy shifts each edge to another having the same difference by adding one to the name of each endpoint. Each difference class of edges has one edge in each $T_k$ and thus $T_0,\dots,T_{2m}$ decompose [$K_{2m+1}$](../Complete.md). $\blacksquare$
-
-
+# Disconnected
+>[!definition] Definition (Disconnected)
+>A graph $G$ is disconnected if there exists a pair of vertices in $G$ such that there is no [[Path]] in which those two vertices belong.
 
 
 

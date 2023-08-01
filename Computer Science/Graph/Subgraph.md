@@ -1,7 +1,10 @@
 ---
-tag: graph
+tag: graph 
 ---
-[[Graph]]
+# Subgraph
+>[!definition] Definition (Subgraph)
+>A subgraph of a [[Graph]] $G$ is a [[Graph]] $H$ such that $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$ and the assignment of endpoints to edges in $H$ is the same as in $G$. We then write $H\subseteq G$ and say that "$G$ contains $H$"
+
 
 
 

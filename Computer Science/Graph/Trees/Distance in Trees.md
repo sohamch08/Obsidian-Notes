@@ -1,6 +1,7 @@
 ---
 tag: tree
 ---
+# Distance in Trees
 
 >[!theorem] 
 >The [[Center]] of a [[Tree]] is a vertex or an edge

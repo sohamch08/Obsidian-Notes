@@ -1,6 +1,7 @@
 ---
 tag: tree
 ---
+# Enumeration of Trees
 
 - With one or two vertices only one [[Tree]] can be formed. 
 - With 3 vertices there is still only one isomorphism class but the [[Adjacency Matrix]] is determined by which vertex is the center. Thus there are three trees with vertex set \[3\]. 

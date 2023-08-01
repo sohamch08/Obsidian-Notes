@@ -1,8 +1,9 @@
 ---
 tag: tree 
 ---
+# Caterpillar
 >[!definition] Definiton (Caterpillar)
->A caterpillar is a [[Tree]] in which a single path (the spine) is incident to (or contains) every edge.
+>A caterpillar is a [[Tree]] in which a single path (the spine) is [[Incident]] to (or contains) every edge.
 
 The tree $Y$ below is not a caterpillar
 ![[Pasted image 20230730165735.png]]
@@ -10,7 +11,8 @@ The tree $Y$ below is not a caterpillar
 >[!theorem] 
 >A [[Tree]] is a caterpillar if and only if it does not contain the tree $Y$ above.
 
-***Proof:*** Let $G'$ denote the tree obtained from a tree $G$ by deleting each leaf of $G$. Since all vertices that survive in $G'$ are non-leaves in $G$, $G'$ has a vertex of degree at least 3 if and only if $Y$ appears in $G$. Hence $G$ has no copy of $Y$ if and only if [$\Delta(G')\leq 2$](../Vertex%20Degree.md#$\Delta(G)$). This is equivalent to $G'$ being a path, which is equivalent to $G$ being a caterpillar.
+***Proof:*** Let $G'$ denote the tree obtained from a tree $G$ by deleting each leaf of $G$. Since all vertices that survive in $G'$ are non-leaves in $G$, $G'$ has a vertex of degree at least 3 if and only if $Y$ appears in $G$. Hence $G$ has no copy of $Y$ if and only if [$\Delta(G')\leq 2$](../Vertex%20Degree.md#$\Delta(G)$). This is equivalent to $G'$ being a path, which is equivalent to $G$ being a caterpillar. $\blacksquare$
+
 
 
 

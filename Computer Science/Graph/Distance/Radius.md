@@ -1,6 +1,7 @@
 ---
 tag: distance
 ---
+# Radius of a Graph
 
 >[!definition] Definition (Radius)
 >The **Radius** of a graph $G$ written rad $G$ is $\underset{u\in V(G)}{\min}\eps(u)$  where $\eps(u)$ is the [[Eccentricity]] of the vertex $u$.

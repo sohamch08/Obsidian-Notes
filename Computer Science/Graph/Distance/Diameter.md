@@ -1,8 +1,9 @@
 ---
 tag: distance
 ---
->[!definition] Definition (Diameter)
->The **Diameter** (diam $G$) is $\underset{u,v\in V(G)}{max}d(u,v)$ where $d(u,v)$ is the distance from $u$ to $v$. 
+# Diameter of Graph
+>[!definition] Definition (Diameter of Graph)
+>The **Diameter** (diam $G$) is $\underset{u,v\in V(G)}{max}d(u,v)$ where $d(u,v)$ is the [[Distance]] from $u$ to $v$. 
 
 Therefore $$\text{diam } G = \underset{u\in V(G)}{\max}\eps(u)$$ where $\eps(u)$ is the [[Eccentricity]] of the vertex $u$.
 

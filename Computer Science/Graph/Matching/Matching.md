@@ -1,11 +1,20 @@
 ---
 tag: matching 
 ---
+# Matching
 >[!definition] Definition (Matching)
 >A matching in a [[Graph]] is a set of non-loop edges with no shared endpoints. 
->- The vertices incident to the edges of a matching $M$ are **Saturated** by $M$ (We say $M$-saturated)
+>- The vertices [[Incident]] to the edges of a matching $M$ are **Saturated** by $M$ (We say $M$-saturated)
 >- The others are **Unsaturated** (We say $M$-unsaturated)
 
+
+>[!lemma] 
+>Every [[Component]] of the [[Symmetric Difference]] of two matchings is a [[Path]] or an even [[Cycle]]
+
+***Proof:*** Let $M$ and $M'$ be matchings and let [$F=M\Delta M'$](../Symmetric%20Difference.md). Since $M$ and $M'$ are matchings every vertex has at most one [[Incident]] edge from each of them. Thus $F$ has at most two edges at each vertex. since [$\Delta(F)\leq 2$](../Vertex%20Degree.md#$\Delta(G)$) every [[Component]] of $F$ is a [[Path]] or a [[Cycle]]. Furthermore every path or cycle in $F$ alternates between edges of $M-M'$ ans edges of $M'-M$. Thus each [[Cycle]] has even length with an equal number of edges from $M$ and from $M'$. $\blacksquare$
+
+>[!theorem] Theorem - Berge (1957)
+>A matching $M$ in a [[Graph]] $G$ is a [[Maximum Matching]] in $G$ if and only if $G$ has no $M$-[[Augmenting Path]]
 
 
 

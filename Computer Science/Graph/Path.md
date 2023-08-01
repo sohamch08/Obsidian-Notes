@@ -1,9 +1,9 @@
 ---
-tag: graph
+tag: graph 
 ---
-# Prufer Code
->[!definition] Definition (Prufer Code)
->Given a set $S$ of $n$ numbers there are exactly $n^{n-2}$ ways to form a list of length $n-2$ with entries in $S$. The set of lists is denoted by $S^{n-2}$. We use $S^{n-2}$ to encode the trees with vertex set $S$. The list that results from a tree is its Prufer Code.
+# Path
+>[!definition] Definition (Path)
+>A path is a [[Simple Graph]] whose vertices can be ordered so that two vertices are adjacent if and only if they are consecutive in the list
 
 
 

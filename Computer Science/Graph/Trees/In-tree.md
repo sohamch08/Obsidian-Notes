@@ -1,6 +1,7 @@
 ---
 tag: tree 
 ---
+# In-Tree
 >[!definition] Definition (In-tree)
 >An in-tree is an [[Out-tree]] with edges reversed.
 

@@ -1,7 +1,12 @@
 ---
-tag: graph
+tag: graph 
 ---
-[[Graph]]
+
+# Connected
+>[!definition] Definition (Connected)
+>A [[Graph]] $G$ is connected if each pair of vertices in $G$ belong to a [[Path]]
+>- Otherwise **[[Disconnected]]**
+
 
 
 
@@ -302,4 +307,4 @@ $$%---------------------------------------
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
 \newcommand{\subeq}{\subseteq}
 
-$$
+$$ 

@@ -1,6 +1,7 @@
 ---
 tag: graph 
 ---
+# Acyclic Graph
 >[!definition] Definition(Acyclic Graph)
 >A [[Graph]] with no [[Cycle]] is acyclic
 

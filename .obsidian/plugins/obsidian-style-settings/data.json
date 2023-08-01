@@ -14,7 +14,7 @@
   "ITS@@titlebar-bubbles": false,
   "ITS@@tab-widths": "none",
   "ITS@@ITS-Sidebar-Styling": "sidebar-tabs-wide",
-  "ITS@@navbar-bottom": true,
+  "ITS@@navbar-bottom": false,
   "ITS@@ITS-Sidebar-Ribbon-Float": "none",
   "ITS@@file-explorer-flat": false,
   "ITS@@minimalist-workspace": false,

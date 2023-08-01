@@ -1,7 +1,8 @@
 ---
 tag: distance
 ---
->[!definition] Definition (Eccentricity)
+# Eccentricity of a Vertex
+>[!definition] Definition (Eccentricity of a Vertex)
 >The **Eccentricity** of a vertex $u$, written $\eps(u)$ is $\underset{v\in V(G)}{\max}d(u,v)$ where $d(u,v)$ is the [[Distance]] from $u$ to $v$.
 
 

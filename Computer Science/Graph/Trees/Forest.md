@@ -1,6 +1,7 @@
 ---
 tag: tree
 ---
+# Forest
 >[!definition] Definition (Forest)
 >A forest is an [[Acyclic]] [[Graph]]
 

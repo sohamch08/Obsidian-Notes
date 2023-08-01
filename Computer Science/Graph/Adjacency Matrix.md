@@ -1,7 +1,10 @@
 ---
-tag: graph
+tag: graph 
 ---
-[[Graph]]
+# Adjacency Matrix
+
+>[!definition] Definition (Adjacency Matrix)
+>The adjacency matrix of [[Graph]] $G$ written $A(G)$ is the $n\times n$ matrix in which entry $a_{i,j}$ is the number of edges in $G$ with endpoint $[v_i,v_j]$.
 
 
 

@@ -1,6 +1,7 @@
 ---
 tag: matching 
 ---
+# Perfect Matching
 >[!definition] Definition (Perfect Matching)
 >A perfect matching in a [[Graph]] is a [[Matching]] that [saturates](./Matching.md) every vertex.
 

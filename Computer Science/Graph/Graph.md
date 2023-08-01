@@ -1,6 +1,9 @@
 ---
 tag: graph
 ---
+# Graph
+>[!definition] Definition (Graph)
+> A graph $G$ is a triple consisting of a **Vertex Set** $V(G)$, an **Edge Set** $E(G)$, and a relation that associates with each edge two vertices (not necessarily distinct) called its **Endpoints**.
 
 
 

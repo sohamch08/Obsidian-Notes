@@ -1,6 +1,7 @@
 ---
 tag: distance
 ---
+# Wiener Index
 In order to study average [[Distance]] the average is the sum of distance divided by ${{n}\choose{2}}$. It is equivalent to study the sum of distances
 
 >[!definition] Definition (Wiener Index)

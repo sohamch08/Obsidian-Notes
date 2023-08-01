@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "358688abb46a7b35",
+        "id": "121f200c79cc4156",
         "type": "tabs",
         "children": [
           {
-            "id": "02fd62d97a86a7ce",
+            "id": "bcf3382680f45a30",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,27 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "3b8d6376a7e87b1f"
-          }
-        ]
-      },
-      {
-        "id": "d48fceeef07688fb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b44cd675ba8cbefb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "3b8d6376a7e87b1f"
+            }
           }
         ]
       }
@@ -117,7 +97,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "Computer Science/Graph/Matching/Matching.md",
-                "linksCollapsed": true,
+                "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -134,8 +114,8 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -156,13 +136,56 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "6bc7b79e4f87c3d7",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Computer Science/Graph/Matching/Matching.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5078501924728341,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "7011b9baaeebd186",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,27 +199,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "02fd62d97a86a7ce",
+  "active": "bcf3382680f45a30",
   "lastOpenFiles": [
-    "Computer Science/Graph/Subgraph.md",
-    "Computer Science/Graph/Trees/Counting Spanning Tree.md",
-    "Computer Science/Graph/Trees/Branching.md",
-    "Computer Science/Graph/Regular.md",
+    "Computer Science/Graph/Matching/Maximum Matching.md",
+    "Computer Science/Graph/Matching/Matching.md",
+    "Computer Science/Graph/Symmetric Difference.md",
+    "Computer Science/Graph/Path.md",
     "Computer Science/Graph/Vertex Degree.md",
+    "Computer Science/Graph/Incident.md",
     "Computer Science/Graph/Trees/Tree.md",
-    "Computer Science/Graph/Trees/Decomposition Into Trees.md",
+    "Computer Science/Graph/Matching/Maximal Matching.md",
     "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
-    "Computer Science/Graph/Trees/Enumeration of Trees.md",
-    "Computer Science/Graph/Trees/Ringel's Conjecture.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Dependence.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral Closure.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Valuation Ring.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integrally Closed.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
-    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
-    "Computer Science/Graph/Components.md",
-    "Computer Science/Graph/Cut Edge.md",
-    "Computer Science/Graph/Trees/Distance in Trees.md",
+    "Computer Science/Graph/Contraction.md",
+    "Computer Science/Graph/Trees/Caterpillar.md",
+    "Computer Science/Graph/Bipartite Graph/Biclique.md",
+    "Computer Science/Graph/Independent Set.md",
+    "Computer Science/Graph/Distance/Radius.md",
+    "Computer Science/Graph/Incidence Matrix.md",
+    "Computer Science/Graph/Adjacency Matrix.md",
+    "Computer Science/Graph/Disconnected.md",
+    "Computer Science/Graph/Connected.md",
+    "Computer Science/Graph/Subgraph.md",
+    "Computer Science/Graph/Cycle.md",
+    "Computer Science/Graph/Bipartite Graph/Partite Set.md",
+    "Computer Science/Graph/Bipartite Graph/Bipartite.md",
+    "Computer Science/Graph/Distance/Eccentricity.md",
+    "Computer Science/Graph/Clique.md",
+    "Computer Science/Graph/Graph Complement.md",
+    "Computer Science/Graph/Acyclic.md",
     "Untitled 6",
     "Untitled 5",
     "Untitled 4",
@@ -204,13 +234,6 @@
     "Untitled 2",
     "Untitled 1",
     "Untitled",
-    "Computer Science/Graph/Trees/Directed Matrix Tree Theorem.md",
-    "Computer Science/Graph/Loop.md",
-    "Computer Science/Graph/Acyclic.md",
-    "Computer Science/Graph/Trees/Star.md",
-    "Computer Science/Graph/Bipartite Graph/Biclique.md",
-    "Symmetric Difference.md",
-    "Computer Science/Graph/Matching/Matching.md",
     "Excalidraw",
     "Computer Science/Graph/Matching",
     "images/Pasted image 20230730165735.png",

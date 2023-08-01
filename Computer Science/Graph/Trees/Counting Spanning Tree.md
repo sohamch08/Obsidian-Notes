@@ -1,6 +1,7 @@
 ---
 tag: tree
 ---
+# Counting Spanning Tree
 >[!proposition] 
 >Let $\tau(G)$ denote the number of [[Spanning Tree]]s of a graph $G$. If $e\in E(G)$ is not a loop then $$\tau(G)=\tau(G-e)+\tau(G\cdot e)$$
 

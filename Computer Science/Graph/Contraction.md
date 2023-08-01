@@ -3,7 +3,7 @@ tag: graph
 ---
 
 >[!definition] Definition (Contraction of Edge)
->In a [[Graph]] $G$ contraction of edge $e$ with endpoints $u,v$ is the replacement of $u$ and $v$ with a single vertex whose incident edges are the edges other then $e$ that were incident to $u$ or $v$. the resulting graph $G\cdot e$ has one less edge than $G$
+>In a [[Graph]] $G$ contraction of edge $e$ with endpoints $u,v$ is the replacement of $u$ and $v$ with a single vertex whose [[Incident]] edges are the edges other then $e$ that were [[Incident]] to $u$ or $v$. the resulting graph $G\cdot e$ has one less edge than $G$
 
 
 
