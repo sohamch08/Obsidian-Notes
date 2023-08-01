@@ -199,5 +199,19 @@
       ],
       "key": "I"
     }
-  ]
+  ],
+  "obsidian-completr:completr-fake-arrow-up": [
+    {
+      "key": "ArrowUp",
+      "modifiers": []
+    }
+  ],
+  "obsidian-completr:completr-fake-arrow-down": [
+    {
+      "key": "ArrowDown",
+      "modifiers": []
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:insert-link": []
 }

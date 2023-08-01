@@ -1,13 +1,12 @@
 ---
 tag: bipartite
 ---
->[!definition] Definition (Simple Graph)
->A simple graph is a [[Graph]] having no [[Loop]]s or multiple [[Edge]]s. We specify a simple graph by its vertex set and edge set, treating the edge set as a set of unordered pairs of [Vertices](./Vertex.md) and writing $e=uv$ (or $e=vu$) for an edge e with endpoints $u$ and $v$
+# Bipartition
 
+>[!definition] Definition (Bipartition)
+>A bipartition of $G$ is a specification of two disjoint [[Independent Set]]s in $G$ whose union is $V (G)$.
 
-
-
-
+>The statement "Let $G$ be a [[Bipartite]] [[Graph]] with bipartition $X, Y$" specifies one such partition.
 
 
 

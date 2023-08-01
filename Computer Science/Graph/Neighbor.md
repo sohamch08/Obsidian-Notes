@@ -1,8 +1,12 @@
 ---
-tag: bipartite
+tag: graph
 ---
->[!definition] Definition (Simple Graph)
->A simple graph is a [[Graph]] having no [[Loop]]s or multiple [[Edge]]s. We specify a simple graph by its vertex set and edge set, treating the edge set as a set of unordered pairs of [Vertices](./Vertex.md) and writing $e=uv$ (or $e=vu$) for an edge e with endpoints $u$ and $v$
+# Neighbor of a Vertex
+
+>[!definition] Definition (Neighbor of a Vertex)
+>In a [[Graph]] $G$ the neighborhood of $v$, written $N_G(v)$ or $N(v)$, is the set of vertices adjacent to $v$.
+
+>For a set of vertices $S\subseteq V(G)$, $N_G(S)$ pr $N(S)$ is the set of all vertices which are adjacent to any vertex of $S$
 
 
 

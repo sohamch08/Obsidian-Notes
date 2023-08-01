@@ -1,5 +1,5 @@
 ---
-tag: graph 
+tag: bipartite 
 ---
 # Bipartite Graph
 >[!definition] Definition (Bipartite Graph)

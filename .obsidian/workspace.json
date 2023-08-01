@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "121f200c79cc4156",
+        "id": "02d70b83b561388e",
         "type": "tabs",
         "children": [
           {
-            "id": "bcf3382680f45a30",
+            "id": "6b70713c3b4ebb2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md",
-                "mode": "source",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 285.5
   },
   "right": {
     "id": "3f3a6db66ff1678c",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md"
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,11 +199,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bcf3382680f45a30",
+  "active": "6b70713c3b4ebb2e",
   "lastOpenFiles": [
-    "Computer Science/Graph/Matching/Maximum Matching.md",
     "Computer Science/Graph/Matching/Matching.md",
+    "Computer Science/Graph/Matching/Hall's Matching Condition.md",
+    "images/Pasted image 20230801180133.png",
+    "Untitled.md",
+    "Computer Science/Graph/Neighbor.md",
+    "Computer Science/Graph/Bipartite Graph/Biclique.md",
+    "Bigraph.md",
+    "Computer Science/Graph/Bipartite Graph/Bipartition.md",
+    "Computer Science/Graph/Bipartite Graph/Bipartite.md",
+    "Computer Science/Graph/Simple Graph.md",
+    "Computer Science/Graph/Bipartite Graph/Partite Set.md",
+    "Computer Science/Graph/Matching/Augmenting Path.md",
     "Computer Science/Graph/Symmetric Difference.md",
+    "Computer Science/Graph/Matching/Maximum Matching.md",
     "Computer Science/Graph/Path.md",
     "Computer Science/Graph/Vertex Degree.md",
     "Computer Science/Graph/Incident.md",
@@ -212,21 +223,10 @@
     "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
     "Computer Science/Graph/Contraction.md",
     "Computer Science/Graph/Trees/Caterpillar.md",
-    "Computer Science/Graph/Bipartite Graph/Biclique.md",
     "Computer Science/Graph/Independent Set.md",
     "Computer Science/Graph/Distance/Radius.md",
     "Computer Science/Graph/Incidence Matrix.md",
     "Computer Science/Graph/Adjacency Matrix.md",
-    "Computer Science/Graph/Disconnected.md",
-    "Computer Science/Graph/Connected.md",
-    "Computer Science/Graph/Subgraph.md",
-    "Computer Science/Graph/Cycle.md",
-    "Computer Science/Graph/Bipartite Graph/Partite Set.md",
-    "Computer Science/Graph/Bipartite Graph/Bipartite.md",
-    "Computer Science/Graph/Distance/Eccentricity.md",
-    "Computer Science/Graph/Clique.md",
-    "Computer Science/Graph/Graph Complement.md",
-    "Computer Science/Graph/Acyclic.md",
     "Untitled 6",
     "Untitled 5",
     "Untitled 4",

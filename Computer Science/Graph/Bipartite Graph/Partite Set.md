@@ -1,5 +1,5 @@
 ---
-tag: graph
+tag: bipartite
 ---
 # Partite Set
 >[!definition] Definition (Partite Set)
