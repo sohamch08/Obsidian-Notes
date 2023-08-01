@@ -68,6 +68,8 @@ there
 thus
 these
 this
+than
+triple
 matching
 matched
 must
@@ -164,6 +166,8 @@ mm
 matchings
 most
 matches
+more
+maximal
 Hall
 Ht
 Hp
@@ -189,6 +193,8 @@ MD
 MMM
 Mpp
 MDDDDDD
+Maximum
+Maximal
 Condition
 Captital
 Cbb
@@ -235,6 +241,8 @@ Ay
 AU
 App
 Among
+Alternating
+Augmenting
 bigraph
 bbA
 bbB
@@ -328,6 +336,10 @@ be
 by
 between
 bijection
+both
+but
+bipartite
+bipartition
 has
 hjj
 hddd
@@ -341,6 +353,7 @@ hD
 hkk
 have
 hence
+hold
 saturates
 sufficient
 subset
@@ -389,6 +402,13 @@ shared
 say
 saturated
 since
+same
+starts
+specification
+statement
+specifies
+stable
+size
 if
 in
 is
@@ -400,6 +420,9 @@ iE
 iCZZ
 iu
 iJ
+it
+independent
+its
 and
 all
 aaa
@@ -417,6 +440,12 @@ alternates
 ans
 along
 adding
+alternating
+augmenting
+also
+associates
+among
+already
 only
 obtain
 ovA
@@ -487,6 +516,9 @@ oC
 others
 or
 one
+other
+observed
+on
 for
 flushright
 frac
@@ -498,6 +530,7 @@ fM
 fUx
 from
 fact
+first
 Proof
 PNG
 Phh
@@ -511,6 +544,7 @@ Plbb
 Pb
 PTT
 PUUe
+Path
 Necessity
 Neighbor
 NNNhh
@@ -601,6 +635,8 @@ lGGG
 let
 loop
 length
+larger
+lemma
 Sufficiency
 Small
 Scr
@@ -613,6 +649,10 @@ Saturated
 Symmetric
 Since
 Suppose
+So
+Such
+Set
+Stable
 prove
 ph
 phi
@@ -626,6 +666,9 @@ pp
 path
 proved
 proof
+produce
+partition
+pairwise
 we
 wT
 www
@@ -636,6 +679,9 @@ wj
 wMMM
 wQ
 with
+whose
+when
+which
 contrapositive
 cccxzz
 ccc
@@ -655,6 +701,14 @@ cannot
 contradicts
 choice
 completes
+can
+converse
+construct
+cycles
+components
+component
+consisting
+called
 If
 IHDR
 IDATx
@@ -670,6 +724,7 @@ IZ
 IU
 IOO
 IEND
+Independent
 does
 del
 deld
@@ -685,6 +740,9 @@ dff
 dddTS
 djj
 dJKK
+direction
+disjoint
+distinct
 not
 newcommand
 nR
@@ -695,6 +753,10 @@ nuPVV
 non
 no
 number
+new
+nonadjacent
+necessarily
+need
 BlackBoard
 Bold
 Bar
@@ -707,6 +769,11 @@ Bi
 BBB
 BGG
 BYY
+Berge
+By
+Because
+Bigraph
+Bipartition
 Fonts
 Fraktur
 Font
@@ -722,6 +789,7 @@ FSS
 FFFhhh
 FTTT
 Furthermore
+For
 Letters
 Lm
 Lambda
@@ -757,6 +825,8 @@ GL
 GAA
 Gzz
 Gk
+Given
+Graph
 eps
 epsilon
 end
@@ -778,6 +848,8 @@ edge
 each
 equal
 extends
+ends
+enlarged
 gm
 gamma
 gg
@@ -785,6 +857,7 @@ gO
 go
 gWCZA
 gppp
+graph
 Om
 Omega
 Op
@@ -849,6 +922,8 @@ uPP
 uy
 uK
 unsaturated
+used
+union
 rotatebox
 rt
 right
@@ -863,6 +938,8 @@ return
 reached
 reaching
 rest
+replace
+relation
 JKK
 JJJ
 JDDDDDD
@@ -903,6 +980,8 @@ EII
 EA
 Ennn
 Every
+Edge
+Endpoints
 YY
 Yk
 YPP

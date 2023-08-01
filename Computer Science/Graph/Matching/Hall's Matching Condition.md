@@ -4,12 +4,42 @@ tag: matching
 # Hall's Matching Condition
 
 >[!theorem] Theorem (Hall's Theorem) - P. Hall (1935)
->An $X,Y$-bigraph $G$ has s [[Matching]] that [saturate](./Matching.md) $X$ if and only if $|N(S)|\geq |S|$ for all $S\subseteq X$.
+>An $X,Y$-[[Bigraph]] $G$ has a [[Matching]] that [saturate](./Matching.md) $X$ if and only if $|N(S)|\geq |S|$ for all $S\subseteq X$.
 
 ***Proof:*** 
 **Necessity:** The $|S|$ vertices matched to $S$ must lie in [$N(S)$](Neighbor.md) for all $S\subseteq X$.
-**Sufficiency:** To prove that Hall's Condition is sufficient we prove the contrapositive. If $M$ is a maximum matching in $G$ and $M$ does not [saturate](./Matching.md) $X$, then we obtain a set $S\subseteq X$ such that $N(S)\leq |S|$. Let $u\in X$ be a vertex [unsaturated](./Matching.md) by $M$. Among all the vertices reachable from $u$ by $M$-[[Alternating Path]]s in $G$ let $S$ consists of those in $X$ and let $T$ consists of those in $Y$. 
-![[Pasted image 20230801180133.png]]
+**Sufficiency:** To prove that Hall's Condition is sufficient we prove the contrapositive. If $M$ is a maximum matching in $G$ and $M$ does not [saturate](./Matching.md) $X$, then we obtain a set $S\subseteq X$ such that $N(S)\leq |S|$. 
+Let $u\in X$ be a vertex [unsaturated](./Matching.md) by $M$. Among all the vertices reachable from $u$ by $M$-[[Alternating Path]]s in $G$ let $S$ consists of those in $X$ and let $T$ consists of those in $Y$. 
+```tikz
+\begin{document}
+	\begin{tikzpicture}[scale=2.5, font=\LARGE]
+		\foreach \i in {1,2,3,4,5,6,7}{
+			\filldraw[black] (-\i,1) circle (2pt);
+		}
+		\foreach \i in {0,1,2,3,4,5,6,7}{
+			\filldraw[black] (-\i+1,-1) circle (2pt);
+		}
+		\foreach \i in {1,2,3}{
+			\draw (-7+\i,-1) -- (-6+\i,1);
+		}
+		\foreach \i in {1,2,3,4,5,6}{
+			\draw[line width=0.7mm] (-\i,-1) -- (-\i,1);
+		}
+		\foreach \i in {1,2,5,7}{
+			\draw (-5,-1) -- (-\i,1);
+		}
+		\draw (-4,-1) -- (-5,1);
+		\draw (-2,1) -- (0,-1);
+		\draw (-1,1) -- (1,-1);
+		\draw (-7,1) node [xshift=-0.5cm]{$u$};
+		\draw (-7.5,1) node [xshift=-1cm]{$X$};
+		\draw (-7.5,-1) node [xshift=-1cm]{$Y$};
+		\draw (-7,1.2) -- (-4,1.2) node [midway, above]{$S$};
+		\draw (-6,-1.2) -- (-4,-1.2) node [midway, below]{$T=N(S)$};
+	\end{tikzpicture}
+\end{document}
+```
+
 Note that $u\in S$. We claim that $M$ matches $T$ with $S-\{u\}$. The $M$-[[Alternating Path]]s from $u$ reach $Y$ along edges not in $M$ and return to $X$ along edges in $M$. Hence every vertex of $S-\{u\}$ is reached by an edge in $M$ from a vertex in $T$. Since there is no $M$-[[Augmenting Path]], every vertex of $T$ is [saturated](./Matching.md); thus an $M$-[[Alternating Path]] reaching $y\in T$ extends via $M$ to a vertex of $S$. Hence these edges of $M$ yield a bijection from $T$ to $S-\{u\}$ and we have $|T|=|S-\{u\}|$.
 The [[Matching]] between $T$ and $S-\{u\}$ yields $T\subseteq N(S)$. In fact, $T=N(S)$. Suppose that $y\in Y-T$ has a [[Neighbor]] $v\in S$. The edge $vy$ cannot be in $M$ since $u$ is [unsaturated](./Matching.md) and the rest of $S$ is matched to $T$ by $M$. Thus adding $vy$ to an $M$-[[Alternating Path]] reaching $v$ yields an $M$-[[Alternating Path]] to $y$. This contradicts $y\notin T$ and hence $vy$ cannot exists.
 With $T=N(S)$ we have proved that $|N(S)|=|T|=|S|-1<|S|$ for this choice of $S$. This completes the proof of the contrapositive. $\blacksquare$

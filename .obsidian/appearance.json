@@ -9,5 +9,6 @@
     "custom-horizontal-rule"
   ],
   "interfaceFontFamily": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "showViewHeader": true
 }
