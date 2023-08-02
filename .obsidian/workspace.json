@@ -104,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#edge-cover",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "3f3a6db66ff1678c",
@@ -212,7 +211,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6329429747183559,
+                  "scale": 0.47844950490318805,
                   "close": true
                 }
               }
@@ -247,9 +246,15 @@
   },
   "active": "282b55b13be97358",
   "lastOpenFiles": [
-    "Computer Science/Graph/Vertex Cover.md",
+    "Computer Science/Graph/Independent Set.md",
     "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
+    "Computer Science/Graph/Bipartite Graph/Biclique.md",
+    "Computer Science/Graph/Graph.md",
+    "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
+    "Computer Science/Graph/Trees/Star.md",
+    "Computer Science/Graph/Edge Cover.md",
     "Computer Science/Graph/Distance/Center.md",
+    "Computer Science/Graph/Vertex Cover.md",
     "Computer Science/Graph/Matching/Matching.md",
     "Computer Science/Graph/Simple Graph.md",
     "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
@@ -258,22 +263,16 @@
     "Computer Science/Graph/Bipartite Graph/Bigraph.md",
     "Computer Science/Graph/Edge.md",
     "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
-    "Computer Science/Graph/Independent Set.md",
-    "Computer Science/Graph/Edge Cover.md",
-    "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
     "Computer Science/Graph/Independence Number.md",
     "Computer Science/Graph/Matching/Maximum Matching.md",
     "Computer Science/Graph/Min-Max Relation.md",
     "Computer Science/Graph/Trees/Tree.md",
-    "Computer Science/Graph/Graph.md",
     "Computer Science/Graph/Cycle.md",
     "Computer Science/Graph/Acyclic.md",
     "Computer Science/Graph/Connected.md",
     "Computer Science/Graph/Matching/Marriage Theorem.md",
     "Computer Science/Graph/Matching and Vertex Cover.md",
     "Matching",
-    "Computer Science/Graph/Matching/Hall's Matching Condition.md",
-    "Computer Science/Graph/Matching/Augmenting Path.md",
     "PDFs",
     "images/Pasted image 20230801180133.png",
     "Untitled 6",

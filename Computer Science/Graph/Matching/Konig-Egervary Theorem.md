@@ -10,7 +10,7 @@ Partition $Q$ by letting $R=Q\cap X$ and $T=Q\cap Y$. Let $H$ and $H'$ be the [[
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[scale=2.5, font=\LARGE]
+\begin{tikzpicture}[scale=2, font=\LARGE]
 	\foreach \i in {1,2,3,4,5,6,7,8,9,10}{
 		\filldraw[black] (\i,1) circle (2pt);
 	}

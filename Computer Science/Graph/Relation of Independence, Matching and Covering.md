@@ -1,23 +1,31 @@
 ---
 tag: graph
+tags: independent-set, matching, edge-cover, vertex-cover
 ---
 # Relation of Independence, Matching and Covering
 
 ![[Min max Notation of Independence, Matching and Covering]]
 
-## $\alpha'(G)=\beta(G)$
+## $\alpha'(G)=\beta(G)$ (Konig-Egervary Theorem) #matching  #vertex-cover
+
+
+![[Konig-Egervary Theorem]]
 
 >[[Konig-Egervary Theorem]] states that [$\alpha'(G)=\beta(G)$](./Min%20max%20Notation%20of%20Independence,%20Matching%20and%20Covering.md) for every [[Bipartite]] [[Graph]] $G$.
 
 We will prove that also $\alpha(G)= \beta'(G)$ for [[Bipartite]] [[Graph]]s without isolated vertices. Since no edge can cover two vertices of an [[Independent Set]], the inequality $\beta'(G)\geq \alpha (G)$ is immediate. 
 
-## $\alpha(G)+\beta(G)=n(G)$
+## $\alpha(G)+\beta(G)=n(G)$ #independent-set #vertex-cover 
+
+
 >[!lemma] 
 >In a graph $G$, $S\subseteq V(G)$ is an [[Independent Set]] if and only if $\ovS$ is a [[Vertex Cover]] and hence $$\alpha (G)+\beta(G)=n(G)$$
 
 ***Proof:*** If $S$ is an [[Independent Set]] then every edge is to at least one vertex of $\ovS$. Conversely if $\ovS$ covers all the edges then there are no edges joining vertices of $S$. Hence every maximum [[Independent Set]] is the complement of minimum [[Vertex Cover]], and $\alpha (G)+\beta(G)=n(G)$ $\blacksquare$
 
-## $\alpha'(G)+\beta'(G)=n(G)$
+## $\alpha'(G)+\beta'(G)=n(G)$ #matching #edge-cover
+
+
 >The relationship between [[Matching]] and [[Edge Cover]]s is more subtle. 
 
 >[!theorem] Theorem - Gallai (1959)
@@ -27,13 +35,16 @@ We will prove that also $\alpha(G)= \beta'(G)$ for [[Bipartite]] [[Graph]]s with
 
 Let $M$ be a [[Maximum Matching]] in $G$, We construct an [[Edge Cover]] of $G$ by adding to $M$ one edge incident to each [unsaturated](./Matching/Matching.md) vertex. We have used one edge for each vertex, except that each edge of $M$ takes care of two vertices, so the total size of this edge cover is $n(G)-|M|$ (Because with $|M|$ many edges $2|M|$ saturated vertices are covered. Only $n(G)-2|M|$ many unsaturated vertices remain. We add an edge for each such unsaturated vertex. So total edges in the [[Edge Cover]] is $n(G)-2|M|+|M|=n(G)-|M|$), as desired. 
 
-Now let $L$ be a minimum [[Edge Cover]]. If both endpoints of an edge $e$ belong to edges in $L$ other that $e$ then $e\notin L$, since $L-\{e\}$ is also an [[Edge Cover]]. Hence each [[Component]] formed by edges of $L$ has at most one vertex of degree exceeding 1 and is a [[Star]]. Let $k$ be the number of these [[Component]]s. Since $L$ has one edge for each non-[central](./Distance/Center.md) vertex in each [[Star]] we have $|L|=n(G)-k$. We form a [[Matching]] $M$ of size $k=n(G)-|L|$ by choosing one edge from each [[Star]] in $L$. $\blacksquare$
+Now let $L$ be a minimum [[Edge Cover]]. If both endpoints of an edge $e$ belong to edges in $L$ other that $e$ then $e\notin L$, since $L-\{e\}$ is also an [[Edge Cover]]. Hence each [[Component]] formed by edges of $L$ has at most one vertex of degree exceeding 1 (because if there is two vertices with degree more than 1 in same component let $u,v$ then there is a path from $u$ to $v$. Then the first edge incident on $u$ suppose the other endpoint is $x$. Since $x$ already in the component because of the other edges from $L$ are in that path there is no need for the edge $ux$ to be in $L$.) and is a [[Star]]. Let $k$ be the number of these [[Component]]s. Since $L$ has one edge for each non-[central](./Distance/Center.md) vertex in each [[Star]] we have $|L|=n(G)-k$. We form a [[Matching]] $M$ of size $k=n(G)-|L|$ by choosing one edge from each [[Star]] in $L$. $\blacksquare$
+
+## $\alpha(G)=\beta'(G)$ #independent-set #edge-cover 
 
 
+>[!corollary] Corollary - Konig (1916)
+>If $G$ is a [[Bipartite]] graph with no isolated vertices, then $$\alpha (G)=\beta'(G)$$
 
-
-
-
+***Proof:*** By the first lemma and the last theorem we have $$\alpha(G)+\beta(G)=\alpha'(G)+\beta'(G)$$
+Subtracting the [[Konig-Egervary Theorem]] $\alpha'(G)=\beta(G)$ completes the proof. $\blacksquare$
 
 
 
