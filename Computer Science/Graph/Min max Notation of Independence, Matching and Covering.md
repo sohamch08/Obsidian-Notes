@@ -1,14 +1,14 @@
 ---
 tag: graph
 ---
-# Edge Cover
->[!definition] Definition (Edge Cover)
->An edge cover of [[Graph]] $G$ is a set $L$ of edges such that every vertex of $G$ is [[Incident]] to some edge of $L$.
+# Min max Notation of Independence, Matching and Covering
+>Maximum size of [[Independent Set]] is denoted by $\alpha(G)$
+>Maximum size of [[Matching]] is denoted by $\alpha'(G)$
+>Minimum size of [[Vertex Cover]] is denoted by $\beta(G)$
+>Minimum size of [[Edge Cover]] is denoted by $\beta'(G)$
 
->Only [[Graph]]s without isolated vertices have edge colors.
 
-- A [[Perfect Matching]] forms an edge cover with $\frac{n(G)}{2}$ edges. 
-- In general we can obtain an edge cover by adding edges to a [[Maximum Matching]]
+
 
 
 
@@ -306,4 +306,4 @@ $$%---------------------------------------
 \newcommand{\mat}[1]{\left[\begin{matrix}#1\end{matrix}\right]}
 \newcommand{\subeq}{\subseteq}
 
-$$ 
+$$

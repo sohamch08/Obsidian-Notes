@@ -5,11 +5,11 @@
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light",
   "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false,
   "ITS@@ITS-Sizes": "sizing-mini",
-  "ITS@@tab-outline-width": 1,
+  "ITS@@tab-outline-width": 0,
   "ITS@@nav-item-size": 12,
   "ITS@@sidebar-tab-icon-size": 15,
   "ITS@@file-header-font-size": 15,
-  "ITS@@popover-width": 450,
+  "ITS@@popover-width": 600,
   "ITS@@titlebar-colors": false,
   "ITS@@titlebar-bubbles": false,
   "ITS@@tab-widths": "none",
@@ -173,5 +173,6 @@
   "ITS@@tables-wide": false,
   "ITS@@tables-no-hover": false,
   "ITS@@th@@light": "#871717",
-  "ITS@@th@@dark": "#871717"
+  "ITS@@th@@dark": "#871717",
+  "ITS@@popover-height": 400
 }

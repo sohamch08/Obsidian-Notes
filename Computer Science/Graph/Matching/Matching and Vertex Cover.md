@@ -1,7 +1,11 @@
 ---
-tag: graph 
+tag: matching
 ---
-[[Graph]]
+# Matching and Vertex Cover
+
+Since no [[Vertex Cover]] can cover two edges of a [[Matching]]m the size of every [[Vertex Cover]] is at least the size of every [[Matching]]. Therefore obtaining a matching and a vertex cover of the same size **proves** the each is optimal. Such proofs exists for [[Bipartite]] graphs, but not for all graphs
+
+![[Konig-Egervary Theorem]]
 
 
 

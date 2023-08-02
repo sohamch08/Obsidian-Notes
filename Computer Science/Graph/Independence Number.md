@@ -5,7 +5,7 @@ tag: graph
 >[!definition] Definition (Independence Number)
 >The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
 
-
+![[Min max Notation of Independence, Matching and Covering]]
 
 
 
