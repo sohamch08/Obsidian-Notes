@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#integral-dependence",
@@ -83,11 +83,18 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "tag:#connectivity",
+      "color": {
+        "a": 1,
+        "rgb": 1745462
+      }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -0.5,
+  "textFadeMultiplier": -0.3,
   "nodeSizeMultiplier": 1.00629438347321,
   "lineSizeMultiplier": 1.58834732085216,
   "collapse-forces": true,
@@ -95,6 +102,6 @@
   "repelStrength": 11.859264041317,
   "linkStrength": 1,
   "linkDistance": 100,
-  "scale": 0.5771571437596306,
+  "scale": 0.37327456821809085,
   "close": true
 }

@@ -4,67 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "02d70b83b561388e",
+        "id": "879914b896c2f7be",
         "type": "tabs",
         "children": [
           {
-            "id": "6b70713c3b4ebb2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6cc5e702ed1dd90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3019fce00be13855",
+            "id": "efd24f0c85aa76e8",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "282b55b13be97358",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c461dd97830500e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Independent Set.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "3f3a6db66ff1678c",
@@ -141,7 +93,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computer Science/Graph/Relation of Independence, Matching and Covering.md"
-              }
+              "state": {}
             }
           },
           {
@@ -188,7 +136,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,11 +192,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "282b55b13be97358",
+  "active": "efd24f0c85aa76e8",
   "lastOpenFiles": [
+    "images/vault.png",
+    "Computer Science/Graph/Hypercube.md",
+    "Computer Science/Graph/Connectivity/Cut Edge.md",
+    "Computer Science/Graph/Connectivity/Separating Set.md",
+    "Computer Science/Graph/Connectivity/Connectivity.md",
+    "Computer Science/Graph/Connectivity/Cut Vertex.md",
+    "Computer Science/Graph/Connectivity/Connected.md",
+    "Computer Science/Graph/Connectivity/Disconnected.md",
     "Computer Science/Graph/Independent Set.md",
-    "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
+    "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
+    "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
+    "Computer Science/Graph/Connectivity",
     "Computer Science/Graph/Bipartite Graph/Biclique.md",
+    "Computer Science/Graph/Complete.md",
+    "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
     "Computer Science/Graph/Graph.md",
     "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
     "Computer Science/Graph/Trees/Star.md",
@@ -257,21 +217,10 @@
     "Computer Science/Graph/Vertex Cover.md",
     "Computer Science/Graph/Matching/Matching.md",
     "Computer Science/Graph/Simple Graph.md",
-    "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
     "Edge.md",
     "Edge Covers.md",
     "Computer Science/Graph/Bipartite Graph/Bigraph.md",
     "Computer Science/Graph/Edge.md",
-    "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
-    "Computer Science/Graph/Independence Number.md",
-    "Computer Science/Graph/Matching/Maximum Matching.md",
-    "Computer Science/Graph/Min-Max Relation.md",
-    "Computer Science/Graph/Trees/Tree.md",
-    "Computer Science/Graph/Cycle.md",
-    "Computer Science/Graph/Acyclic.md",
-    "Computer Science/Graph/Connected.md",
-    "Computer Science/Graph/Matching/Marriage Theorem.md",
-    "Computer Science/Graph/Matching and Vertex Cover.md",
     "Matching",
     "PDFs",
     "images/Pasted image 20230801180133.png",
@@ -282,7 +231,6 @@
     "Untitled 2",
     "Untitled 1",
     "Untitled",
-    "Excalidraw",
     "images/Pasted image 20230730165735.png",
     "images/Pasted image 20230730165608.png",
     "Complexity-Class.canvas",
