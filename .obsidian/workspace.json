@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "879914b896c2f7be",
+        "id": "ed65e0bc4cc217dc",
         "type": "tabs",
         "children": [
           {
-            "id": "efd24f0c85aa76e8",
+            "id": "df95caddf76cb9e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
+                "file": "Computer Science/Coding Theory/Rate of Code.md",
                 "mode": "preview",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#edge-cover",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
+                "file": "Computer Science/Coding Theory/Rate of Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
+                "file": "Computer Science/Coding Theory/Rate of Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md"
+                "file": "Computer Science/Coding Theory/Rate of Code.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
+                "file": "Computer Science/Coding Theory/Rate of Code.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -199,10 +199,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "efd24f0c85aa76e8",
+  "active": "df95caddf76cb9e9",
   "lastOpenFiles": [
-    "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
+    "Computer Science/Coding Theory/Redundancy of Code.md",
+    "Computer Science/Coding Theory/Rate of Code.md",
+    "Computer Science/Coding Theory/Hamming Distance.md",
+    "Computer Science/Coding Theory/Decoding Function.md",
+    "Computer Science/Coding Theory/Encoding Function.md",
+    "Computer Science/Coding Theory/Repetition Code.md",
+    "Will_Learn_Later.md",
+    "Computer Science/Coding Theory/Coding Theory.md",
+    "Computer Science/Coding Theory/Parity Code.md",
+    "Computer Science/Coding Theory/Dimension.md",
+    "Mathematics/Algebra/Commutative Algebra/Ring and Module of Fractions/Extended and Contracted Ideals in Ring of Fractions.md",
+    "Computer Science/Parallel Complexity/ADD.md",
+    "Computer Science/Coding Theory/Code.md",
+    "Computer Science/Coding Theory",
     "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
+    "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
     "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
     "Computer Science/Graph/Matching/Hall's Matching Condition.md",
     "Computer Science/Graph/Matching/Maximum Matching.md",
@@ -214,9 +228,6 @@
     "Computer Science/Parallel Complexity/Basis.md",
     "Computer Science/Parallel Complexity/Family of Boolean Functions.md",
     "Computer Science/Parallel Complexity/Symmetric Boolean Function.md",
-    "Computer Science/Parallel Complexity/Carry Look-Ahead Adder.md",
-    "Computer Science/Parallel Complexity/Boolean Function.md",
-    "Computer Science/Parallel Complexity/ADD.md",
     "Function Computed From Boolean Circuit",
     "Boolean Function",
     "images/Pasted image 20230807233651.png",
@@ -225,23 +236,12 @@
     "Computer Science/Parallel Complexity",
     "Computer Science/Graph/Untitled",
     "images/vault.png",
-    "Computer Science/Graph/Hypercube.md",
-    "Computer Science/Graph/Connectivity/Cut Edge.md",
-    "Computer Science/Graph/Connectivity/Separating Set.md",
-    "Computer Science/Graph/Connectivity/Connectivity.md",
-    "Computer Science/Graph/Connectivity/Cut Vertex.md",
-    "Computer Science/Graph/Connectivity/Connected.md",
-    "Computer Science/Graph/Connectivity/Disconnected.md",
-    "Computer Science/Graph/Independent Set.md",
-    "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
     "Computer Science/Graph/Connectivity",
-    "Computer Science/Graph/Bipartite Graph/Biclique.md",
     "Matching",
     "PDFs",
     "images/Pasted image 20230801180133.png",
     "Untitled 6",
     "Untitled 5",
-    "Untitled 4",
     "images/Pasted image 20230730165735.png",
     "images/Pasted image 20230730165608.png",
     "Complexity-Class.canvas",
