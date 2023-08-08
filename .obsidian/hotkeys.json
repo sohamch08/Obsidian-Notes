@@ -212,24 +212,7 @@
       "key": "B"
     }
   ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
-  "editor:open-link-in-new-split": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
+  "editor:open-link-in-new-split": [],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [

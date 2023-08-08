@@ -1,13 +1,39 @@
 ---
-tag: graph
+tag: boolean
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# Boolean Circuit
+>[!definition] Definition (Boolean Circuit)
+>Let $B$ be a [[Basis]]. A boolean circuit over $B$ with $n$ inputs and $m$ outputs is a tuple $$C=(V,E,\alpha, \beta, \omega)$$ where $(V,E)$ is a finite directed [[Acyclic]] [[Graph]],
+>- $\alpha:E\to \bbN$ is a injective function,
+>- $\beta:V\to B\cup \{x_1,\dots,x_n\}$ and
+>- $\omega:V\to \{y_1,\dots, y_m\}\cup \{*\}$
+>such that the following conditions hold:
+>1. If $v\in V$ has in-degree 0, then $\beta(v)\in\{x_1,\dots,x_n\}$ or $\beta (v)$ is a 0-ary [[Boolean Function]] (ie a Boolean constant) from $B$.
+>2. If $v\in V$ has in-degree $k>0$ then $\beta(v)$ is a $k$-ary [[Boolean Function]] from $B$ or a [[Family of Boolean Functions]] from $B$.
+>3. For every $i$, $1\leq i\leq n$, there is at most one node $v\in V$ such that $\beta(v)=x_i$.
+>4. For every $i$, $1\leq i\leq m$, there is exactly one node $v\in V$ such that $\omega (v)=y_i$. 
 
-![[Min Max Notation of Independence, Matching and Covering]]
+If $v\in V$ has in-degree $k_0$ and out-degree $k_1$, then we say $v$ is a **gate** in $C$ with **fan-in** $k_0$ and **fan-out** $k_1$. If $v$ is a gate in $C$ then we also write $v\in C$ instead of $v\in V$.
+If $e=(u,v)\in E$ then we say $e$ is a **wire** in $C$; more specifically we say that $e$ is an input wire of $v$ and an output wire of $u$; and that $u$ is a **predecessor gate** of $v$
+If $\beta(v)=x_i$ for some $i$ then $v$ is an **input gate** or **input node**. 
+If $\omega (v)\neq *$ then $v$ is an **output gate**. If $\omega(v)=*$ then $v$ is not an output node.
 
 
+
+- The map $\alpha$ numbers the edges.
+- $\beta$ maps a vertex in the graph to a gate or the variable. So $\beta(v)$ is a gate or variable. Depending in in degree it takes that many values to evaluate so its a $k$-ary [[Boolean Function]].
+- $\omega$ maps the output vertices to output variables.
+
+
+## Function Computed by Boolean Circuit
+
+>[!definition] Definition (Function Computed by Boolean Circuit)
+>Let $C=(V,E,\alpha, \beta, \omega)$ be a circuit over $B$ with $n$ inputs and $m$ outputs. First we define inductively for every $v]in V$ a function $$val_v:\{0,1\}^n\to \{0,1\}$$ as follows. Let $a_1,\dots,a_n$ be arbitrary binary values.
+>1. If $v\in V$ has fanin 0 and if $\beta(v)=x_i$ for some $i$, $i\in [n]$ then $val_v(a_1,\dots,a_n)\underset{\text{def}}{=} a_i$. If $v\in V$ has fanin - and if $\beta (v)=b$ is a $0$-ary function from $B$ then $val_v(a_1,\dots,a_n)\underset{\text{def}}{=} b$.
+>2. Let $v\in V$ have fanin $k>0$ and let $v_1,\dots, v_k$ be the gates that are predecessors of $v$ ordered in such a way that $$\alpha (v_1)<\dots<\alpha(v_k)$$Let $\beta(v)=f\in B$. If $f$ is a $k$-ary function then let $$val_v(a_1,\dots,a_n)\underset{\text{def}}{=} f (val_{v_1}(a_1,\dots,a_n),\dots, val_{v_k}(a_1,\dots,a_n))$$Otherwise $f$ must be a [[Family of Boolean Functions]], $f=(f^n)_{n\in \bbN}$. In this case we define$$val_v(a_1,\dots,a_n)\underset{\text{def}}{=} f^k (val_{v_1}(a_1,\dots,a_n),\dots, val_{v_k}(a_1,\dots,a_n))$$
+>For $1\leq i\leq m$ let $v_i$ be the unique gate $v_i\in V$ with $\omega(v_i)=y_i$. Then the function computed by $C$, $$f_C:\{0,1\}^n\to \{0,1\}^m$$is given for all $a_1,\dots, a_n\in \{0,1\}$ by $$f_C(a_1,\dots,a_n)\underset{\text{def}}{=}  (val_{v_1}(a_1,\dots,a_n),\dots, val_{v_k}(a_1,\dots,a_n))$$
+
+Thus we see that the function $\alpha$ is needed to specify the order of the predecessor gates to a given gate. This is not important for the functions $\wedge$, $\vee$, and $\oplus$ since permuting the input bits here does not change the output value. However, bases $B$ are conceivable which contain functions for which the order of the arguments is important. 
 
 
 

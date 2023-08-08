@@ -1,11 +1,10 @@
 ---
-tag: graph
+tag: parallel
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# Carry Look-Ahead Adder
+ ![[ADD#Parallel Algorithm for ADD]]
 
-![[Min Max Notation of Independence, Matching and Covering]]
+
 
 
 

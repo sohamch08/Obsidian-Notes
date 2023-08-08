@@ -4,14 +4,14 @@ tags: independent-set, matching, edge-cover, vertex-cover
 ---
 # Relation of Independence, Matching and Covering
 
-![[Min max Notation of Independence, Matching and Covering]]
+![[Min Max Notation of Independence, Matching and Covering]]
 
 ## $\alpha'(G)=\beta(G)$ (Konig-Egervary Theorem) #matching  #vertex-cover
 
 
 ![[Konig-Egervary Theorem]]
 
->[[Konig-Egervary Theorem]] states that [$\alpha'(G)=\beta(G)$](./Min%20max%20Notation%20of%20Independence,%20Matching%20and%20Covering.md) for every [[Bipartite]] [[Graph]] $G$.
+>[[Konig-Egervary Theorem]] states that [$\alpha'(G)=\beta(G)$](Min%20Max%20Notation%20of%20Independence,%20Matching%20and%20Covering.md) for every [[Bipartite]] [[Graph]] $G$.
 
 We will prove that also $\alpha(G)= \beta'(G)$ for [[Bipartite]] [[Graph]]s without isolated vertices. Since no edge can cover two vertices of an [[Independent Set]], the inequality $\beta'(G)\geq \alpha (G)$ is immediate. 
 

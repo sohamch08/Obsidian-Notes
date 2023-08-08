@@ -1,16 +1,37 @@
 ---
-tag: graph
+tag: parallel
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# ADD
+>[!algorithm]  
+>**Problem:** ADD
+**Input:** Two $n$ bit numbers $a=a_{n-1}\dots a_0$ and $b=b_{n-1}\dots b_0$
+**Output:** $s=s_n\dots s_0$, $s\underset{\text{def}}{=}a+b$
 
-![[Min Max Notation of Independence, Matching and Covering]]
+This defines for every $n$ a function $ADD^{2n}:\{0,1\}^{2n}\to \{0,1\}^{n+1}$
+How to compute $ADD^{2n}$
 
+Well known algorithm proceeds as follows:
+- It uses auxiliary Boolean variables $c_n,\dots,c_0$. 
+- We set $s_0=a_0\oplus b_0$, $c_0=0$
+- Then define inductively $$c_i =(a_{i-1}\wedge b_{i-1})\vee (a_{i-1}\wedge c_{i-1}) \vee (c_{i-1}\wedge b_{i-1})$$ and $s_i=a_i\oplus b_i\oplus c_i$ for $1\leq i\leq n$
+- $s_n=c_n$
 
+>This algorithm adds two $n$ bit numbers in $O(n)$ steps.
 
+## Parallel Algorithm for ADD
+>We can do better in parallel. A carry is generated at position $i$ if and only if both input bits $a_i$ and $b_i$ are on and a carry is eliminated at position $i$ if and only if both input bits $a_i$ and $b_i$ are off.
 
+- For $0\leq i \leq n$ let
+	- $g_i=a_i\wedge b_i$     (position $i$ generates a carry)
+	- $p_i=a_i\vee b_i$     (position $i$ propagates a carry that ripples into it)
+- Now a carry ripples into position $i$ if and only if there is a position $j<i$ where a carry is generated and all positions in between propagate it. Formally $$c_i=\bigvee_{j=0}^{i-1}\left( g_j\wedge \bigwedge_{k=j+1}^{i-1}p_k \right)\qquad \text{for $1\leq i\leq n$}$$
+- Once we have computed the carry the bits of the sum are computed ad before $a_0=a_0\oplus b_0$, $s_i=a_i\oplus b_i\oplus c_i$ for $1\leq i \leq n$ and $s_n=c_n$.
 
+>This formula allow all the $c_i$ to computed in parallel since they only depend on the inputs $a$ and $b$ and once we have computed the carry, all the bits of the sum $s$ can be computed in parallel. This procedure is called [[Carry Look-Ahead Adder]]
+
+In an idealized parallel computer where we do not care about the number of processors used and moreover assumes a perfect interconnection network where every processor can read the input and is connected to all other processors we compute all the $g_i$ and $p_i$ in one time step, then the $c_i$ in a second step and finally all of the output bits $c_i$. In such a way the function $ADD$ can be computed in parallel in constant.
+
+![[Pasted image 20230807233651.png]]
 
 
 

@@ -1,11 +1,12 @@
 ---
-tag: graph
+tag: boolean
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# Symmetric Boolean Function
+>[!definition] Definition (Symmetric Boolean Function)
+>A [[Boolean Function]] $f$ is symmetric if for any input $x$ the value $f(x)$ depends only on the number of ones in $x$; in other words; $f(x)=f(x')$ whenever $x$ and $x'$ have the number of bits that are equal to 1.
 
-![[Min Max Notation of Independence, Matching and Covering]]
+If there are only symmetric functions in $B$ the we denote a [[Boolean Circuit]] over $B$ simply by $C=(V,E,\beta,\omega)$.
+
 
 
 

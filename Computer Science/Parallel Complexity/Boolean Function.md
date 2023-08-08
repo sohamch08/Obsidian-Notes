@@ -1,11 +1,11 @@
 ---
-tag: graph
+tag: boolean
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# Boolean Function
+>[!definition] Definition (Boolean Function)
+>A boolean function is a function $f$ $f:\{0,1\}^m\to \{0,1\}$ for some $m\in\bbN$
 
-![[Min Max Notation of Independence, Matching and Covering]]
+
 
 
 

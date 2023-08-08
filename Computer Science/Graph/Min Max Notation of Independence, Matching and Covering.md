@@ -1,11 +1,12 @@
 ---
 tag: graph
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# Min Max Notation of Independence, Matching and Covering
+>Maximum size of [[Independent Set]] is denoted by $\alpha(G)$
+>Maximum size of [[Matching]] is denoted by $\alpha'(G)$
+>Minimum size of [[Vertex Cover]] is denoted by $\beta(G)$
+>Minimum size of [[Edge Cover]] is denoted by $\beta'(G)$
 
-![[Min Max Notation of Independence, Matching and Covering]]
 
 
 

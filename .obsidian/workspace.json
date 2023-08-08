@@ -11,8 +11,12 @@
             "id": "efd24f0c85aa76e8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -76,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "3f3a6db66ff1678c",
@@ -93,6 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -104,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md"
+              }
             }
           },
           {
@@ -136,6 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -194,6 +202,27 @@
   },
   "active": "efd24f0c85aa76e8",
   "lastOpenFiles": [
+    "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
+    "Computer Science/Graph/Matching/Hall's Matching Condition.md",
+    "Computer Science/Graph/Matching/Maximum Matching.md",
+    "Computer Science/Graph/Matching/Marriage Theorem.md",
+    "Computer Science/Graph/Matching/Matching.md",
+    "Computer Science/Graph/Matching/Maximal Matching.md",
+    "Computer Science/Graph/Matching/Perfect Matching.md",
+    "Computer Science/Parallel Complexity/Boolean Circuit.md",
+    "Computer Science/Parallel Complexity/Basis.md",
+    "Computer Science/Parallel Complexity/Family of Boolean Functions.md",
+    "Computer Science/Parallel Complexity/Symmetric Boolean Function.md",
+    "Computer Science/Parallel Complexity/Carry Look-Ahead Adder.md",
+    "Computer Science/Parallel Complexity/Boolean Function.md",
+    "Computer Science/Parallel Complexity/ADD.md",
+    "Function Computed From Boolean Circuit",
+    "Boolean Function",
+    "images/Pasted image 20230807233651.png",
+    "images/Pasted image 20230807233621.png",
+    "images/Pasted image 20230807233548.png",
+    "Computer Science/Parallel Complexity",
+    "Computer Science/Graph/Untitled",
     "images/vault.png",
     "Computer Science/Graph/Hypercube.md",
     "Computer Science/Graph/Connectivity/Cut Edge.md",
@@ -204,33 +233,16 @@
     "Computer Science/Graph/Connectivity/Disconnected.md",
     "Computer Science/Graph/Independent Set.md",
     "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
-    "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
+    "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
     "Computer Science/Graph/Connectivity",
     "Computer Science/Graph/Bipartite Graph/Biclique.md",
     "Computer Science/Graph/Complete.md",
-    "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
-    "Computer Science/Graph/Graph.md",
-    "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
-    "Computer Science/Graph/Trees/Star.md",
-    "Computer Science/Graph/Edge Cover.md",
-    "Computer Science/Graph/Distance/Center.md",
-    "Computer Science/Graph/Vertex Cover.md",
-    "Computer Science/Graph/Matching/Matching.md",
-    "Computer Science/Graph/Simple Graph.md",
-    "Edge.md",
-    "Edge Covers.md",
-    "Computer Science/Graph/Bipartite Graph/Bigraph.md",
-    "Computer Science/Graph/Edge.md",
     "Matching",
     "PDFs",
     "images/Pasted image 20230801180133.png",
     "Untitled 6",
     "Untitled 5",
     "Untitled 4",
-    "Untitled 3",
-    "Untitled 2",
-    "Untitled 1",
-    "Untitled",
     "images/Pasted image 20230730165735.png",
     "images/Pasted image 20230730165608.png",
     "Complexity-Class.canvas",

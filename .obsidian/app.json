@@ -11,5 +11,9 @@
   "trashOption": "none",
   "tabSize": 4,
   "vimMode": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "attachmentFolderPath": "images",
+  "userIgnoreFilters": [
+    "images/"
+  ]
 }

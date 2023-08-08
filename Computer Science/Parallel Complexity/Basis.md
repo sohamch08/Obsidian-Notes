@@ -1,11 +1,13 @@
 ---
-tag: graph
+tag: boolean
 ---
-# Independence Number
->[!definition] Definition (Independence Number)
->The independence number of a [[Graph]] is the maximum size of an [[Independent Set]] of vertices.
+# Basis
 
-![[Min Max Notation of Independence, Matching and Covering]]
+>[!definition] Definition (Basis)
+>A basis is a finite set consisting of [[Boolean Function]]s and [[Family of Boolean Functions]].
+
+>Observe that a basis always has a finite number of elements but some its elements may be infinite objects ([families of Boolean Functions](Family%20of%20Boolean%20Functions))
+
 
 
 

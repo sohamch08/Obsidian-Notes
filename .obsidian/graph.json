@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#integral-dependence",
@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 1745462
       }
+    },
+    {
+      "query": "tag:boolean",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
     }
   ],
   "collapse-display": true,
@@ -102,6 +109,6 @@
   "repelStrength": 11.859264041317,
   "linkStrength": 1,
   "linkDistance": 100,
-  "scale": 0.37327456821809085,
+  "scale": 0.37327456821809063,
   "close": true
 }
