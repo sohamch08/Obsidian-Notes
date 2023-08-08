@@ -115,7 +115,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -181,12 +181,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,6 +201,8 @@
   },
   "active": "efd24f0c85aa76e8",
   "lastOpenFiles": [
+    "Computer Science/Graph/Min max Notation of Independence, Matching and Covering.md",
+    "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
     "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
     "Computer Science/Graph/Matching/Hall's Matching Condition.md",
     "Computer Science/Graph/Matching/Maximum Matching.md",
@@ -233,10 +234,8 @@
     "Computer Science/Graph/Connectivity/Disconnected.md",
     "Computer Science/Graph/Independent Set.md",
     "Computer Science/Graph/Matching/Matching and Vertex Cover.md",
-    "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
     "Computer Science/Graph/Connectivity",
     "Computer Science/Graph/Bipartite Graph/Biclique.md",
-    "Computer Science/Graph/Complete.md",
     "Matching",
     "PDFs",
     "images/Pasted image 20230801180133.png",
