@@ -11,9 +11,7 @@
       ],
       "definition": [
         {
-          "changes": {
-            "icon": "lucide-flame"
-          }
+          "changes": {}
         },
         {
           "condition": {

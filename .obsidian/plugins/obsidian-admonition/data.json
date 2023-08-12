@@ -4,7 +4,7 @@
       "type": "definition",
       "color": "255, 97, 97",
       "icon": {
-        "name": "edit",
+        "name": "exclamation-circle",
         "type": "font-awesome"
       },
       "command": false,

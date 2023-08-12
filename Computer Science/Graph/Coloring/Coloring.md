@@ -1,30 +1,20 @@
 ---
-tag: modules
+tag: coloring
 ---
 $$\DeclareMathOperator{\ker}{Ker}
 \DeclareMathOperator{\im}{Im}$$
-# Module Homomorphism
->[!definition] Definition (Module Homomorphism)
->Let $M,N$ be $A$-[[Module]]s. A mapping $f:M\to N$ is an $A$-[[Module]] homomorphism (or $A$-linear) if 
->1. $f(x+y)=f(x)+f(y)$
->2. $f(ax)=af(x)$
->For all $a\in A$ and all $x,y\in M$.
+# Coloring
 
-Thus $f$ is a homomorphism of [[Abelian Group]]s which commutes with the action of each $a\in A$.
+>[!definition] Definition ($k$-Coloring)
+>A $k$-coloring of a [[Graph]] $G$ is a labeling $f:V(G)\to S$ where $|S|=k$ (often we use $S=[k]$). 
+>- The labels are **colors**
+>- the vertices of one color form a **color-class**
 
->If $A$ is a [[Field]] an $A$-[[Module]] homomorphism is the same thing as a linear transformation of vector spaces
-
-## Kernel, Image, Cokernel
-
-If $f:M\to N$ is an $A$-Module homomorphism the **kernel** of $f$ is the set $$\ker (f)=\{ x\in M\mid f(x)=0\}$$ and is a [[Submodule]] of $M$. The **image** of $f$ is the set $$\im (f)=f(M)$$ and is a [[Submodule]] of $N$. The **cokernel** of $f$ is $$Coker(f)=N/\im(f)$$which is a [[Quotient Module]] of $N$.
+>In a [[Proper Coloring]] each color class is an [[Independent Set]]. So $G$ is $k$-[[Colorable]] if and only if $V(G)$ is the union of $k$ [[Independent Set]]s.
+>>Thus "$k$-[[Colorable]]" and "$k$-partite" have the same meaning. The usage of the two terms is slightly different. Often $k$-partite  is a structural hypothesis, while $k$-[[Colorable]] is the result of an optimization problem.
 
 
->If $M'$ is a [[Submodule]] of $M$ such that $M'\subseteq \ker(f)$ then $f$ gives rise to a homomorphism $\ovf:M/M'\to N$ defined as follows: If $\ovx\in M/M'$ is the image of $x\in M$ then $\ovf(\ovx)=f(x)$. The kernel of $\ovf$ is $\ker(f)/M'$. The homomorphism $\ovf$ is said to be *induces* by $f$. 
->>In particular taking $M'=\ker(f)$ we have an isomorphism of $A$-modules $$M/\ker(f)\cong \im(f)$$
-
-
-
-
+>Graphs with loops are uncolorable; we cannot make the color of a vertex different from itself. Multiple edges irrelevant. Extra copies don't affect colorings. Thus we usually think in terms of [[Simple Graph]]s when discussing colorings.
 
 
 

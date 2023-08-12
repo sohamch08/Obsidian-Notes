@@ -6,6 +6,8 @@ tag: graph
 >A clique in a [[Graph]] is a set of pairwise adjacent vertices.
 
 
+>[!definition] Definition (Clique Number)
+>The clique number of a graph $G$ written $\omega(G)$ is the maximum size of a set of pairwise adjacent vertices ([[Clique]]) in $G$.
 
 
 

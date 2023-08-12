@@ -1,26 +1,16 @@
 ---
-tag: modules
+tag: errorcorrect
 ---
-$$\DeclareMathOperator{\ker}{Ker}
-\DeclareMathOperator{\im}{Im}$$
-# Module Homomorphism
->[!definition] Definition (Module Homomorphism)
->Let $M,N$ be $A$-[[Module]]s. A mapping $f:M\to N$ is an $A$-[[Module]] homomorphism (or $A$-linear) if 
->1. $f(x+y)=f(x)+f(y)$
->2. $f(ax)=af(x)$
->For all $a\in A$ and all $x,y\in M$.
-
-Thus $f$ is a homomorphism of [[Abelian Group]]s which commutes with the action of each $a\in A$.
-
->If $A$ is a [[Field]] an $A$-[[Module]] homomorphism is the same thing as a linear transformation of vector spaces
-
-## Kernel, Image, Cokernel
-
-If $f:M\to N$ is an $A$-Module homomorphism the **kernel** of $f$ is the set $$\ker (f)=\{ x\in M\mid f(x)=0\}$$ and is a [[Submodule]] of $M$. The **image** of $f$ is the set $$\im (f)=f(M)$$ and is a [[Submodule]] of $N$. The **cokernel** of $f$ is $$Coker(f)=N/\im(f)$$which is a [[Quotient Module]] of $N$.
+# Erasure Correcting Code
+>[!definition] Definition (Erasure Correcting Code)
+>Let $C\subseteq \Sigma^n$ be a [[Code]] and let $t\geq 1$ be an integer. $C$ is said to be a $t$-erasure correcting [[Code]] if there exists a [[Decoding Function]] $F$ such that for every message $\ovm\in [|C|]$ every $t$-[[Erasure Channel]] $Ch$ we have $$D(Ch(C(\ovm)))=\ovm$$
 
 
->If $M'$ is a [[Submodule]] of $M$ such that $M'\subseteq \ker(f)$ then $f$ gives rise to a homomorphism $\ovf:M/M'\to N$ defined as follows: If $\ovx\in M/M'$ is the image of $x\in M$ then $\ovf(\ovx)=f(x)$. The kernel of $\ovf$ is $\ker(f)/M'$. The homomorphism $\ovf$ is said to be *induces* by $f$. 
->>In particular taking $M'=\ker(f)$ we have an isomorphism of $A$-modules $$M/\ker(f)\cong \im(f)$$
+
+
+
+
+
 
 
 

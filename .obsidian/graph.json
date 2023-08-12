@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#integral-dependence",
@@ -104,11 +104,11 @@
   "textFadeMultiplier": -0.3,
   "nodeSizeMultiplier": 1.00629438347321,
   "lineSizeMultiplier": 1.58834732085216,
-  "collapse-forces": true,
-  "centerStrength": 0.598127824402841,
-  "repelStrength": 11.859264041317,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 11.875,
   "linkStrength": 1,
   "linkDistance": 100,
-  "scale": 0.3732745682180906,
+  "scale": 0.28187115551994246,
   "close": true
 }

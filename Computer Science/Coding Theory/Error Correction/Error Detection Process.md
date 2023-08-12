@@ -1,26 +1,19 @@
 ---
-tag: modules
+tag: errorcorrect
 ---
-$$\DeclareMathOperator{\ker}{Ker}
-\DeclareMathOperator{\im}{Im}$$
-# Module Homomorphism
->[!definition] Definition (Module Homomorphism)
->Let $M,N$ be $A$-[[Module]]s. A mapping $f:M\to N$ is an $A$-[[Module]] homomorphism (or $A$-linear) if 
->1. $f(x+y)=f(x)+f(y)$
->2. $f(ax)=af(x)$
->For all $a\in A$ and all $x,y\in M$.
+# Error Detection Process
+>[!definition] Definition (Error Detection Code)
+>Let $C\subseteq \Sigma^n$ be a [[Code]] and let $t\geq 1$ be an integer. $C$ is said to be $t$-error-detecting [[Code]] if there exists a detecting procedure $D$ such that for every message $\ovm$ and every received vector $\ovv\in \Sigma^n$ satisfying $\Delta(C(\ovm),\ovv)\leq t$ it hold that $D$ outputs a 1 if $\ovv=C(\ovm)$ and 0 otherwise.
 
-Thus $f$ is a homomorphism of [[Abelian Group]]s which commutes with the action of each $a\in A$.
+Thus a $t$-error-detecting [[Code]] is one where if the transmission has at least one [[Error]] at most $t$ [[Error]]s, then the [[Decoding Function]] detects the error (by outputting 0). 
 
->If $A$ is a [[Field]] an $A$-[[Module]] homomorphism is the same thing as a linear transformation of vector spaces
-
-## Kernel, Image, Cokernel
-
-If $f:M\to N$ is an $A$-Module homomorphism the **kernel** of $f$ is the set $$\ker (f)=\{ x\in M\mid f(x)=0\}$$ and is a [[Submodule]] of $M$. The **image** of $f$ is the set $$\im (f)=f(M)$$ and is a [[Submodule]] of $N$. The **cokernel** of $f$ is $$Coker(f)=N/\im(f)$$which is a [[Quotient Module]] of $N$.
+>Note that a $t$-[[Error Correcting Code]] is also a $t$-error-detecting code (but not necessarily the other way around)
 
 
->If $M'$ is a [[Submodule]] of $M$ such that $M'\subseteq \ker(f)$ then $f$ gives rise to a homomorphism $\ovf:M/M'\to N$ defined as follows: If $\ovx\in M/M'$ is the image of $x\in M$ then $\ovf(\ovx)=f(x)$. The kernel of $\ovf$ is $\ker(f)/M'$. The homomorphism $\ovf$ is said to be *induces* by $f$. 
->>In particular taking $M'=\ker(f)$ we have an isomorphism of $A$-modules $$M/\ker(f)\cong \im(f)$$
+
+
+
+
 
 
 

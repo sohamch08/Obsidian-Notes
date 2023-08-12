@@ -1,8 +1,10 @@
 ---
 tag: modules
 ---
+# Module
+
 >[!definition] Definition (Module)
->Let $A$ be a [[Commutative Ring]]. An $A-module$ is an abelian group $M$ on which $A$ acts linearly: more precisely it is a pair $(M,\mu)$ where $M$ is an abelian group and $\mu$ is a mapping of $A\times M$ into $M such that if we write $ax$ for $\mu(a,x)(a\in A,x\in M)$, the following acioms are satisfied
+>Let $A$ be a [[Commutative Ring]]. An $A$-module is an abelian group $M$ on which $A$ acts linearly: more precisely it is a pair $(M,\mu)$ where $M$ is an [[Abelian Group]] and $\mu$ is a mapping of $A\times M$ into $M$ such that if we write $ax$ for $\mu(a,x)(a\in A,x\in M)$, the following axioms are satisfied
 >1. $a(x+y)=ax+ay$
 >2. $(a+b)x=ax+bx$
 >3. $(ab)x=a(bx)$
@@ -11,9 +13,6 @@ tag: modules
 >For all $a,b\in A$; $x,y\in M$ 
 
 Equivalently, $M$ is an abelian group together with a ring homomorphism $a\to E(M)$ where $E(M)$ is the ring of [[Endomorphism]]s of the abelian group $M$
-
-
-
 
 
 

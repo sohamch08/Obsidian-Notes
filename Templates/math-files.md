@@ -1,6 +1,8 @@
 ---
 tag: insert-tag 
 ---
+$$\DeclareMathOperator{\ker}{Ker}
+\DeclareMathOperator{\im}{Im}$$
 # {{title}}
 
 

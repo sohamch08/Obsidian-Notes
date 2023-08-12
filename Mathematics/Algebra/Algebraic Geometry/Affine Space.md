@@ -1,12 +1,12 @@
 ---
-tag: errorcorrect
+tag: affinevariety
 ---
-# Hamming Distance
->[!definition] Definition (Hamming Distance)
->Given two vectors $\ovu, \ovv\in \Sigma^n$ the Hamming distance between $\ovu$ and $\ovv$ denoted by $\Delta(\ovu,\ovv)$ is the number of positions in which $\ovu$ and $\ovv$ differ.
+$$\DeclareMathOperator{\ker}{Ker}
+\DeclareMathOperator{\im}{Im}$$
+# Affine $n$-Space
 
-
-
+>[!definition] Definition (Affine Varieties) 
+>	Let $k$ be a fixed [[Algebraically Closed]] [[Field]]. We define affine $n$-space over $k$ denoted $\bbA_n^k$ or simply $\bbA^n$ to be the set of all $n$-tuples of elements of $k$ $P\in \bbA ^n$ will be called a **point** and if $P=(a_1,\dots,a_n)$ with $a_i\in k$ then the $a_i$ will be called the **coordinates** of $P$.
 
 
 

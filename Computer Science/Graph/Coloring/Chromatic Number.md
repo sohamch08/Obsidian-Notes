@@ -1,27 +1,27 @@
 ---
-tag: modules
+tag: coloring
 ---
 $$\DeclareMathOperator{\ker}{Ker}
 \DeclareMathOperator{\im}{Im}$$
-# Module Homomorphism
->[!definition] Definition (Module Homomorphism)
->Let $M,N$ be $A$-[[Module]]s. A mapping $f:M\to N$ is an $A$-[[Module]] homomorphism (or $A$-linear) if 
->1. $f(x+y)=f(x)+f(y)$
->2. $f(ax)=af(x)$
->For all $a\in A$ and all $x,y\in M$.
+# Chromatic Number
 
-Thus $f$ is a homomorphism of [[Abelian Group]]s which commutes with the action of each $a\in A$.
-
->If $A$ is a [[Field]] an $A$-[[Module]] homomorphism is the same thing as a linear transformation of vector spaces
-
-## Kernel, Image, Cokernel
-
-If $f:M\to N$ is an $A$-Module homomorphism the **kernel** of $f$ is the set $$\ker (f)=\{ x\in M\mid f(x)=0\}$$ and is a [[Submodule]] of $M$. The **image** of $f$ is the set $$\im (f)=f(M)$$ and is a [[Submodule]] of $N$. The **cokernel** of $f$ is $$Coker(f)=N/\im(f)$$which is a [[Quotient Module]] of $N$.
+>[!definition] Definition (Chromatic Number)
+>The chromatic number $\chi(G)$ is the least $k$ such that $G$ is $k$-[[Colorable]]
 
 
->If $M'$ is a [[Submodule]] of $M$ such that $M'\subseteq \ker(f)$ then $f$ gives rise to a homomorphism $\ovf:M/M'\to N$ defined as follows: If $\ovx\in M/M'$ is the image of $x\in M$ then $\ovf(\ovx)=f(x)$. The kernel of $\ovf$ is $\ker(f)/M'$. The homomorphism $\ovf$ is said to be *induces* by $f$. 
->>In particular taking $M'=\ker(f)$ we have an isomorphism of $A$-modules $$M/\ker(f)\cong \im(f)$$
+>[!proposition] 
+>For every graph $G$, $\chi(G)\geq \omega(G)$ and [$\chi(G)\geq \frac{n(G)}{\alpha(G)}$](../Min%20Max%20Notation%20of%20Independence,%20Matching%20and%20Covering.md)
+***Proof:*** The first bound holds because vertices of a [[Clique]] require distinct colors. The second bound holds because each color class is an [[Independent Set]] and thus has at most $\alpha(G)$ vertices. $\blacksquare$
 
+>Both bounds are tight when $G$ is a [[Complete]] graph.
+
+## Example: $\chi(G)>\omega(G)$
+For $r\geq 2$ let $G=C_{2r+1}\vee K_s$. Since $C_{2r+1}$ has no triangle. $\omega(G)=s+2$.
+Properly [[Coloring]] the induced [[Cycle]] requires at least three colors. The $s$-[[Clique]] needs $s$ colors. Since every vertex of the induced cycle is adjacent to every vertex of the [[Clique]], these $s$ colors mist differ from the first three, and $\chi(G)\geq s+3$. We conclude that $\chi(G)>\omega(G)$
+
+
+## Behaviour under Graph Operations
+>We can also ask how it behaves under graph operations. For the disjoint union $\chi(G+H)=\max\{\chi(G),\chi(H)\}$. For the join $\chi(G\vee H)=\chi(G)+\chi(H)$.
 
 
 

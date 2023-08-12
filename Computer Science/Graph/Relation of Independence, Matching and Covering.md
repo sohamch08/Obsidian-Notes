@@ -6,7 +6,7 @@ tags: independent-set, matching, edge-cover, vertex-cover
 
 ![[Min Max Notation of Independence, Matching and Covering]]
 
-## $\alpha'(G)=\beta(G)$ (Konig-Egervary Theorem) #matching  #vertex-cover
+## $\alpha'(G)=\beta(G)$ (Konig-Egervary Theorem) 
 
 
 ![[Konig-Egervary Theorem]]
@@ -15,7 +15,7 @@ tags: independent-set, matching, edge-cover, vertex-cover
 
 We will prove that also $\alpha(G)= \beta'(G)$ for [[Bipartite]] [[Graph]]s without isolated vertices. Since no edge can cover two vertices of an [[Independent Set]], the inequality $\beta'(G)\geq \alpha (G)$ is immediate. 
 
-## $\alpha(G)+\beta(G)=n(G)$ #independent-set #vertex-cover 
+## $\alpha(G)+\beta(G)=n(G)$ 
 
 
 >[!lemma] 
@@ -23,7 +23,7 @@ We will prove that also $\alpha(G)= \beta'(G)$ for [[Bipartite]] [[Graph]]s with
 
 ***Proof:*** If $S$ is an [[Independent Set]] then every edge is to at least one vertex of $\ovS$. Conversely if $\ovS$ covers all the edges then there are no edges joining vertices of $S$. Hence every maximum [[Independent Set]] is the complement of minimum [[Vertex Cover]], and $\alpha (G)+\beta(G)=n(G)$ $\blacksquare$
 
-## $\alpha'(G)+\beta'(G)=n(G)$ #matching #edge-cover
+## $\alpha'(G)+\beta'(G)=n(G)$ 
 
 
 >The relationship between [[Matching]] and [[Edge Cover]]s is more subtle. 
@@ -37,7 +37,7 @@ Let $M$ be a [[Maximum Matching]] in $G$, We construct an [[Edge Cover]] of $G$ 
 
 Now let $L$ be a minimum [[Edge Cover]]. If both endpoints of an edge $e$ belong to edges in $L$ other that $e$ then $e\notin L$, since $L-\{e\}$ is also an [[Edge Cover]]. Hence each [[Component]] formed by edges of $L$ has at most one vertex of degree exceeding 1 (because if there is two vertices with degree more than 1 in same component let $u,v$ then there is a path from $u$ to $v$. Then the first edge incident on $u$ suppose the other endpoint is $x$. Since $x$ already in the component because of the other edges from $L$ are in that path there is no need for the edge $ux$ to be in $L$.) and is a [[Star]]. Let $k$ be the number of these [[Component]]s. Since $L$ has one edge for each non-[central](./Distance/Center.md) vertex in each [[Star]] we have $|L|=n(G)-k$. We form a [[Matching]] $M$ of size $k=n(G)-|L|$ by choosing one edge from each [[Star]] in $L$. $\blacksquare$
 
-## $\alpha(G)=\beta'(G)$ #independent-set #edge-cover 
+## $\alpha(G)=\beta'(G)$ 
 
 
 >[!corollary] Corollary - Konig (1916)

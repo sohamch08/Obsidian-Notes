@@ -1,27 +1,20 @@
 ---
-tag: modules
+tag: coloring
 ---
 $$\DeclareMathOperator{\ker}{Ker}
 \DeclareMathOperator{\im}{Im}$$
-# Module Homomorphism
->[!definition] Definition (Module Homomorphism)
->Let $M,N$ be $A$-[[Module]]s. A mapping $f:M\to N$ is an $A$-[[Module]] homomorphism (or $A$-linear) if 
->1. $f(x+y)=f(x)+f(y)$
->2. $f(ax)=af(x)$
->For all $a\in A$ and all $x,y\in M$.
+# Critical
 
-Thus $f$ is a homomorphism of [[Abelian Group]]s which commutes with the action of each $a\in A$.
+>[!definition] Definition (Color Critical)
+>If $\chi(H)<\chi(G)=k$ for every proper [[Subgraph]] $H$ of $G$ then $G$ is color criticla or $k$-critical.
 
->If $A$ is a [[Field]] an $A$-[[Module]] homomorphism is the same thing as a linear transformation of vector spaces
+## $k$-Critical Graphs for Small $k$
+Properly [[Coloring]] a graph needs at least two colors if and only if the graph has an edge. Thus $K_2$ is the only 2-critical graph. (Similarly $K_1$ is the only 1-critical graph).
+- Thus 2-[[Colorable]] is the same as [[Bipartite]]
+- The characterization of [[Bipartite]] graphs implies that the 3-critical graphs are the odd cycles.
+We can test 2-colorability of a graph $G$ by computing distances from a vertex $x$ (in each [[Component]]). Let $X=\{u\in V(G)\mid d(u,x) \text{ is even}\}$ and let $Y=\{ u\in V(G)\mid d(u,x)\text{ is odd} \}$. The graph $G$ is [[Bipartite]] id and only if $XmY$ is a [[Bipartition]] meaning that $G[X]$ and $G[Y]$ are [[Independent Set]]s.
 
-## Kernel, Image, Cokernel
-
-If $f:M\to N$ is an $A$-Module homomorphism the **kernel** of $f$ is the set $$\ker (f)=\{ x\in M\mid f(x)=0\}$$ and is a [[Submodule]] of $M$. The **image** of $f$ is the set $$\im (f)=f(M)$$ and is a [[Submodule]] of $N$. The **cokernel** of $f$ is $$Coker(f)=N/\im(f)$$which is a [[Quotient Module]] of $N$.
-
-
->If $M'$ is a [[Submodule]] of $M$ such that $M'\subseteq \ker(f)$ then $f$ gives rise to a homomorphism $\ovf:M/M'\to N$ defined as follows: If $\ovx\in M/M'$ is the image of $x\in M$ then $\ovf(\ovx)=f(x)$. The kernel of $\ovf$ is $\ker(f)/M'$. The homomorphism $\ovf$ is said to be *induces* by $f$. 
->>In particular taking $M'=\ker(f)$ we have an isomorphism of $A$-modules $$M/\ker(f)\cong \im(f)$$
-
+>No good characterization of 4-critical graphs or test for 3-colorability is known.
 
 
 

@@ -1,26 +1,17 @@
 ---
-tag: modules
+tag: parallel
 ---
 $$\DeclareMathOperator{\ker}{Ker}
 \DeclareMathOperator{\im}{Im}$$
-# Module Homomorphism
->[!definition] Definition (Module Homomorphism)
->Let $M,N$ be $A$-[[Module]]s. A mapping $f:M\to N$ is an $A$-[[Module]] homomorphism (or $A$-linear) if 
->1. $f(x+y)=f(x)+f(y)$
->2. $f(ax)=af(x)$
->For all $a\in A$ and all $x,y\in M$.
+# PRAM
 
-Thus $f$ is a homomorphism of [[Abelian Group]]s which commutes with the action of each $a\in A$.
-
->If $A$ is a [[Field]] an $A$-[[Module]] homomorphism is the same thing as a linear transformation of vector spaces
-
-## Kernel, Image, Cokernel
-
-If $f:M\to N$ is an $A$-Module homomorphism the **kernel** of $f$ is the set $$\ker (f)=\{ x\in M\mid f(x)=0\}$$ and is a [[Submodule]] of $M$. The **image** of $f$ is the set $$\im (f)=f(M)$$ and is a [[Submodule]] of $N$. The **cokernel** of $f$ is $$Coker(f)=N/\im(f)$$which is a [[Quotient Module]] of $N$.
+In the $PRAM$ model there is the possibility of read and write conflicts, in which two or more processors try to read from or write into the same memory cell concurrently. Distinctions in the way these conflicts are handled lead to several different variants of the model. The weakest of these is the *exclusive-read-exclusive-write* ($EREW$) $PRAM$ which allows concurrent reading but not concurrent writing and strongest of all is the concurrent-read concurrent-write ($CRCW$) $PRAM$, which permits both kinds of concurrency.
 
 
->If $M'$ is a [[Submodule]] of $M$ such that $M'\subseteq \ker(f)$ then $f$ gives rise to a homomorphism $\ovf:M/M'\to N$ defined as follows: If $\ovx\in M/M'$ is the image of $x\in M$ then $\ovf(\ovx)=f(x)$. The kernel of $\ovf$ is $\ker(f)/M'$. The homomorphism $\ovf$ is said to be *induces* by $f$. 
->>In particular taking $M'=\ker(f)$ we have an isomorphism of $A$-modules $$M/\ker(f)\cong \im(f)$$
+>It turns out that Boolean circuits, alternating Turing machines and vector machines all these models are equivalent in their ability to solve problems in poly log time using a polynomial-bounded number of computing elements (processors or gates). This motivates the definition of $NC$ as the class of problems that can be solved within these resource bounds by deterministic algorithms.
+
+
+
 
 
 
