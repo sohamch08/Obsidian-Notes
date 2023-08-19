@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Will_Learn_Later.md"
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Hall's Matching Condition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,36 +202,36 @@
   },
   "active": "7f8ae37a3ce80b44",
   "lastOpenFiles": [
-    "Mathematics/Algebra/Algebraic Geometry/Affine Variety.md",
-    "Mathematics/Algebra/Algebraic Geometry/Algebraic Set.md",
-    "Mathematics/Algebra/Algebraic Geometry/Irreducible.md",
-    "Mathematics/Algebra/Field Theory/Algebraically Closed.md",
-    "Mathematics/Algebra/Field Theory/Field.md",
-    "Mathematics/Algebra/Algebraic Geometry/Quasi Affine Variety.md",
-    "Mathematics/Algebra/Algebraic Geometry/Zariski Topology on Affine Space.md",
-    "Mathematics/Algebra/Algebraic Geometry/Affine Space.md",
+    "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
+    "Computer Science/Graph/Matching/Hall's Matching Condition.md",
+    "Computer Science/Graph/Trees/In-tree.md",
+    "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
+    "Computer Science/Graph/Trees/Out-tree.md",
+    "Computer Science/Graph/Trees/Prufer Code.md",
+    "Computer Science/Graph/Trees/Ringel's Conjecture.md",
+    "Computer Science/Graph/Trees/Spanning Tree.md",
+    "Computer Science/Graph/Trees/Star.md",
+    "Minimum Distance.md",
+    "Computer Science/Coding Theory/Parity Code.md",
+    "Computer Science/Graph/Trees/Counting Spanning Tree.md",
+    "Computer Science/Graph/Trees/Tree.md",
+    "Computer Science/Graph/Trees/Decomposition of  a Graph into Trees.md",
+    "Computer Science/Graph/Trees/Directed Matrix Tree Theorem.md",
+    "Computer Science/Graph/Contraction.md",
+    "Computer Science/Graph/Component.md",
+    "Computer Science/Graph/Complete.md",
+    "Computer Science/Graph/Clique.md",
+    "Computer Science/Graph/Binet-Cauchy Formula.md",
+    "Computer Science/Graph/Adjacency Matrix.md",
+    "Computer Science/Graph/Acyclic.md",
+    "Computer Science/Graph/Connectivity/Connectivity.md",
+    "Computer Science/Graph/Connectivity/Disconnected.md",
+    "Computer Science/Graph/Connectivity/Cut Edge.md",
+    "Computer Science/Coding Theory/Dimension.md",
     "Mathematics/Algebra/Algebraic Geometry",
     "Mahematics/Algebra",
     "Mahematics",
-    "Computer Science/Graph/Coloring/Chromatic Graph.md",
-    "Computer Science/Parallel Complexity/PRAM.md",
-    "Computer Science/Graph/Coloring/Chromatic Number.md",
-    "Computer Science/Graph/Coloring/Critical.md",
-    "Computer Science/Graph/Min Max Notation of Independence, Matching and Covering.md",
-    "Computer Science/Graph/Component.md",
-    "Computer Science/Graph/Contraction.md",
-    "Computer Science/Graph/Clique.md",
-    "Clique Number.md",
-    "Mathematics/Algebra/Group Theory/Abelian Group.md",
-    "Computer Science/Graph/Coloring/Coloring.md",
-    "Computer Science/Graph/Coloring/Proper Coloring.md",
-    "Mathematics/Algebra/Commutative Algebra/Modules/Quotient Module.md",
-    "Mathematics/Algebra/Group Theory/Subgroup.md",
-    "Computer Science/Graph/Coloring/Optimal Coloring.md",
-    "Computer Science/Graph/Coloring/Colorable.md",
     "Computer Science/Graph/Coloring",
-    "Computer Science/Graph/Relation of Independence, Matching and Covering.md",
-    "Computer Science/Graph/Connectivity/Connectivity.md",
     "Coding Process",
     "Computer Science/Coding Theory/Error Correction",
     "Computer Science/Coding Theory",

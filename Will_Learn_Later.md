@@ -1,9 +1,14 @@
 # Books for topics I will try to learn Later
 
-### Graph Theory :-
+## Graphs
+### General Graph Theory :-
 - Graph Theory - Reinhard Diestel
 - Graph Theory - J. A. Bondy and U. S. R. Murty
+- 
 
+### Algebraic Graph Theory
+- Algebraic Graph Theory - Chris Godsil ,Gordon Royle
+- Algebraic Graph Theory - Norman Biggs
 ### Games on Graphs :-
 
 - Lectures in Game Theory for Computer Scientists - Krzysztof R. Apt & Erich Gradel
@@ -53,6 +58,27 @@
 
 ---
 
+## Number Theory :-
+
+### Algebraic Number Theory
+
+### Analytic Number Theory
+
+### Elliptic Curves
+
+### Function Field Arithmetic
+
+---
+## Topology
+
+### General Topology
+
+### Algebraic Topology
+
+### Low Dimensional Topology
+
+
+---
 ## Analysis :-
 
 ### Functional Analysis :-
