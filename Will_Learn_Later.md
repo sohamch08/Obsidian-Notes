@@ -24,13 +24,22 @@
 - Commutative Algebra - M. F. Atiyah and I. G. Macdonald 
 - Undergraduate Commutative Algebra - Michael Reid
 - Commutative Algebra: With a View Toward Algebraic Geometry - David Eisenbud
+- Commutative Algeba Zariski Samuel
 - Commutative Ring Theory - Hideyuki Matsumura
+- Local Algebra - Jean Pierre Serre
+- Cohen Macaulay Rings - Winfried Bruns, Jurgen Herzogy
+
+### Arithmetic Geometry :-
+- Arithmetic Geometry - Henri Darmon, Yuri Tschinkel, Brendan Hassett
+- Arithmetic Geometry - Gary Cornwell and Joseph Silverman
 
 ### Algebraic Geometry :-
 
 - Algebraic Geometry - Hertshrone
 - Algebraic Curves - Willium Fulton
 - THE RISING SEA Foundations of Algebraic Geometry - Ravi Vakil
+- Principles of Algebraic Geometry - Griffiths and Haris
+- Intersection Theory - William Fulton
 
 ### Syzygies :-
 
@@ -56,17 +65,26 @@
 - An Introduction to Homological Algebra - Charles A. Weibel
 - An Introduction to Homological Algebra - J. J. Rotman
 
+### Advanced Algebra
+- Galois Representations and (Phi, Gamma)-Modules - Peter Schneider
+
 ---
 
 ## Number Theory :-
 
 ### Algebraic Number Theory
+- Algebraic Number Theory - Neukrich
 
 ### Analytic Number Theory
 
 ### Elliptic Curves
+- Elliptic Curves - Milne
+- Arithmetic of Elliptic Curves - Silverman
+
 
 ### Function Field Arithmetic
+- Function Field Arithmetic - Dinesh Thakur
+- Basic Structures of Function Field Arithmetic - David Goss
 
 ---
 ## Topology
@@ -76,6 +94,7 @@
 ### Algebraic Topology
 
 ### Low Dimensional Topology
+- Introduction to 3-Manifolds - Jennifer Schultens
 
 
 ---
