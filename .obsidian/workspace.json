@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Will_Learn_Later.md",
-                "mode": "source",
+                "file": "Computer Science/Graph/Matching/Matching.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Will_Learn_Later.md"
+                "file": "Computer Science/Graph/Matching/Matching.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Will_Learn_Later.md",
+                "file": "Computer Science/Graph/Matching/Matching.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,9 +179,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "e43302f017ff1671",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -202,6 +210,12 @@
   },
   "active": "7f8ae37a3ce80b44",
   "lastOpenFiles": [
+    "Computer Science/Graph/Symmetric Difference.md",
+    "Computer Science/Graph/Matching/Matching.md",
+    "Computer Science/Graph/Connectivity/Connected.md",
+    "Computer Science/Graph/Connectivity/Connectivity.md",
+    "Computer Science/Coding Theory/q-ary Entropy Function.md",
+    "Will_Learn_Later.md",
     "Computer Science/Graph/Matching/Hall's Matching Condition.md",
     "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
     "Computer Science/Graph/Trees/In-tree.md",
@@ -222,12 +236,6 @@
     "Computer Science/Graph/Complete.md",
     "Computer Science/Graph/Clique.md",
     "Computer Science/Graph/Binet-Cauchy Formula.md",
-    "Computer Science/Graph/Adjacency Matrix.md",
-    "Computer Science/Graph/Acyclic.md",
-    "Computer Science/Graph/Connectivity/Connectivity.md",
-    "Computer Science/Graph/Connectivity/Disconnected.md",
-    "Computer Science/Graph/Connectivity/Cut Edge.md",
-    "Computer Science/Coding Theory/Dimension.md",
     "Mathematics/Algebra/Algebraic Geometry",
     "Mahematics/Algebra",
     "Mahematics",
