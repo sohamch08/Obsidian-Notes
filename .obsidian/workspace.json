@@ -187,9 +187,17 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "39eb1555dbb11a22",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -208,7 +216,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f8ae37a3ce80b44",
+  "active": "39eb1555dbb11a22",
   "lastOpenFiles": [
     "Computer Science/Graph/Symmetric Difference.md",
     "Computer Science/Graph/Matching/Matching.md",
