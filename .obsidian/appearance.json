@@ -9,5 +9,6 @@
   ],
   "interfaceFontFamily": "",
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "theme": "obsidian"
 }
