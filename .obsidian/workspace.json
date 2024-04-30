@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "29ab723fa99a0894",
+        "id": "3a8f582e941e7d7c",
         "type": "tabs",
         "children": [
           {
-            "id": "7f8ae37a3ce80b44",
+            "id": "35b5ddcb35902b36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Graph/Matching/Matching.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "863d7930142f2a54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Papers.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +92,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Papers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Papers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Papers.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,7 +135,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Papers.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,9 +186,17 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "26b5b199ff443dac",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -226,37 +212,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "863d7930142f2a54",
+  "active": "35b5ddcb35902b36",
   "lastOpenFiles": [
-    "Complexity-Class.canvas",
-    "Papers.md",
+    "Computer Science/Graph/Graceful Graph/Graceful Graph.md",
+    "Computer Science/Coding Theory/Repetition Code.md",
+    "Computer Science/Coding Theory/Redundancy of Code.md",
+    "Computer Science/Coding Theory/Rate of Code.md",
+    "Computer Science/Coding Theory/q-ary Entropy Function.md",
+    "Computer Science/Coding Theory/Parity Code.md",
+    "Computer Science/Coding Theory/Dimension.md",
+    "Computer Science/Coding Theory/Coding Theory.md",
+    "Computer Science/Coding Theory/Code.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
     "Computer Science/Graph/Matching/Matching.md",
+    "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Going Up Theorem.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Hom(M,N).md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Finitely Generated Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/Faithful Module.md",
+    "Mathematics/Algebra/Commutative Algebra/Modules/A-algebra.md",
+    "Templates/math-files.md",
+    "Templates/open.md",
+    "Templates/prop.md",
+    "Templates/qed.md",
+    "Templates/thm.md",
+    "Templates/algo.md",
+    "Templates/__con.md",
+    "Papers.md",
+    "Complexity-Class.canvas",
     "Computer Science/Graph/Symmetric Difference.md",
     "Computer Science/Graph/Connectivity/Connected.md",
-    "Computer Science/Graph/Connectivity/Connectivity.md",
-    "Computer Science/Coding Theory/q-ary Entropy Function.md",
-    "Will_Learn_Later.md",
-    "Computer Science/Graph/Matching/Hall's Matching Condition.md",
-    "Computer Science/Graph/Matching/Konig-Egervary Theorem.md",
-    "Computer Science/Graph/Trees/In-tree.md",
-    "Computer Science/Graph/Trees/Matrix Tree Theorem.md",
-    "Computer Science/Graph/Trees/Out-tree.md",
-    "Computer Science/Graph/Trees/Prufer Code.md",
-    "Computer Science/Graph/Trees/Ringel's Conjecture.md",
-    "Computer Science/Graph/Trees/Spanning Tree.md",
-    "Computer Science/Graph/Trees/Star.md",
-    "Minimum Distance.md",
-    "Computer Science/Coding Theory/Parity Code.md",
-    "Computer Science/Graph/Trees/Counting Spanning Tree.md",
-    "Computer Science/Graph/Trees/Tree.md",
-    "Computer Science/Graph/Trees/Decomposition of  a Graph into Trees.md",
-    "Computer Science/Graph/Trees/Directed Matrix Tree Theorem.md",
-    "Computer Science/Graph/Contraction.md",
-    "Computer Science/Graph/Component.md",
-    "Computer Science/Graph/Complete.md",
     "Mathematics/Algebra/Algebraic Geometry",
     "Mahematics/Algebra",
     "Mahematics",

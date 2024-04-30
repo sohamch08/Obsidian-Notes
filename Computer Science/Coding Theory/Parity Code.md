@@ -1,5 +1,6 @@
 ---
-tag: coding
+tags:
+  - coding
 ---
 # Parity Code
 We denote the parity [[Code]] by $C_{\oplus}$. Given a message $(x_1,x_2,x_3,x_4)\in \{0,1\}^4$ its corresponding codeword is given by $$C_{\oplus}(x_1,x_2,x_3,x_4)=(x_1,x_2,x_3,x_4,x_1\oplus x_2\oplus x_3\oplus x_4)$$where the $\oplus$ denotes the $EXOR$ operator. In other words the parity [[Code]] appends the parity of the message buts at the end of the message.
@@ -10,16 +11,17 @@ We denote the parity [[Code]] by $C_{\oplus}$. Given a message $(x_1,x_2,x_3,x_4
 >Error Detector for Parity Code
 >**Input:** Received word $\ovy=(y_1,y_2,y_3,y_4,y_5)$
 >**Output:** 1 if $\ovy\in C_{\oplus}$ and 0 otherwise
-
-$b\leftarrow y_1\oplus y_2\oplus y_3 \oplus y_4 \oplus y_5$
-RETURN $1\oplus b$
+> ```pseudo
+\begin{algorithm}
+\caption{Error Detector for Parity Code}
+\begin{algorithmic}
+\State $b\leftarrow y_1\oplus y_2\oplus y_3 \oplus y_4 \oplus y_5$
+\Return $1\oplus b$
+\end{algorithmic}
+\end{algorithm}
 
 >[!proposition] 
 >The parity code $C_{\oplus}$ can detect an odd number of [[Error]]s
-
-
-
-
 
 
 

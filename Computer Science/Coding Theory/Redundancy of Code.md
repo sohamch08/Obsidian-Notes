@@ -1,6 +1,8 @@
 ---
 tag: coding
 ---
+<script defer src="/home/sohamch/Arna/Markdown/My-Academic-Works/.obsidian/katex/katex.min.js"></script>
+<link rel="stylesheet" href="/home/sohamch/Arna/Markdown/My-Academic-Works/.obsidian/katex/katex.min.css">
 # Redundancy of Code
 
 We need to define how we are going to measure the amount of redundancy. One natural way to define redundancy for a [[Code]] with [[Dimension]] $k$ and block length $n$ is by their difference $n-k$. By this definition, the [[Parity Code]] uses the least amount of redundancy. However, one "pitfall" of such a definition is that it does not distinguish between a [[Code]] with $k=100$ and $n=102$ and another [[Code]] with [[Dimension]] and block length 2 and 4, respectively, Intuitively the latter [[Code]] is using more redundancy. This motivates the notion of measuring redundancy [[Rate of Code]]. 

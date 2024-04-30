@@ -2,6 +2,7 @@
 tag: coding
 ---
 # Dimension of Code
+
 >[!definition] Definition (Dimension of a Code)
 >Given a [[Code]] $C\subseteq \Sigma ^n$ its dimension is given by $$k\overset{\text{def}}{=} \log_q|C|$$
 
