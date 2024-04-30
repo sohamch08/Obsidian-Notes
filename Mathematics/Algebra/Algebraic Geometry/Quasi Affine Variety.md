@@ -1,7 +1,7 @@
 ---
 tag: affinevariey
 ---
-$$\DeclareMathOperator{\ker}{Ker}
+>[!conjecture] $$\DeclareMathOperator{\ker}{Ker}
 \DeclareMathOperator{\im}{Im}$$
 # Quasi Affine Variety
 

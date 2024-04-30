@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3a8f582e941e7d7c",
+        "id": "3fd4b2a320b5144e",
         "type": "tabs",
         "children": [
           {
-            "id": "35b5ddcb35902b36",
+            "id": "677236a960526926",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -216,16 +216,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "35b5ddcb35902b36",
+  "active": "677236a960526926",
   "lastOpenFiles": [
-    "Computer Science/Graph/Graceful Graph/Graceful Graph.md",
+    "Mathematics/Algebra/Algebraic Geometry/Quasi Affine Variety.md",
     "Computer Science/Coding Theory/Repetition Code.md",
+    "Mathematics/Algebra/Algebraic Geometry/Irreducible.md",
+    "Mathematics/Algebra/Algebraic Geometry/Algebraic Set.md",
+    "Mathematics/Algebra/Algebraic Geometry/Affine Variety.md",
+    "Mathematics/Algebra/Algebraic Geometry/Affine Space.md",
     "Computer Science/Coding Theory/Redundancy of Code.md",
+    "Computer Science/Coding Theory/Parity Code.md",
     "Computer Science/Coding Theory/Rate of Code.md",
     "Computer Science/Coding Theory/q-ary Entropy Function.md",
-    "Computer Science/Coding Theory/Parity Code.md",
     "Computer Science/Coding Theory/Dimension.md",
     "Computer Science/Coding Theory/Coding Theory.md",
+    "Computer Science/Graph/Trees/Counting Spanning Tree.md",
+    "Computer Science/Graph/Graceful Graph/Graceful Graph.md",
     "Computer Science/Coding Theory/Code.md",
     "Mathematics/Algebra/Commutative Algebra/Integral Dependence/Integral A-algebra.md",
     "Computer Science/Graph/Matching/Matching.md",
@@ -238,13 +244,7 @@
     "Templates/open.md",
     "Templates/prop.md",
     "Templates/qed.md",
-    "Templates/thm.md",
-    "Templates/algo.md",
-    "Templates/__con.md",
-    "Papers.md",
     "Complexity-Class.canvas",
-    "Computer Science/Graph/Symmetric Difference.md",
-    "Computer Science/Graph/Connectivity/Connected.md",
     "Mathematics/Algebra/Algebraic Geometry",
     "Mahematics/Algebra",
     "Mahematics",
