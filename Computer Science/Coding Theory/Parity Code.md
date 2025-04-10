@@ -23,7 +23,9 @@ We denote the parity [[Code]] by $C_{\oplus}$. Given a message $(x_1,x_2,x_3,x_4
 >[!proposition] 
 >The parity code $C_{\oplus}$ can detect an odd number of [[Error]]s
 
-
+`\begin{proof}`
+dfds
+`\end{proof}`
 
 
 

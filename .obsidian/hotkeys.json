@@ -222,5 +222,15 @@
       "key": "M"
     }
   ],
-  "hotkeysplus-obsidian:toggle-bullet-number": []
+  "hotkeysplus-obsidian:toggle-bullet-number": [],
+  "app:show-debug-info": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
 }

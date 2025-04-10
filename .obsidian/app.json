@@ -1,7 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "2",
@@ -15,5 +15,7 @@
   "attachmentFolderPath": "images",
   "userIgnoreFilters": [
     "images/"
-  ]
+  ],
+  "showRibbon": true,
+  "readableLineLength": false
 }

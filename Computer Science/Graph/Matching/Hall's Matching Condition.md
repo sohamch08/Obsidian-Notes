@@ -12,7 +12,7 @@ tag: matching
 Let $u\in X$ be a vertex [unsaturated](./Matching.md) by $M$. Among all the vertices reachable from $u$ by $M$-[[Alternating Path]]s in $G$ let $S$ consists of those in $X$ and let $T$ consists of those in $Y$. Note that $u\in S$. 
 ```tikz
 \begin{document}
-	\begin{tikzpicture}[scale=2.5, font=\LARGE]
+	\begin{tikzpicture}[scale=2, font=\LARGE]
 		\foreach \i in {1,2,3,4,5,6,7}{
 			\filldraw[black] (-\i,1) circle (2pt);
 		}

@@ -5,5 +5,5 @@
   "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\n---\n\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
-  "citationExportPath": "/home/sohamch/Zotero/My Library.bib"
+  "citationExportPath": "/home/sohamch/Arna/academic-notes/refs_bib.bib"
 }

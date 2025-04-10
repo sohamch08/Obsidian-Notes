@@ -3,8 +3,6 @@ tag: insert-tag
 ---
 $$\DeclareMathOperator{\ker}{Ker}
 \DeclareMathOperator{\im}{Im}$$
-<script defer src="/home/sohamch/Arna/Markdown/My-Academic-Works/.obsidian/katex/katex.min.js"></script>
-<link rel="stylesheet" href="/home/sohamch/Arna/Markdown/My-Academic-Works/.obsidian/katex/katex.min.css">
 # {{title}}
 
 

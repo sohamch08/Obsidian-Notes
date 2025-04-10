@@ -1,6 +1,8 @@
 ---
 tag: integral-dependence
 ---
+# Going Up Theorem
+
 >[!proposition] 
 >Let $A\subseteq B$ be [[Integral Domain]]s. $B$ [[Integral Over]] $A$. Then $B$ is a field if and only if $A$ is a [[Field]]
 

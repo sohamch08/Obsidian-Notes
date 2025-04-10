@@ -1,0 +1,11 @@
+/* Mathematical notes in Japanese */
+.math-booster-ja:not(.math-booster-nonmath) {
+    --font-text: CMU Serif, Noto Serif JP;
+    --line-height-normal: 1.8;
+  }
+  
+  /* Non-mathematical notes in Japanese */
+  .math-booster-ja.math-booster-nonmath {
+    --line-height-normal: 1.6;
+  }
+  

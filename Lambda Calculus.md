@@ -15,9 +15,9 @@ Assume a countably infinite set $Var$ of variables. The set $\Lambda$ of lambda 
 $$M := x\mid\l. M\mid MM$$ where $M$ is a term and $x\in Var$.
 
 
-| Rule 1 | Rule 2 | Rule 3 |
-| -------- | -------- | -------- |
-| $$\frac{ }{x \in \L} x\in Var$$     | $$\frac{M \in \L,\ N\in \L }{(MN) \in \L}$$     |  $$\frac{M \in \L}{(\l x.M) \in \L}$$   |
+| Rule 1                          | Rule 2                                      | Rule 3                               |
+| ------------------------------- | ------------------------------------------- | ------------------------------------ |
+| $$\frac{ }{x \in \L} x\in Var$$ | $$\frac{M \in \L,\ N\in \L }{(MN) \in \L}$$ | $$\frac{M \in \L}{(\l x.M) \in \L}$$ |
 
 Here $\l.M$ is called **Abstraction**, and $MN$ is called **Application**.
 

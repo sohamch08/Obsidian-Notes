@@ -2,7 +2,7 @@
 tag: tree
 ---
 # Matrix Tree Theorem
->[!theorem] Theorem (Matrix Tree Theorem)
+>[!theorem] Matrix Tree Theorem
 >Given a loopless graph $G$ with vertex set $v_1,\dots,v_n$, let $a_{ij}$ be the number of edges with endpoints $v_i$ and $v_j$. Let $Q$ be the matrix in which entry $(i,j)$ is $-a_{ij}$ when $i\neq j$ and is $d(v_i)$ when $i=j$. If $Q^*$ is a matrix obtained by deleting a row $s$ and column $t$ of $Q$, then $$\tau(G)=(-1)^{s+t}\det Q^*$$
 
 >We prove this only when $s=t$ the general statement follows from a result in linear algebra (when the columns of a matrix to the vertex 0, the cofactors are constant in each row)

@@ -14306,6 +14306,67 @@ var import_obsidian3 = require("obsidian");
 
 // src/setting_tab.ts
 var import_obsidian = require("obsidian");
+
+// src/theme.ts
+var themeObserver = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+    var _a, _b, _c, _d;
+    const target = mutation.target;
+    if (
+      // dark -> dark & light -> light
+      ((_a = mutation.oldValue) == null ? void 0 : _a.contains("theme-dark")) && !((_b = mutation.oldValue) == null ? void 0 : _b.contains("theme-light")) && // key line, avoid calling twice
+      target.classList.value.contains("theme-light")
+    ) {
+      console.log("light theme detected");
+      setPseudocodeTheme();
+    } else if (
+      // light -> empty -> dark
+      ((_c = mutation.oldValue) == null ? void 0 : _c.contains("theme-light")) && // key line, avoid calling twice
+      !((_d = mutation.oldValue) == null ? void 0 : _d.contains("theme-dark")) && target.classList.value.contains("theme-dark")
+    ) {
+      console.log("dark theme detected");
+      setPseudocodeTheme();
+    }
+  });
+});
+function setPseudocodeTheme(psBlock) {
+  const bodyElement = document.body;
+  const backgroundValue = getComputedStyle(bodyElement).getPropertyValue("--background-primary").trim();
+  const fontValue = getComputedStyle(bodyElement).getPropertyValue("--text-normal").trim();
+  console.log(backgroundValue, fontValue);
+  const psRootElements = psBlock ? psBlock.querySelectorAll(".ps-root") : document.querySelectorAll(".ps-root");
+  psRootElements.forEach((element) => {
+    const htmlElement = element;
+    htmlElement.style.backgroundColor = backgroundValue;
+    htmlElement.style.opacity = "1";
+    htmlElement.style.color = fontValue;
+    const algorithmElements = htmlElement.querySelectorAll(".ps-algorithm");
+    algorithmElements.forEach((algElement) => {
+      const algHtmlElement = algElement;
+      algHtmlElement.style.borderTopColor = fontValue;
+      algHtmlElement.style.borderBottomColor = fontValue;
+    });
+    const lineElements = htmlElement.querySelectorAll(
+      ".ps-algorithm.with-caption > .ps-line:first-child"
+    );
+    lineElements.forEach((lineElement) => {
+      const lineHtmlElement = lineElement;
+      lineHtmlElement.style.borderBottomColor = fontValue;
+    });
+  });
+}
+var setObserver = () => {
+  themeObserver.observe(document.body, {
+    attributes: true,
+    attributeOldValue: true,
+    attributeFilter: ["class"]
+  });
+};
+var detachObserver = () => {
+  themeObserver.disconnect();
+};
+
+// src/setting_tab.ts
 var PseudocodeSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -14321,6 +14382,17 @@ var PseudocodeSettingTab = class extends import_obsidian.PluginSettingTab {
     ).addText(
       (text) => text.setValue(this.plugin.settings.blockSize.toString()).onChange(async (value) => {
         this.plugin.settings.blockSize = Number(value);
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Follow System Theme").setDesc("Whether to follow the system theme.").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.followSystemTheme).onChange(async (value) => {
+        this.plugin.settings.followSystemTheme = value;
+        if (value) {
+          setObserver();
+        } else {
+          detachObserver();
+        }
         await this.plugin.saveSettings();
       })
     );
@@ -14405,6 +14477,7 @@ var DEFAULT_SETTINGS = {
   preambleEnabled: false,
   preamblePath: "preamble.sty",
   preambleLoadedNotice: false,
+  followSystemTheme: false,
   jsSettings: {
     indentSize: "1.2em",
     commentDelimiter: "//",
@@ -14430,7 +14503,8 @@ var PseudocodeSuggestor = class extends import_obsidian2.EditorSuggest {
       "\\For{}": "\\EndFor",
       "\\ForAll{}": "\\EndFor",
       "\\If{}": "\\EndIf",
-      "\\While{}": "\\EndWhile"
+      "\\While{}": "\\EndWhile",
+      "\\Repeat": "\\Until{}"
       // Add more pairs as needed
     };
     this.pseudocodeKeywords = [
@@ -14722,9 +14796,13 @@ var PseudocodePlugin = class extends import_obsidian3.Plugin {
       blockDiv.empty();
       blockDiv.appendChild(errorSpan);
     }
+    if (this.settings.followSystemTheme) {
+      setPseudocodeTheme(blockDiv);
+    }
   }
   async onload() {
     await this.loadSettings();
+    setObserver();
     if (this.settings.preambleEnabled) {
       console.log("Preamble is enabled.");
       await this.loadPreamble();
@@ -14744,6 +14822,7 @@ var PseudocodePlugin = class extends import_obsidian3.Plugin {
     });
   }
   onunload() {
+    detachObserver();
   }
   async loadPreamble() {
     try {

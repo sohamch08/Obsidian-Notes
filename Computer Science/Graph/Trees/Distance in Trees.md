@@ -14,12 +14,14 @@ So we have shown that $T$ and $T'$ have the same center. By the induction hypoth
 >[!theorem] 
 >Among trees with $n$ vertices the [[Wiener Index]] $D(T)=\sum\limits_{u,v}d(u,v)$ is minimized by [[Star]]s and maximized by paths both uniquely
 
-***Proof:*** **Minimization:** Since a tree has $n-1$ edges it has $n-1$ pairs of vertices at distance 1. And all other pairs have [[Distance]] at least 2. The star achieves this and hence minimizes $D(T)$.
+`\begin{proof}`
+**Minimization:** Since a tree has $n-1$ edges it has $n-1$ pairs of vertices at distance 1. And all other pairs have [[Distance]] at least 2. The star achieves this and hence minimizes $D(T)$.
 To show no other tree achieves this, consider a leaf $x$ in $T$, and let $v$ be its neighbor. If all other vertices have distance 2 from $x$ then they must be neighbors of $v$ and $T$ is the [[Star]]. The value is $$D(K_{1,n-1})=(n-1)+2{{n-1}\choose{2}}=(n-1)^2$$
 **Maximization:** Consider first $D(P_n)$. This equals the sum of distances from an endpoint $u$ to the other vertices plus $D(P_{n-1})$. We have $$\sum\limits_{v\in V(P_n)}d(u,v)=\sum\limits_{i=1}^{n-1}i={{n}\choose{2}}$$Thus $D(P_n)=D(P_{n-1})+{{n}\choose{2}}$ With Pascals Formula $${{n}\choose{k}}+{{n}\choose{k-1}}={{n+1}\choose{k}}$$induction yields $D(P_n)={{n+1}\choose{3}}$. We prove by induction on $n$ that among $n-$vertex trees $P_n$ is the only tree that maximizes $D(T)$. 
 Basic Step: $n=1$ The only tree with one vertex is $P_1$.
 Inductive Step: $n>1$ Let $u$ be a leaf of an $n-$vertex tree $T$. Now $$D(T)=D(T-u)+\sum\limits_{v\in V(T)}d(u,v)$$By induction hypothesis $D(T-u)\leq D(P_{n-1})$ with equality if and only if $T-u$ is a path. Thus it suffices to show that $\sum\limits_{v\in V(T)}d(u,v)$ is maximized only when $T$ is a path and $u$ is an endpoint of $T$. 
-Consider the list of distances from $u$. In $P_n$ this list is $1,2,\dots,n-1$ all distinct. A shortest path from $u$ to a vertex farthest from $u$ contains vertices at all distances from $u$. So in any tree the set of distances from $u$ to other vertices has no gaps. Thus any repetition makes $\sum\limits_{v\in V(T)}d(u,v)$ smaller than when $u$ is a leaf of a path (Since you can add the extra path from the vertex it branches out after the furthest vertex so you have a path with longest distance more). When $T$ is not a path such repetition occurs $\blacksquare$
+Consider the list of distances from $u$. In $P_n$ this list is $1,2,\dots,n-1$ all distinct. A shortest path from $u$ to a vertex farthest from $u$ contains vertices at all distances from $u$. So in any tree the set of distances from $u$ to other vertices has no gaps. Thus any repetition makes $\sum\limits_{v\in V(T)}d(u,v)$ smaller than when $u$ is a leaf of a path (Since you can add the extra path from the vertex it branches out after the furthest vertex so you have a path with longest distance more). When $T$ is not a path such repetition occurs
+`\end{proof}` 
 
 
 

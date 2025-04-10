@@ -3,15 +3,16 @@ tag: connectivity
 ---
 
 # Connected
+
 >[!definition] Definition (Connected)
 >A [[Graph]] $G$ is connected if each pair of vertices in $G$ belong to a [[Path]]
->- Otherwise **[[Disconnected]]**
+>- [](Graph.md) **[[Disconnected]]**
 
 ## $k$-Connected
 >[!definition] Definition ($k$-Connected)
 >A [[Graph]] is $k$-connected if its [[Connectivity]] is at least $k$
 
->A graph other than a [[Complete]] graph is $k$-connected if and only if every [[Separating Set]] has size at least $k$.
+>[](Graph.md)ther than a [[Complete]] graph is $k$-connected if and only if every [[Separating Set]] has size at least $k$.
 
 
 We can view ''$k$-connected' as a structural condition while '[[Connectivity]] $k$'' is the solution of an optimization problem.

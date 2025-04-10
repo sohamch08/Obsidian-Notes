@@ -11,6 +11,7 @@ $$\DeclareMathOperator{\ker}{Ker}
 
 >[!proposition] 
 >For every graph $G$, $\chi(G)\geq \omega(G)$ and [$\chi(G)\geq \frac{n(G)}{\alpha(G)}$](../Min%20Max%20Notation%20of%20Independence,%20Matching%20and%20Covering.md)
+
 ***Proof:*** The first bound holds because vertices of a [[Clique]] require distinct colors. The second bound holds because each color class is an [[Independent Set]] and thus has at most $\alpha(G)$ vertices. $\blacksquare$
 
 >Both bounds are tight when $G$ is a [[Complete]] graph.

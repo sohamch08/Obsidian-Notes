@@ -1,113 +1,8 @@
 {
-  "userAdmonitions": {
-    "definition": {
-      "type": "definition",
-      "color": "255, 97, 97",
-      "icon": {
-        "name": "exclamation-circle",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Definition",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "theorem": {
-      "type": "theorem",
-      "color": "67, 94, 229",
-      "icon": {
-        "name": "edit",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Theorem",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "corollary": {
-      "type": "corollary",
-      "color": "0, 219, 66",
-      "icon": {
-        "name": "edit",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Corollary",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "proposition": {
-      "type": "proposition",
-      "color": "67, 94, 229",
-      "icon": {
-        "name": "edit",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Proposition",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "lemma": {
-      "type": "lemma",
-      "color": "67, 94, 229",
-      "icon": {
-        "name": "edit",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Lemma",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "algorithm": {
-      "type": "algorithm",
-      "color": "230, 161, 81",
-      "icon": {
-        "type": "obsidian",
-        "name": "lucide-code-2"
-      },
-      "command": false,
-      "title": "Algorithm",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "conjecture": {
-      "type": "conjecture",
-      "color": "52, 150, 157",
-      "icon": {
-        "name": "puzzle-piece",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Conjecture",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    },
-    "open": {
-      "type": "open",
-      "color": "52, 150, 157",
-      "icon": {
-        "name": "question-circle",
-        "type": "font-awesome"
-      },
-      "command": false,
-      "title": "Open",
-      "injectColor": true,
-      "noTitle": false,
-      "copy": true
-    }
-  },
+  "userAdmonitions": {},
   "syntaxHighlight": false,
-  "copyButton": true,
-  "version": "10.2.0",
+  "copyButton": false,
+  "version": "10.3.2",
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "injectColor": true,
@@ -118,12 +13,12 @@
     "admonitions": true,
     "icons": true,
     "other": true,
-    "advanced": true
+    "advanced": false
   },
   "icons": [],
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": false,
-  "useSnippet": true,
-  "snippetPath": "custom-admonitions.42f97d"
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.44848d"
 }
