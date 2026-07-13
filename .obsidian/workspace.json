@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Simons Institute Important Lecture Series.md",
+                "file": "Nix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simons Institute Important Lecture Series"
+              "title": "Nix"
             }
           }
         ]
@@ -229,8 +229,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24d65fef5551d718",
+  "active": "8d4153a5f77b91ac",
   "lastOpenFiles": [
+    "Simons Institute Important Lecture Series.md",
+    "Nix.md",
     "Papers.md",
     "STOC2026_Expense_Settlement_Letter.md",
     "TIFR Foreign Claim.md",
@@ -238,7 +240,6 @@
     "Lambda Calculus.md",
     "Will_Learn_Later.md",
     "Computer Science/Matroid/Regular Matroid.md",
-    "Simons Institute Important Lecture Series.md",
     "TIFR Foreign Claim.pdf",
     "Computer Science/Graph/Matching/Hall's Matching Condition.md",
     "Computer Science/Graph/Matching/Maximum Matching.md",
