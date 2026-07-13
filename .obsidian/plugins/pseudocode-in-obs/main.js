@@ -13062,8 +13062,10 @@ var require_Lexer = __commonJS({
     var mathPattern = {
       exec: function(str) {
         var delimiters = [
-          { start: "$", end: "$" },
-          { start: "\\(", end: "\\)" }
+          { start: "$$", end: "$$", display: true },
+          { start: "$", end: "$", display: false },
+          { start: "\\[", end: "\\]", display: true },
+          { start: "\\(", end: "\\)", display: false }
         ];
         var totalLen = str.length;
         for (var di = 0; di < delimiters.length; di++) {
@@ -13090,7 +13092,8 @@ var require_Lexer = __commonJS({
             }
             var res = [
               str.slice(0, endPos + pos + endDel.length),
-              str.slice(startDel.length, endPos + pos)
+              str.slice(startDel.length, endPos + pos),
+              delimiters[di].display
             ];
             return res;
           }
@@ -13107,7 +13110,7 @@ var require_Lexer = __commonJS({
       open: /^\{/,
       close: /^\}/,
       quote: /^(`|``|'|'')/,
-      ordinary: /^[^\\{}$&#%_\s]+/
+      ordinary: /^[^\\{}$&#%\s]+/
     };
     var commentRegex = /^%.*/;
     var whitespaceRegex = /^\s+/;
@@ -13151,8 +13154,10 @@ var require_Lexer = __commonJS({
           /* special, func, open, close, ordinary, math */
           text: usefulText,
           /* the text value of the atom */
-          whitespace: anyWhitespace
+          whitespace: anyWhitespace,
           /* any whitespace before the atom */
+          displayMode: type === "math" ? !!match[2] : void 0
+          /* for math: true = display, false = inline */
         };
         this._pos += matchText.length;
         this._remain = this._remain.slice(match[0].length);
@@ -13205,11 +13210,12 @@ var require_Parser = __commonJS({
         throw new Error("Argument must not be null");
       this.children.push(childNode);
     };
-    var AtomNode = function(type, value, whitespace) {
+    var AtomNode = function(type, value, whitespace, displayMode) {
       this.type = type;
       this.value = value;
       this.children = null;
       this.whitespace = !!whitespace;
+      this.displayMode = displayMode;
     };
     AtomNode.prototype = ParseNode.prototype;
     var Parser = function(lexer) {
@@ -13573,10 +13579,12 @@ var require_Parser = __commonJS({
         );
         if (tokenText === null)
           continue;
-        var anyWhitespace = this._lexer.get().whitespace;
+        var currentAtom = this._lexer.get();
+        var anyWhitespace = currentAtom.whitespace;
+        var displayMode = currentAtom.displayMode;
         if (atomType !== "ordinary" && atomType !== "math")
           tokenText = tokenText.toLowerCase();
-        return new AtomNode(atomType, tokenText, anyWhitespace);
+        return new AtomNode(atomType, tokenText, anyWhitespace, displayMode);
       }
       return null;
     };
@@ -13698,14 +13706,19 @@ var require_Renderer = __commonJS({
             this._html.putText(text);
             break;
           case "math":
-            if (typeof backend === "undefined")
+            if (typeof backend === "undefined") {
               throw EvalError("No math backend found. Please setup KaTeX or MathJax.");
-            else if (backend.name === "katex")
-              this._html.putHTML(backend.driver.renderToString(text));
-            else if (backend.name === "mathjax")
-              this._html.putText(`$${text}$`);
-            else
+            } else if (backend.name === "katex") {
+              var katexOptions = { displayMode: !!node.displayMode };
+              this._html.putHTML(backend.driver.renderToString(text, katexOptions));
+            } else if (backend.name === "mathjax") {
+              if (node.displayMode)
+                this._html.putText(`$$${text}$$`);
+              else
+                this._html.putText(`$${text}$`);
+            } else {
               throw new EvalError(`Unknown math backend ${backend}`);
+            }
             break;
           case "cond-symbol":
             this._html.beginSpan("ps-keyword").putText(text.toLowerCase()).endSpan();
@@ -13984,8 +13997,8 @@ var require_Renderer = __commonJS({
       if (this._blockLevel > 0) {
         this._numLOC++;
         this._html.beginP("ps-line ps-code", this._globalTextStyle.toCSS());
-        var extraIndentSize = this._options.lineNumber ? indentSize * 1.25 : 0;
-        extraIndentSize += this._options.scopeLines ? indentSize * 0.1 : 0;
+        var baseIndent = this._options.scopeLines ? indentSize / 2 + 0.7 : indentSize;
+        var extraIndentSize = this._options.lineNumber ? baseIndent * 1.25 : 0;
         if (this._options.lineNumber) {
           this._html.beginSpan("ps-linenum", {
             "left": `${-((this._blockLevel - 1) * extraIndentSize)}em`
@@ -14774,6 +14787,12 @@ var PseudocodePlugin = class extends import_obsidian3.Plugin {
     const blockDiv = el.createDiv({ cls: "pseudocode-block" });
     const blockWidth = this.settings.blockSize;
     blockDiv.style.width = `${blockWidth}em`;
+    blockDiv.addEventListener("click", (event) => {
+      var _a, _b, _c, _d;
+      const target = event.target;
+      if (target && target.tagName !== "BUTTON")
+        (_d = (_c = (_b = (_a = target.closest(".pseudocode-block")) == null ? void 0 : _a.parentElement) == null ? void 0 : _b.parentElement) == null ? void 0 : _c.querySelector(".edit-block-button")) == null ? void 0 : _d.click();
+    });
     const [inlineMacros, nonMacroLines] = extractInlineMacros(source);
     const allPreamble = this.preamble + inlineMacros;
     const mathRegex = /\$(.*?)\$/g;
@@ -14867,3 +14886,5 @@ var PseudocodePlugin = class extends import_obsidian3.Plugin {
     await this.saveData(this.settings);
   }
 };
+
+/* nosourcemap */

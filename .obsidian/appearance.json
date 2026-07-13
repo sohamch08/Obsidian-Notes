@@ -11,5 +11,6 @@
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
   "nativeMenus": false,
   "showViewHeader": true,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": true
 }

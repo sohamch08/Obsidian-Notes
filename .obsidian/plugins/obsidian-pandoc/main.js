@@ -10217,3 +10217,5 @@ var PandocPlugin = class extends import_obsidian3.Plugin {
     });
   }
 };
+
+/* nosourcemap */

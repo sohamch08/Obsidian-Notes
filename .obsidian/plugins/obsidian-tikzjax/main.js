@@ -18555,3 +18555,5 @@ var TikzjaxPlugin = class extends import_obsidian2.Plugin {
     https://localforage.github.io/localForage
     (c) 2013-2017 Mozilla, Apache License 2.0
 */
+
+/* nosourcemap */
