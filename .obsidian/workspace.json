@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7f4ffb3c30abc2b9",
+        "id": "ee9189fc78302f61",
         "type": "tabs",
         "children": [
           {
-            "id": "8d4153a5f77b91ac",
+            "id": "da909da968560b47",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nix.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Nix"
+              "title": "New tab"
             }
           }
         ]
@@ -138,13 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Simons Institute Important Lecture Series.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Simons Institute Important Lecture Series"
+              "title": "Outline"
             }
           },
           {
@@ -153,7 +148,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Simons Institute Important Lecture Series.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +175,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Simons Institute Important Lecture Series"
+              "title": "Graph view"
             }
           },
           {
@@ -207,6 +201,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5de27a59ca77d77c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 5
@@ -229,36 +233,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d4153a5f77b91ac",
+  "active": "8ba01176e22e5acf",
   "lastOpenFiles": [
-    "Simons Institute Important Lecture Series.md",
+    "Flakes cheatsheet.md",
     "Nix.md",
-    "Papers.md",
-    "STOC2026_Expense_Settlement_Letter.md",
-    "TIFR Foreign Claim.md",
+    "Mathematics/Algebra/Algebraic Geometry/Zariski Topology on Affine Space.md",
+    "Mathematics/Algebra/Algebraic Geometry/Quasi Affine Variety.md",
+    "Mathematics/Algebra/Algebraic Geometry/Irreducible.md",
+    "Mathematics/Algebra/Algebraic Geometry/Algebraic Set.md",
+    "Mathematics/Algebra/Algebraic Geometry/Affine Variety.md",
+    "Mathematics/Algebra/Algebraic Geometry/Affine Space.md",
+    "images/vault.png",
+    "images/Pasted image 20230807233651.png",
+    "images/Pasted image 20230807233621.png",
+    "images/Pasted image 20230807233548.png",
+    "images/Pasted image 20230801180133.png",
+    "images/Pasted image 20230730165735.png",
+    "images/Pasted image 20230730165608.png",
+    "Computer Science/Coding Theory/Repetition Code.md",
+    "Computer Science/Coding Theory/Redundancy of Code.md",
+    "Computer Science/Coding Theory/Rate of Code.md",
+    "Computer Science/Coding Theory/q-ary Entropy Function.md",
+    "Computer Science/Coding Theory/Parity Code.md",
+    "Computer Science/Coding Theory/Dimension.md",
+    "Computer Science/Coding Theory/Coding Theory.md",
+    "Computer Science/Coding Theory/Code.md",
+    "Computer Science/Coding Theory/Error Correction/Hamming Distance.md",
+    "Computer Science/Coding Theory/Error Correction/Error Detection Process.md",
+    "Computer Science/Coding Theory/Error Correction/Error Correcting Code.md",
+    "Computer Science/Coding Theory/Error Correction/Error Channel.md",
+    "Computer Science/Coding Theory/Error Correction/Error.md",
+    "Computer Science/Coding Theory/Error Correction/Erasure Correcting Code.md",
+    "Computer Science/Coding Theory/Error Correction/Erasure Channel.md",
+    "Computer Science/Coding Theory/Error Correction/Encoding Function.md",
+    "Computer Science/Coding Theory/Error Correction/Decoding Function.md",
+    "Computer Science/Complexity Classes/ZPP.md",
     "Untitled.base",
-    "Lambda Calculus.md",
-    "Will_Learn_Later.md",
-    "Computer Science/Matroid/Regular Matroid.md",
     "TIFR Foreign Claim.pdf",
-    "Computer Science/Graph/Matching/Hall's Matching Condition.md",
-    "Computer Science/Graph/Matching/Maximum Matching.md",
-    "Computer Science/Graph/Matching/Alternating Path.md",
-    "Computer Science/Graph/Matching/Augmenting Path.md",
-    "Computer Science/Graph/Matching/Perfect Matching.md",
-    "Computer Science/Graph/Connectivity/Separating Set.md",
-    "Computer Science/Graph/Connectivity/Disconnected.md",
-    "Computer Science/Graph/Connectivity/Cut Vertex.md",
-    "Computer Science/Graph/Connectivity/Connectivity.md",
-    "Computer Science/Graph/Connectivity/Connected.md",
-    "Computer Science/Graph/Coloring/Proper Coloring.md",
-    "Computer Science/Graph/Coloring/Optimal Coloring.md",
-    "Computer Science/Graph/Coloring/Critical.md",
-    "Computer Science/Graph/Coloring/Coloring.md",
-    "Computer Science/Graph/Coloring/Colorable.md",
-    "Computer Science/Graph/Coloring/Chromatic Number.md",
-    "Computer Science/Graph/Coloring/Chromatic Graph.md",
-    "Computer Science/Graph/Bipartite Graph/Partite Set.md",
     "Complexity-Class.canvas",
     "Computer Science/Linear Programming",
     "Computer Science/Matroid",
@@ -268,13 +279,6 @@
     "Untitled",
     "Computer Science/Polyhedral Combinatorics",
     "Mathematics/Algebra/Algebraic Geometry",
-    "images/Pasted image 20230807233651.png",
-    "images/Pasted image 20230807233621.png",
-    "images/Pasted image 20230807233548.png",
-    "images/vault.png",
-    "images/Pasted image 20230801180133.png",
-    "images/Pasted image 20230730165735.png",
-    "images/Pasted image 20230730165608.png",
     "Pasted image 20230727135916.png",
     "My-Academic-Works/Complexity-Class.canvas"
   ]

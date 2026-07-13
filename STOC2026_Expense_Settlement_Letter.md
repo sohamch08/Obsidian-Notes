@@ -25,12 +25,12 @@ To meet the anticipated expenses of this trip, I had drawn an advance of Rs. 1,8
 4. **Accommodation:** I booked accommodation through Airbnb in Salt Lake City for the duration of the conference, from 20 June to 28 June 2026 (8 nights), at a total cost of Rs. 55,679.13.
     
 
-| Sl. No. | Item                                                                      | Amount                           |
-| ------- | ------------------------------------------------------------------------- | -------------------------------- |
-| 1       | STOC 2026 registration fee (paid on 28 May 2026)                          | USD 520.00                       |
-| 2       | Per diem (USD 112 x 8 days)                                               | USD 896.00                       |
-| 3       | US visa fee                                                               | Rs. 17,390.00                    |
-| 4       | Accommodation, Airbnb, Salt Lake City (20 June to 28 June 2026, 8 nights) | Rs. 55,679.13                    |
+| Sl. No. | Item                                                                      |              Amount              |
+| :-----: | ------------------------------------------------------------------------- | :------------------------------: |
+|    1    | STOC 2026 registration fee (paid on 28 May 2026)                          |            USD 520.00            |
+|    2    | Per diem (USD 112 x 8 days)                                               |            USD 896.00            |
+|    3    | US visa fee                                                               |          Rs. 17,390.00           |
+|    4    | Accommodation, Airbnb, Salt Lake City (20 June to 28 June 2026, 8 nights) |          Rs. 55,679.13           |
 |         | **Total expenditure**                                                     | **USD 1,416.00 + Rs. 73,069.13** |
 
 The total expenditure of the trip thus comes to USD 1,416.00 plus Rs. 73,069.13. The INR equivalent of the USD component may kindly be computed at the applicable exchange rates as per Institute norms. This total exceeds the advance of Rs. 1,85,000 drawn from my Knowledge Exchange Fund, and I have borne the excess amount out of my own pocket.

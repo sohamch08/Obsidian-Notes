@@ -10,7 +10,7 @@
   "showLineNumber": false,
   "trashOption": "none",
   "tabSize": 4,
-  "vimMode": true,
+  "vimMode": false,
   "showInlineTitle": false,
   "attachmentFolderPath": "images",
   "userIgnoreFilters": [

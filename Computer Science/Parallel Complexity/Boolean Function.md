@@ -3,7 +3,7 @@ tag: boolean
 ---
 # Boolean Function
 >[!definition] Definition (Boolean Function)
->A boolean function is a function $f$ $f:\{0,1\}^m\to \{0,1\}$ for some $m\in\bbN$
+>A boolean function is a function $f:\{0,1\}^m\to \{0,1\}$ for some $m\in\bbN$
 
 
 

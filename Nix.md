@@ -1,5 +1,4 @@
-
-title: "Learning Nix - Complete Roadmap & Resources" 
+---
 tags:
 
 - nix
@@ -8,6 +7,9 @@ tags:
 - home-manager
 - learning
 - roadmap date: 2026-05-26
+---
+
+
 
 ---
 

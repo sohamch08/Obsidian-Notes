@@ -1,11 +1,10 @@
 {
-  "accentColor": "#0384c4",
+  "accentColor": "#167edf",
   "cssTheme": "Vanilla AMOLED",
   "enabledCssSnippets": [
     "window-button-hider",
     "Colored Sidebar Items",
     "custom-admonitions.42f97d",
-    "Notebook Backgrounds",
     "pseudocode-plugin"
   ],
   "interfaceFontFamily": "JetBrainsMono Nerd Font",
