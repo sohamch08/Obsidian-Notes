@@ -11,10 +11,14 @@
             "id": "da909da968560b47",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Simons Institute Important Lecture Series.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Simons Institute Important Lecture Series"
             }
           }
         ]
@@ -235,6 +239,8 @@
   },
   "active": "8ba01176e22e5acf",
   "lastOpenFiles": [
+    "steam.dmg",
+    "Unconfirmed 682489.crdownload",
     "Flakes cheatsheet.md",
     "Nix.md",
     "Mathematics/Algebra/Algebraic Geometry/Zariski Topology on Affine Space.md",
@@ -267,7 +273,6 @@
     "Computer Science/Coding Theory/Error Correction/Erasure Channel.md",
     "Computer Science/Coding Theory/Error Correction/Encoding Function.md",
     "Computer Science/Coding Theory/Error Correction/Decoding Function.md",
-    "Computer Science/Complexity Classes/ZPP.md",
     "Untitled.base",
     "TIFR Foreign Claim.pdf",
     "Complexity-Class.canvas",
@@ -278,7 +283,6 @@
     "Computer Science/Polyhedral Combinatorics/fsdhfk",
     "Untitled",
     "Computer Science/Polyhedral Combinatorics",
-    "Mathematics/Algebra/Algebraic Geometry",
     "Pasted image 20230727135916.png",
     "My-Academic-Works/Complexity-Class.canvas"
   ]

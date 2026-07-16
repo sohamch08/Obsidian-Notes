@@ -47,7 +47,7 @@ cssclasses:
 
 ## Algorithmic Spectral Graph Theory
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/algorithmic-spectral-graph-theory
 
 - 🎥 [Algorithmic Spectral Graph Theory Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre12YBy6mn8k8spPp19F-V8K9)
@@ -59,7 +59,7 @@ cssclasses:
 
 ## Algorithms and Complexity in Algebraic Geometry
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/algorithms-complexity-algebraic-geometry
 
 - 🎥 [Algebraic Geometry Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre11Dn9gmOL7kCcgCEccrSshe)
@@ -72,7 +72,7 @@ cssclasses:
 
 ## Analysis and TCS: New Frontiers
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/analysis-tcs-new-frontiers
 
 - 🎥 [Analysis and TCS Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre10my17hbhQAM_P-4xoyO864)
@@ -83,7 +83,7 @@ cssclasses:
 
 ## Complexity and Linear Algebra
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/complexity-linear-algebra
 
 - 🎥 [Complexity and Linear Algebra Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre10AFTEwwlpfT0_IMXvEPYw4)
@@ -95,7 +95,7 @@ cssclasses:
 
 ## Cryptography
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/cryptography
 
 - 🎥 [Cryptography Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre139cwM0pjuxMa_YVzMeCiTf)
@@ -106,7 +106,7 @@ cssclasses:
 
 ## Data Structures and Optimization for Fast Algorithms
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/data-structures-optimization-fast-algorithms
 
 - 🎥 [Data Structures and Optimization for Fast Algorithms Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre130uhdi7B-3yCZfIxSB4MNn)
@@ -124,7 +124,7 @@ cssclasses:
 
 ## Error-Correcting Codes: Theory and Practice
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/workshops/error-correcting-codes-theory-practice-boot-camp/schedule
 
 - 🎥 [Error-Correcting Codes: Theory and Practice Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre129zuMIQbrcTRluZIi0YMhq)
@@ -135,7 +135,7 @@ cssclasses:
 
 ## Fine-Grained Complexity and Algorithm Design
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/fine-grained-complexity-algorithm-design
 
 - 🎥 [Fine-Grained Complexity and Algorithm Design Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre10C3b4qfGF5cdgYzbHqoRBA)
@@ -147,7 +147,7 @@ cssclasses:
 
 ## Geometry of Polynomials
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/geometry-polynomials
 
 - 🎥 [Geometry of Polynomials Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre13XzHXH_rnq0ptd3ahU5TfB)
@@ -159,7 +159,7 @@ cssclasses:
 
 ## Information Theory
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/information-theory
 
 - 🎥 [Information Theory Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre11mMlwkCBsSsYJb8jBAPUSL)
@@ -177,7 +177,7 @@ cssclasses:
 
 ## Lattices: Algorithms, Complexity, and Cryptography
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/lattices-algorithms-complexity-cryptography
 
 - 🎥 [Lattices: Algorithms, Complexity, and Cryptography Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre10rqiTYqJi6P4UlBRMQtPn0)
@@ -190,7 +190,7 @@ cssclasses:
 
 ## Lower Bounds in Computational Complexity
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/lower-bounds-computational-complexity
 
 - 🎥 [Lower Bounds in Computational Complexity Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre11cI7OzCL_xPas2Lir9i8nA)
@@ -202,7 +202,7 @@ cssclasses:
 
 ## Meta-Complexity
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/Meta-Complexity2023
 
 - 🎥 [Meta-Complexity Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre1398d4m9iBaXf8fy5Cn5hl0)
@@ -214,7 +214,7 @@ cssclasses:
 
 ## Proofs, Consensus, and Decentralizing Society
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/proofs-consensus-decentralizing-society
 
 - 🎥 [Proofs, Consensus, and Decentralizing Society Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre128td-JCynAYAXYSW7S4HIB)
@@ -224,7 +224,7 @@ cssclasses:
 
 ## Pseudorandomness
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/pseudorandomness
 
 - 🎥 [Pseudorandomness Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre11yRALnYFqro91bfIZf8Vjb)
@@ -236,7 +236,7 @@ cssclasses:
 
 ## Quantum Algorithms, Complexity, and Fault Tolerance
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/quantum-algorithms-complexity-fault-tolerance
 
 - 🎥 [Advances in Quantum Coding Theory](https://www.youtube.com/playlist?list=PLgKuh-lKre11aM00IH-iPtNoLh9Q9O03t)
@@ -247,7 +247,7 @@ cssclasses:
 
 ## Sublinear Algorithms
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/sublinear-algorithms
 
 - 🎥 [Sublinear Algorithms Boot Camp](https://www.youtube.com/playlist?list=PLgKuh-lKre120lls_lqdWPW01CVqNMk1V)
@@ -259,7 +259,7 @@ cssclasses:
 
 ## The Quantum Wave in Computing
 
-> [!info]- Program page
+> [!info] Program page
 > https://simons.berkeley.edu/programs/quantum-wave-computing/workshops
 
 - 🎥 [The Quantum Wave in Computing Boot Camp](https://www.youtube.com/playlist?list=PLB9_gJ3gCRwI)
