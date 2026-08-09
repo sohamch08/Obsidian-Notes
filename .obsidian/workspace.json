@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Simons Institute Important Lecture Series.md",
-                "mode": "preview",
+                "file": "TIFR Foreign Claim.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Simons Institute Important Lecture Series"
+              "title": "TIFR Foreign Claim"
             }
           }
         ]
@@ -237,8 +237,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ba01176e22e5acf",
+  "active": "da909da968560b47",
   "lastOpenFiles": [
+    "STOC2026_Expense_Settlement_Letter.md",
+    "TIFR Foreign Claim.md",
+    "Simons Institute Important Lecture Series.md",
     "steam.dmg",
     "Unconfirmed 682489.crdownload",
     "Flakes cheatsheet.md",
@@ -271,8 +274,6 @@
     "Computer Science/Coding Theory/Error Correction/Error.md",
     "Computer Science/Coding Theory/Error Correction/Erasure Correcting Code.md",
     "Computer Science/Coding Theory/Error Correction/Erasure Channel.md",
-    "Computer Science/Coding Theory/Error Correction/Encoding Function.md",
-    "Computer Science/Coding Theory/Error Correction/Decoding Function.md",
     "Untitled.base",
     "TIFR Foreign Claim.pdf",
     "Complexity-Class.canvas",
@@ -282,7 +283,6 @@
     "Computer Science/Polyhedral Combinatorics/fsdhfk/fsdfsdf",
     "Computer Science/Polyhedral Combinatorics/fsdhfk",
     "Untitled",
-    "Computer Science/Polyhedral Combinatorics",
     "Pasted image 20230727135916.png",
     "My-Academic-Works/Complexity-Class.canvas"
   ]
