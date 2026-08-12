@@ -11,14 +11,10 @@
             "id": "da909da968560b47",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TIFR Foreign Claim.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TIFR Foreign Claim"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -41,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -239,8 +237,8 @@
   },
   "active": "da909da968560b47",
   "lastOpenFiles": [
-    "STOC2026_Expense_Settlement_Letter.md",
     "TIFR Foreign Claim.md",
+    "STOC2026_Expense_Settlement_Letter.md",
     "Simons Institute Important Lecture Series.md",
     "steam.dmg",
     "Unconfirmed 682489.crdownload",
